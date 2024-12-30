@@ -367,7 +367,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 301.498 205.148 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -379,7 +379,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06036D225KAT2A"
+		(property "manf#" "06036D225KAT2A"
 			(at 301.498 205.148 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -391,7 +391,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06036D225KAT2A"
+		(property "mouser#" "581-06036D225KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -640,7 +640,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 271.336 -53.53 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -652,7 +652,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07270RL"
+		(property "manf#" "RC0603FR-07270RL"
 			(at 271.336 -53.53 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -664,7 +664,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07270RL"
+		(property "mouser#" "603-RC0603FR-07270RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -911,7 +911,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Knowles"
+		(property "manf" "Knowles"
 			(at 290.965 -34.089 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -923,7 +923,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "SPK0641HT4H-1"
+		(property "manf#" "SPK0641HT4H-1"
 			(at 290.965 -34.089 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -935,7 +935,7 @@
 				)
 			)
 		)
-		(property "Order No." "721-SPK0641HT4H-1"
+		(property "mouser#" "721-SPK0641HT4H-1"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1452,7 +1452,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 23.1265 275.0695 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1464,7 +1464,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 23.1265 275.0695 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1476,7 +1476,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1725,7 +1725,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Molex"
+		(property "manf" "Molex"
 			(at 303.22962 198.748 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1737,7 +1737,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "78171-0002"
+		(property "manf#" "78171-0002"
 			(at 303.22962 198.748 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1749,7 +1749,7 @@
 				)
 			)
 		)
-		(property "Order No." "538-78171-0002"
+		(property "mouser#" "538-78171-0002"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2033,7 +2033,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2046,7 +2046,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-074K7L"
+		(property "manf#" "RC0603FR-074K7L"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2085,7 +2085,7 @@
 				)
 			)
 		)
-		(property "Order No." "-- verschiedene Werte --"
+		(property "mouser#" "-- verschiedene Werte --"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2334,7 +2334,7 @@
 				)
 			)
 		)
-		(property "Mfr." "NXP Semiconductors"
+		(property "manf" "NXP Semiconductors"
 			(at 285.3198 -41.9338 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2346,7 +2346,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "NTS0104GU12,115"
+		(property "manf#" "NTS0104GU12,115"
 			(at 285.3198 -41.9338 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2358,7 +2358,7 @@
 				)
 			)
 		)
-		(property "Order No." "771-NTS0104GU12115"
+		(property "mouser#" "771-NTS0104GU12115"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2762,7 +2762,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Nordic Semiconductor"
+		(property "manf" "Nordic Semiconductor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2774,7 +2774,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "nPM1300-QEAA-R7"
+		(property "manf#" "nPM1300-QEAA-R7"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2786,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Order No." "949-NPM1300-QEAA-R7"
+		(property "mouser#" "949-NPM1300-QEAA-R7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3461,7 +3461,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 288.544 220.853 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3473,7 +3473,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 288.544 220.853 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3485,7 +3485,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3735,7 +3735,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3747,7 +3747,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "0603YC105JAT2A"
+		(property "manf#" "0603YC105JAT2A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3759,7 +3759,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-0603YC105JAT2A"
+		(property "mouser#" "581-0603YC105JAT2A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4007,7 +4007,7 @@
 				)
 			)
 		)
-		(property "Mfr." "E-Switch"
+		(property "manf" "E-Switch"
 			(at 144.487429 280.979965 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4019,7 +4019,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "TL6340AF160Q"
+		(property "manf#" "TL6340AF160Q"
 			(at 144.487429 280.979965 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4031,7 +4031,7 @@
 				)
 			)
 		)
-		(property "Order No." "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160Q"
 			(at 0 0 -125)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4299,7 +4299,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 286.258 231.394 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4311,7 +4311,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 286.258 231.394 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4323,7 +4323,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4573,7 +4573,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 322.043 245.11 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4585,7 +4585,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 322.043 245.11 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4597,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4846,7 +4846,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 47.325 270.875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4858,7 +4858,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 47.325 270.875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4870,7 +4870,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5117,7 +5117,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Bosch"
+		(property "manf" "Bosch"
 			(at 289.306 225.477 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5129,7 +5129,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "BMI270"
+		(property "manf#" "BMI270"
 			(at 289.306 225.477 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5141,7 +5141,7 @@
 				)
 			)
 		)
-		(property "Order No." "262-BMI270"
+		(property "mouser#" "262-BMI270"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5567,7 +5567,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Bourns"
+		(property "manf" "Bourns"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5579,7 +5579,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CR0402-J/-000GLF"
+		(property "manf#" "CR0402-J/-000GLF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5591,7 +5591,7 @@
 				)
 			)
 		)
-		(property "Order No." "652-CR0603-J/-000ELF"
+		(property "mouser#" "652-CR0603-J/-000ELF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5840,7 +5840,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 41.525 276.875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5852,7 +5852,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07100KL"
+		(property "manf#" "RC0603FR-07100KL"
 			(at 41.525 276.875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5864,7 +5864,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07100KL"
+		(property "mouser#" "603-RC0603FR-07100KL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6113,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6125,7 +6125,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07100KL"
+		(property "manf#" "RC0603FR-07100KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6137,7 +6137,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07100KL"
+		(property "mouser#" "603-RC0603FR-07100KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6385,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Mfr." "E-Switch"
+		(property "manf" "E-Switch"
 			(at 357.053514 19.869706 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6397,7 +6397,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "TL6340AF160Q"
+		(property "manf#" "TL6340AF160Q"
 			(at 357.053514 19.869706 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6409,7 +6409,7 @@
 				)
 			)
 		)
-		(property "Order No." "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160Q"
 			(at 0 0 125)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6676,7 +6676,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 336.4 245 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6688,7 +6688,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07150KL"
+		(property "manf#" "RC0603FR-07150KL"
 			(at 336.4 245 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6700,7 +6700,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07150KL"
+		(property "mouser#" "603-RC0603FR-07150KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6948,7 +6948,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Micro Crystal"
+		(property "manf" "Micro Crystal"
 			(at 273.383 -63.325 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6960,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RV-8263-C8 32.768kHz-20PPM-TA-QA"
+		(property "manf#" "RV-8263-C8 32.768kHz-20PPM-TA-QA"
 			(at 273.383 -63.325 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6972,7 +6972,7 @@
 				)
 			)
 		)
-		(property "Order No." "428-204291-MC01"
+		(property "mouser#" "428-204291-MC01"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7245,7 +7245,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Wurth Elektronik"
+		(property "manf" "Wurth Elektronik"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7258,7 +7258,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "150060YS75003"
+		(property "manf#" "150060YS75003"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7297,7 +7297,7 @@
 				)
 			)
 		)
-		(property "Order No." "710-150060YS75003"
+		(property "mouser#" "710-150060YS75003"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7539,7 +7539,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7551,7 +7551,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7563,7 +7563,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7791,7 +7791,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7804,7 +7804,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-074K7L"
+		(property "manf#" "RC0603FR-074K7L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7843,7 +7843,7 @@
 				)
 			)
 		)
-		(property "Order No." "-- verschiedene Werte --"
+		(property "mouser#" "-- verschiedene Werte --"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8071,7 +8071,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Vybronics Inc"
+		(property "manf" "Vybronics Inc"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8084,7 +8084,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "VZ30C1T8219732L"
+		(property "manf#" "VZ30C1T8219732L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8123,7 +8123,7 @@
 				)
 			)
 		)
-		(property "Order No." "1670-VZ30C1T8219732LCT-ND"
+		(property "mouser#" "1670-VZ30C1T8219732LCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8394,7 +8394,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 52.006 269.812 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8406,7 +8406,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07100RL"
+		(property "manf#" "RC0603FR-07100RL"
 			(at 52.006 269.812 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8418,7 +8418,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07100RL"
+		(property "mouser#" "603-RC0603FR-07100RL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8667,7 +8667,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Bourns"
+		(property "manf" "Bourns"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8679,7 +8679,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CR0402-J/-000GLF"
+		(property "manf#" "CR0402-J/-000GLF"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8691,7 +8691,7 @@
 				)
 			)
 		)
-		(property "Order No." "652-CR0603-J/-000ELF"
+		(property "mouser#" "652-CR0603-J/-000ELF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8919,7 +8919,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Nexperia"
+		(property "manf" "Nexperia"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8932,7 +8932,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "PMZ550UNEYL"
+		(property "manf#" "PMZ550UNEYL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8971,7 +8971,7 @@
 				)
 			)
 		)
-		(property "Order No." "771-PMZ550UNEYL"
+		(property "mouser#" "771-PMZ550UNEYL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9262,7 +9262,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Bosch"
+		(property "manf" "Bosch"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9274,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "BMP581"
+		(property "manf#" "BMP581"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9286,7 +9286,7 @@
 				)
 			)
 		)
-		(property "Order No." "262-BMP581"
+		(property "mouser#" "262-BMP581"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9676,7 +9676,7 @@
 				)
 			)
 		)
-		(property "Mfr." "STMicroelectronics"
+		(property "manf" "STMicroelectronics"
 			(at 29.0715 284.8485 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9688,7 +9688,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "LIS2MDLTR"
+		(property "manf#" "LIS2MDLTR"
 			(at 29.0715 284.8485 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9700,7 +9700,7 @@
 				)
 			)
 		)
-		(property "Order No." "511-LIS2MDLTR"
+		(property "mouser#" "511-LIS2MDLTR"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10108,7 +10108,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 333.44562 205.74 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10120,7 +10120,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07150KL"
+		(property "manf#" "RC0603FR-07150KL"
 			(at 333.44562 205.74 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10132,7 +10132,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07150KL"
+		(property "mouser#" "603-RC0603FR-07150KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10381,7 +10381,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10393,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "0603YC105JAT2A"
+		(property "manf#" "0603YC105JAT2A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10405,7 +10405,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-0603YC105JAT2A"
+		(property "mouser#" "581-0603YC105JAT2A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10654,7 +10654,7 @@
 				)
 			)
 		)
-		(property "Mfr." "EastRising"
+		(property "manf" "EastRising"
 			(at 263.584056 -38.146056 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10666,7 +10666,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "OK-24F024-04"
+		(property "manf#" "OK-24F024-04"
 			(at 263.584056 -38.146056 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10690,7 +10690,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "mouser#" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11125,7 +11125,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Texas Instruments"
+		(property "manf" "Texas Instruments"
 			(at 298.536 213.638 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11137,7 +11137,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "DRV2603RUNT"
+		(property "manf#" "DRV2603RUNT"
 			(at 298.536 213.638 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11149,7 +11149,7 @@
 				)
 			)
 		)
-		(property "Order No." "595-DRV2603RUNT"
+		(property "mouser#" "595-DRV2603RUNT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11539,7 +11539,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Macronix"
+		(property "manf" "Macronix"
 			(at 277.95 -48.45 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11551,7 +11551,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "MX25U51245GZ4I00"
+		(property "manf#" "MX25U51245GZ4I00"
 			(at 277.95 -48.45 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11563,7 +11563,7 @@
 				)
 			)
 		)
-		(property "Order No." "95-25U51245GZ4I00T"
+		(property "mouser#" "95-25U51245GZ4I00T"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11920,7 +11920,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 56.60181 259.07381 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11932,7 +11932,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CM105X5R106M25AT"
+		(property "manf#" "CM105X5R106M25AT"
 			(at 56.60181 259.07381 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11944,7 +11944,7 @@
 				)
 			)
 		)
-		(property "Order No." "346-CM105X5R106M25AT"
+		(property "mouser#" "346-CM105X5R106M25AT"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12193,7 +12193,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Bosch"
+		(property "manf" "Bosch"
 			(at 35.433 278.765 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12205,7 +12205,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "BME688"
+		(property "manf#" "BME688"
 			(at 35.433 278.765 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12217,7 +12217,7 @@
 				)
 			)
 		)
-		(property "Order No." "262-BME688"
+		(property "mouser#" "262-BME688"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12559,7 +12559,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Samsung Electro-Mechanics"
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12571,7 +12571,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CIGT201610EH2R2MNE"
+		(property "manf#" "CIGT201610EH2R2MNE"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12583,7 +12583,7 @@
 				)
 			)
 		)
-		(property "Order No." "187-CIGT201610EH2R2MNE"
+		(property "mouser#" "187-CIGT201610EH2R2MNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12812,7 +12812,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 256.03881 -59.63681 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12824,7 +12824,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CM105X5R106M25AT"
+		(property "manf#" "CM105X5R106M25AT"
 			(at 256.03881 -59.63681 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12836,7 +12836,7 @@
 				)
 			)
 		)
-		(property "Order No." "346-CM105X5R106M25AT"
+		(property "mouser#" "346-CM105X5R106M25AT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13088,7 +13088,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 65.13 275.738 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13100,7 +13100,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "04025C104KAT2A"
+		(property "manf#" "04025C104KAT2A"
 			(at 65.13 275.738 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13112,7 +13112,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-04025C104KAT2A"
+		(property "mouser#" "581-04025C104KAT2A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13360,7 +13360,7 @@
 				)
 			)
 		)
-		(property "Mfr." "E-Switch"
+		(property "manf" "E-Switch"
 			(at -38.382796 171.377334 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13372,7 +13372,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "TL6340AF160Q"
+		(property "manf#" "TL6340AF160Q"
 			(at -38.382796 171.377334 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13384,7 +13384,7 @@
 				)
 			)
 		)
-		(property "Order No." "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160Q"
 			(at 0 0 -55)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13651,7 +13651,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Taiwan Semiconductor"
+		(property "manf" "Taiwan Semiconductor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13663,7 +13663,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "BAS316 RRG"
+		(property "manf#" "BAS316 RRG"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13675,7 +13675,7 @@
 				)
 			)
 		)
-		(property "Order No." "821-BAS316RRG"
+		(property "mouser#" "821-BAS316RRG"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13996,7 +13996,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Nexperia"
+		(property "manf" "Nexperia"
 			(at 306.292 236.982 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14008,7 +14008,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "BC817W,115"
+		(property "manf#" "BC817W,115"
 			(at 306.292 236.982 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14020,7 +14020,7 @@
 				)
 			)
 		)
-		(property "Order No." "771-BC817W115"
+		(property "mouser#" "771-BC817W115"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14308,7 +14308,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 308.23 232.918 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14320,7 +14320,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07150KL"
+		(property "manf#" "RC0603FR-07150KL"
 			(at 308.23 232.918 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14332,7 +14332,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07150KL"
+		(property "mouser#" "603-RC0603FR-07150KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14581,7 +14581,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 316.992 191.516 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14593,7 +14593,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CM105X5R106M25AT"
+		(property "manf#" "CM105X5R106M25AT"
 			(at 316.992 191.516 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14605,7 +14605,7 @@
 				)
 			)
 		)
-		(property "Order No." "346-CM105X5R106M25AT"
+		(property "mouser#" "346-CM105X5R106M25AT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14854,7 +14854,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14866,7 +14866,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CM105X5R106M25AT"
+		(property "manf#" "CM105X5R106M25AT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14878,7 +14878,7 @@
 				)
 			)
 		)
-		(property "Order No." "346-CM105X5R106M25AT"
+		(property "mouser#" "346-CM105X5R106M25AT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15127,7 +15127,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15139,7 +15139,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CM105X5R106M25AT"
+		(property "manf#" "CM105X5R106M25AT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15151,7 +15151,7 @@
 				)
 			)
 		)
-		(property "Order No." "346-CM105X5R106M25AT"
+		(property "mouser#" "346-CM105X5R106M25AT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15400,7 +15400,7 @@
 				)
 			)
 		)
-		(property "Mfr." "onsemi / Fairchild"
+		(property "manf" "onsemi / Fairchild"
 			(at 264.887 -44.949 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15412,7 +15412,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "FAN5622SX"
+		(property "manf#" "FAN5622SX"
 			(at 264.887 -44.949 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15424,7 +15424,7 @@
 				)
 			)
 		)
-		(property "Order No." "512-FAN5622SX"
+		(property "mouser#" "512-FAN5622SX"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15743,7 +15743,7 @@
 				)
 			)
 		)
-		(property "Mfr." "E-Switch"
+		(property "manf" "E-Switch"
 			(at 174.313835 -89.743762 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15755,7 +15755,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "TL6340AF160Q"
+		(property "manf#" "TL6340AF160Q"
 			(at 174.313835 -89.743762 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15767,7 +15767,7 @@
 				)
 			)
 		)
-		(property "Order No." "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160Q"
 			(at 0 0 55)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16013,7 +16013,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Nexperia"
+		(property "manf" "Nexperia"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16026,7 +16026,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "PMZ550UNEYL"
+		(property "manf#" "PMZ550UNEYL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16065,7 +16065,7 @@
 				)
 			)
 		)
-		(property "Order No." "771-PMZ550UNEYL"
+		(property "mouser#" "771-PMZ550UNEYL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16348,7 +16348,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16361,7 +16361,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-100RL"
+		(property "manf#" "RC0603FR-100RL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16387,7 +16387,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-100RL"
+		(property "mouser#" "603-RC0603FR-100RL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16637,7 +16637,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 322.043 242.062 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16649,7 +16649,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 322.043 242.062 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16661,7 +16661,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16908,7 +16908,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Samsung Electro-Mechanics"
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 57.98581 253.87981 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16920,7 +16920,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CIGT201610EH2R2MNE"
+		(property "manf#" "CIGT201610EH2R2MNE"
 			(at 57.98581 253.87981 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16932,7 +16932,7 @@
 				)
 			)
 		)
-		(property "Order No." "187-CIGT201610EH2R2MNE"
+		(property "mouser#" "187-CIGT201610EH2R2MNE"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17161,7 +17161,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 286.4866 -31.2166 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17173,7 +17173,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CM105X5R106M25AT"
+		(property "manf#" "CM105X5R106M25AT"
 			(at 286.4866 -31.2166 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17185,7 +17185,7 @@
 				)
 			)
 		)
-		(property "Order No." "346-CM105X5R106M25AT"
+		(property "mouser#" "346-CM105X5R106M25AT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17434,7 +17434,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 265.05581 -66.87581 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17446,7 +17446,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CM105X5R106M25AT"
+		(property "manf#" "CM105X5R106M25AT"
 			(at 265.05581 -66.87581 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17458,7 +17458,7 @@
 				)
 			)
 		)
-		(property "Order No." "346-CM105X5R106M25AT"
+		(property "mouser#" "346-CM105X5R106M25AT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17707,7 +17707,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 313.944 237.744 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17719,7 +17719,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 313.944 237.744 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17731,7 +17731,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17980,7 +17980,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 275.59 -33.02 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17992,7 +17992,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 275.59 -33.02 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18004,7 +18004,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18253,7 +18253,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 314.452 259.842 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18265,7 +18265,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 314.452 259.842 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18277,7 +18277,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18526,7 +18526,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 26.8085 283.0715 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18538,7 +18538,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06033C224KAT2A"
+		(property "manf#" "06033C224KAT2A"
 			(at 26.8085 283.0715 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18550,7 +18550,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06033C224KAT2A"
+		(property "mouser#" "581-06033C224KAT2A"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18799,7 +18799,7 @@
 				)
 			)
 		)
-		(property "Mfr." "ROHM Semiconductor"
+		(property "manf" "ROHM Semiconductor"
 			(at 43.1 293.1 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18811,7 +18811,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "DMG1013UW-7"
+		(property "manf#" "DMG1013UW-7"
 			(at 43.1 293.1 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18823,7 +18823,7 @@
 				)
 			)
 		)
-		(property "Order No." "621-DMG1013UW-7"
+		(property "mouser#" "621-DMG1013UW-7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19089,7 +19089,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19102,7 +19102,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0402FR-074K7L"
+		(property "manf#" "RC0402FR-074K7L"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19141,7 +19141,7 @@
 				)
 			)
 		)
-		(property "Order No." "-- verschiedene Werte --"
+		(property "mouser#" "-- verschiedene Werte --"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19390,7 +19390,7 @@
 				)
 			)
 		)
-		(property "Mfr." "u-blox"
+		(property "manf" "u-blox"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19402,7 +19402,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "NORA-B106-00B"
+		(property "manf#" "NORA-B106-00B"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19414,7 +19414,7 @@
 				)
 			)
 		)
-		(property "Order No." "377-NORA-B106-00B"
+		(property "mouser#" "377-NORA-B106-00B"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20484,7 +20484,7 @@
 				)
 			)
 		)
-		(property "Mfr." "CUI Devices"
+		(property "manf" "CUI Devices"
 			(at 269.113 -29.845 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20496,7 +20496,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "CMT-322-65-SMT-TR"
+		(property "manf#" "CMT-322-65-SMT-TR"
 			(at 269.113 -29.845 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20508,7 +20508,7 @@
 				)
 			)
 		)
-		(property "Order No." "490-CMT-322-65-SMTTR"
+		(property "mouser#" "490-CMT-322-65-SMTTR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20750,7 +20750,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Broadcom / Avago"
+		(property "manf" "Broadcom / Avago"
 			(at 25.146 277.114 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20762,7 +20762,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "APDS-9306-065"
+		(property "manf#" "APDS-9306-065"
 			(at 25.146 277.114 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20774,7 +20774,7 @@
 				)
 			)
 		)
-		(property "Order No." "630-APDS-9306-065"
+		(property "mouser#" "630-APDS-9306-065"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21075,7 +21075,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 308.23 229.87 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21087,7 +21087,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07180RL"
+		(property "manf#" "RC0603FR-07180RL"
 			(at 308.23 229.87 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21099,7 +21099,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07180RL"
+		(property "mouser#" "603-RC0603FR-07180RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21348,7 +21348,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 266.603 -68.423 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21360,7 +21360,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "0603YC105JAT2A"
+		(property "manf#" "0603YC105JAT2A"
 			(at 266.603 -68.423 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21372,7 +21372,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-0603YC105JAT2A"
+		(property "mouser#" "581-0603YC105JAT2A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21621,7 +21621,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 322.09838 207.518 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21633,7 +21633,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 322.09838 207.518 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21645,7 +21645,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21895,7 +21895,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 30.7725 253.1995 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21907,7 +21907,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 30.7725 253.1995 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21919,7 +21919,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22168,7 +22168,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 333.44562 202.816 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22180,7 +22180,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-0747KL"
+		(property "manf#" "RC0603FR-0747KL"
 			(at 333.44562 202.816 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22192,7 +22192,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-0747KL"
+		(property "mouser#" "603-RC0603FR-0747KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22427,7 +22427,7 @@
 				)
 			)
 		)
-		(property "Mfr." "Texas Instruments"
+		(property "manf" "Texas Instruments"
 			(at 331.032 213.892 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22439,7 +22439,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "TS3USB221A"
+		(property "manf#" "TS3USB221A"
 			(at 331.032 213.892 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22451,7 +22451,7 @@
 				)
 			)
 		)
-		(property "Order No." "595-TS3USB221A"
+		(property "mouser#" "595-TS3USB221A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22844,7 +22844,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 329.4888 217.7288 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22856,7 +22856,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 329.4888 217.7288 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22868,7 +22868,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23117,7 +23117,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 326.364 251.968 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23129,7 +23129,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 326.364 251.968 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23141,7 +23141,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23391,7 +23391,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 268.097 -46.609 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23403,7 +23403,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-0712KL"
+		(property "manf#" "RC0603FR-0712KL"
 			(at 268.097 -46.609 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23415,7 +23415,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RC0603FR-0712KL"
+		(property "mouser#" "603-RC0603FR-0712KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23643,7 +23643,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23656,7 +23656,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RT0603FRE07220RL"
+		(property "manf#" "RT0603FRE07220RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23695,7 +23695,7 @@
 				)
 			)
 		)
-		(property "Order No." "603-RT0603FRE07220RL"
+		(property "mouser#" "603-RT0603FRE07220RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23944,7 +23944,7 @@
 				)
 			)
 		)
-		(property "Mfr." "STMicroelectronics"
+		(property "manf" "STMicroelectronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23956,7 +23956,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "ESDALC6V1P5"
+		(property "manf#" "ESDALC6V1P5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23968,7 +23968,7 @@
 				)
 			)
 		)
-		(property "Order No." "511-ESDALC6V1P5"
+		(property "mouser#" "511-ESDALC6V1P5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24232,7 +24232,7 @@
 				)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24245,7 +24245,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "RC0402FR-074K7L"
+		(property "manf#" "RC0402FR-074K7L"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24284,7 +24284,7 @@
 				)
 			)
 		)
-		(property "Order No." "-- verschiedene Werte --"
+		(property "mouser#" "-- verschiedene Werte --"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24534,7 +24534,7 @@
 				)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 263.017 -27.813 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24546,7 +24546,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 263.017 -27.813 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24558,7 +24558,7 @@
 				)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25035,7 +25035,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 25.3492 282.194 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -25048,7 +25048,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 25.3492 282.194 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -25217,7 +25217,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." "Pomagtor"
+		(property "manf" "Pomagtor"
 			(at 314.452 211.582 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -25230,7 +25230,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." "RD90_LZH0230529-004_DJ-5PIN_PH2_54"
+		(property "manf#" "RD90_LZH0230529-004_DJ-5PIN_PH2_54"
 			(at 314.452 211.582 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -26903,7 +26903,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 329.184 192.278 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -26916,7 +26916,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 329.184 192.278 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -27085,7 +27085,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 308.356 193.04 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -27098,7 +27098,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 308.356 193.04 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -27267,7 +27267,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -27280,7 +27280,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -27606,7 +27606,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 64.35 276.75 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -27619,7 +27619,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 64.35 276.75 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -27941,7 +27941,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 48.514 247.65 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -27954,7 +27954,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 48.514 247.65 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -28247,7 +28247,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." "Bourns"
+		(property "manf" "Bourns"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -28260,7 +28260,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." "CR0402-J/-000GLF"
+		(property "manf#" "CR0402-J/-000GLF"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -28273,7 +28273,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Order No." "652-CR0603-J/-000ELF"
+		(property "mouser#" "652-CR0603-J/-000ELF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28657,7 +28657,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -28670,7 +28670,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)

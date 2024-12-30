@@ -220,9 +220,9 @@ outputs:
           name: Ref Des
         - field: Build Quantity
           name: Quantity
-        - field: Mfr.
+        - field: manf
           name: Manufacturer
-        - field: Mfr. No.
+        - field: manf#
           name: Mfg Part#
         - field: Value
           name: Description / Value
@@ -232,10 +232,19 @@ outputs:
           name: Type
         - field: Footprint Side
           name: Side
+      distributors:
+        - Mouser
       xlsx:
+        kicost: true
+        specs: true
+        kicost_config: kicost_config.yaml
+        kicost_api_disable:
+          # Don't use KitSpace, we have keys
+          - KitSpace
         title: "%f BOM"
         hide_stats_info: false
         quote_all: true
+        logo_scale: 0.5
 
   - name: "ZIP Gerber"
     comment: "ZIP Gerber"

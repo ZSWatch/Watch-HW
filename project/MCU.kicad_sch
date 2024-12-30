@@ -1030,7 +1030,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr." ""
+			(property "manf" ""
 				(at -2.54 -21.59 0)
 				(effects
 					(font
@@ -1039,7 +1039,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No." ""
+			(property "manf#" ""
 				(at -2.54 -21.59 0)
 				(effects
 					(font
@@ -11845,7 +11845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "E-Switch"
 			(at 71.12 218.44 0)
 			(effects
 				(font
@@ -11854,16 +11854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "E-Switch"
-			(at 71.12 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "TL6340AF160Q"
+		(property "manf#" "TL6340AF160Q"
 			(at 71.12 218.44 0)
 			(effects
 				(font
@@ -11881,7 +11872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160Q"
 			(at 71.12 218.44 0)
 			(effects
 				(font
@@ -12159,7 +12150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Nexperia"
+		(property "manf" "Nexperia"
 			(at 250.19 36.83 0)
 			(effects
 				(font
@@ -12168,16 +12159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "PMZ550UNEYL"
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "PMZ550UNEYL"
 			(at 250.19 36.83 0)
 			(effects
 				(font
@@ -12195,7 +12177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "771-PMZ550UNEYL"
+		(property "mouser#" "771-PMZ550UNEYL"
 			(at 250.19 36.83 0)
 			(effects
 				(font
@@ -12407,7 +12389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Micro Crystal"
+		(property "manf" "Micro Crystal"
 			(at 290.83 45.72 0)
 			(effects
 				(font
@@ -12416,16 +12398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RV-8263-C8 32.768kHz-20PPM-TA-QA"
-			(at 290.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "RV-8263-C8 32.768kHz-20PPM-TA-QA"
 			(at 290.83 45.72 0)
 			(effects
 				(font
@@ -12443,7 +12416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "428-204291-MC01"
+		(property "mouser#" "428-204291-MC01"
 			(at 290.83 45.72 0)
 			(effects
 				(font
@@ -12541,7 +12514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 294.64 21.59 0)
 			(effects
 				(font
@@ -12550,16 +12523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "04025C104KAT2A"
-			(at 294.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "04025C104KAT2A"
 			(at 294.64 21.59 0)
 			(effects
 				(font
@@ -12577,7 +12541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-04025C104KAT2A"
+		(property "mouser#" "581-04025C104KAT2A"
 			(at 294.64 21.59 0)
 			(effects
 				(font
@@ -12656,7 +12620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 215.9 212.09 0)
 			(effects
 				(font
@@ -12665,16 +12629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 215.9 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
+		(property "manf#" ""
 			(at 215.9 212.09 0)
 			(effects
 				(font
@@ -12762,7 +12717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "CUI Devices"
+		(property "manf" "CUI Devices"
 			(at 303.53 95.25 0)
 			(effects
 				(font
@@ -12771,16 +12726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "CMT-322-65-SMT-TR"
-			(at 303.53 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "CMT-322-65-SMT-TR"
 			(at 303.53 95.25 0)
 			(effects
 				(font
@@ -12798,7 +12744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "490-CMT-322-65-SMTTR"
+		(property "mouser#" "490-CMT-322-65-SMTTR"
 			(at 303.53 95.25 0)
 			(effects
 				(font
@@ -12876,7 +12822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 373.38 72.39 0)
 			(effects
 				(font
@@ -12885,7 +12831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 373.38 72.39 0)
 			(effects
 				(font
@@ -12903,7 +12849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." ""
+		(property "mouser#" ""
 			(at 373.38 72.39 0)
 			(effects
 				(font
@@ -12985,7 +12931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "u-blox"
+		(property "manf" "u-blox"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -12994,16 +12940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "NORA-B106-00B"
-			(at 54.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "NORA-B106-00B"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -13021,7 +12958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "377-NORA-B106-00B"
+		(property "mouser#" "377-NORA-B106-00B"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -13340,7 +13277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "YAGEO"
 			(at 59.69 250.19 0)
 			(effects
 				(font
@@ -13349,16 +13286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
-			(at 59.69 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "RC0603FR-07100KL"
+		(property "manf#" "RC0603FR-07100KL"
 			(at 59.69 250.19 0)
 			(effects
 				(font
@@ -13376,7 +13304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07100KL"
+		(property "mouser#" "603-RC0603FR-07100KL"
 			(at 59.69 250.19 0)
 			(effects
 				(font
@@ -13520,7 +13448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Vybronics Inc"
+		(property "manf" "Vybronics Inc"
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -13529,16 +13457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "VZ30C1T8219732L"
-			(at 382.27 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Digikey"
+		(property "manf#" "VZ30C1T8219732L"
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -13556,7 +13475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "1670-VZ30C1T8219732LCT-ND"
+		(property "mouser#" "1670-VZ30C1T8219732LCT-ND"
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -13632,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Texas Instruments"
+		(property "manf" "Texas Instruments"
 			(at 358.14 171.45 0)
 			(effects
 				(font
@@ -13641,16 +13560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "DRV2603RUNT"
-			(at 358.14 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "DRV2603RUNT"
 			(at 358.14 171.45 0)
 			(effects
 				(font
@@ -13668,7 +13578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "595-DRV2603RUNT"
+		(property "mouser#" "595-DRV2603RUNT"
 			(at 358.14 171.45 0)
 			(effects
 				(font
@@ -13772,7 +13682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 233.68 217.17 0)
 			(effects
 				(font
@@ -13781,7 +13691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
+		(property "manf#" "06035C104KAT2A"
 			(at 233.68 217.17 0)
 			(effects
 				(font
@@ -13790,16 +13700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 233.68 217.17 0)
 			(effects
 				(font
@@ -13875,7 +13776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "NXP Semiconductors"
+		(property "manf" "NXP Semiconductors"
 			(at 351.79 49.53 0)
 			(effects
 				(font
@@ -13884,16 +13785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "NTS0104GU12,115"
-			(at 351.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "NTS0104GU12,115"
 			(at 351.79 49.53 0)
 			(effects
 				(font
@@ -13911,7 +13803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "771-NTS0104GU12115"
+		(property "mouser#" "771-NTS0104GU12115"
 			(at 351.79 49.53 0)
 			(effects
 				(font
@@ -14086,7 +13978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "YAGEO"
 			(at 246.38 208.28 0)
 			(effects
 				(font
@@ -14095,16 +13987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
-			(at 246.38 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "RC0603FR-07100RL"
+		(property "manf#" "RC0603FR-07100RL"
 			(at 246.38 208.28 0)
 			(effects
 				(font
@@ -14122,7 +14005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07100RL"
+		(property "mouser#" "603-RC0603FR-07100RL"
 			(at 246.38 208.28 0)
 			(effects
 				(font
@@ -14202,7 +14085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 355.6 27.94 0)
 			(effects
 				(font
@@ -14211,16 +14094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 355.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 355.6 27.94 0)
 			(effects
 				(font
@@ -14238,7 +14112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 355.6 27.94 0)
 			(effects
 				(font
@@ -14316,7 +14190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "E-Switch"
 			(at 99.06 218.44 0)
 			(effects
 				(font
@@ -14325,16 +14199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "E-Switch"
-			(at 99.06 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "TL6340AF160Q"
+		(property "manf#" "TL6340AF160Q"
 			(at 99.06 218.44 0)
 			(effects
 				(font
@@ -14352,7 +14217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160Q"
 			(at 99.06 218.44 0)
 			(effects
 				(font
@@ -14560,33 +14425,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "u-blox"
-			(at 104.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "NORA-B106-00B"
-			(at 104.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 104.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" ""
 			(at 104.14 102.87 0)
 			(effects
@@ -14596,7 +14434,25 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "377-NORA-B106-00B"
+		(property "manf" "u-blox"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NORA-B106-00B"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "377-NORA-B106-00B"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -14915,7 +14771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "Bourns"
 			(at 219.71 248.92 0)
 			(effects
 				(font
@@ -14924,16 +14780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Bourns"
-			(at 219.71 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "CR0402-J/-000GLF"
+		(property "manf#" "CR0402-J/-000GLF"
 			(at 219.71 248.92 0)
 			(effects
 				(font
@@ -14951,7 +14798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "652-CR0603-J/-000ELF"
+		(property "mouser#" "652-CR0603-J/-000ELF"
 			(at 219.71 248.92 0)
 			(effects
 				(font
@@ -15161,7 +15008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "YAGEO"
 			(at 289.56 114.3 0)
 			(effects
 				(font
@@ -15170,16 +15017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
-			(at 289.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "RC0603FR-07150KL"
+		(property "manf#" "RC0603FR-07150KL"
 			(at 289.56 114.3 0)
 			(effects
 				(font
@@ -15197,7 +15035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07150KL"
+		(property "mouser#" "603-RC0603FR-07150KL"
 			(at 289.56 114.3 0)
 			(effects
 				(font
@@ -15273,7 +15111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "onsemi / Fairchild"
+		(property "manf" "onsemi / Fairchild"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15282,16 +15120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "FAN5622SX"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "FAN5622SX"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15309,7 +15138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "512-FAN5622SX"
+		(property "mouser#" "512-FAN5622SX"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15397,7 +15226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "STMicroelectronics"
+		(property "manf" "STMicroelectronics"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -15406,16 +15235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "ESDALC6V1P5"
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "ESDALC6V1P5"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -15433,7 +15253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "511-ESDALC6V1P5"
+		(property "mouser#" "511-ESDALC6V1P5"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -15521,7 +15341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 218.44 212.09 0)
 			(effects
 				(font
@@ -15530,16 +15350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 218.44 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
+		(property "manf#" ""
 			(at 218.44 212.09 0)
 			(effects
 				(font
@@ -15821,7 +15632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 246.38 220.98 0)
 			(effects
 				(font
@@ -15830,7 +15641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 246.38 220.98 0)
 			(effects
 				(font
@@ -15990,7 +15801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 386.08 110.49 0)
 			(effects
 				(font
@@ -15999,7 +15810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 386.08 110.49 0)
 			(effects
 				(font
@@ -16017,7 +15828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." ""
+		(property "mouser#" ""
 			(at 386.08 110.49 0)
 			(effects
 				(font
@@ -16101,7 +15912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 355.6 20.32 0)
 			(effects
 				(font
@@ -16110,7 +15921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 355.6 20.32 0)
 			(effects
 				(font
@@ -16128,7 +15939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." ""
+		(property "mouser#" ""
 			(at 355.6 20.32 0)
 			(effects
 				(font
@@ -16211,7 +16022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -16220,7 +16031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -16317,7 +16128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Nexperia"
+		(property "manf" "Nexperia"
 			(at 295.91 109.22 0)
 			(effects
 				(font
@@ -16326,16 +16137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "BC817W,115"
-			(at 295.91 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "BC817W,115"
 			(at 295.91 109.22 0)
 			(effects
 				(font
@@ -16353,7 +16155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "771-BC817W115"
+		(property "mouser#" "771-BC817W115"
 			(at 295.91 109.22 0)
 			(effects
 				(font
@@ -16500,7 +16302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "YAGEO"
 			(at 298.45 85.09 0)
 			(effects
 				(font
@@ -16509,16 +16311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
-			(at 298.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "RC0603FR-100RL"
+		(property "manf#" "RC0603FR-100RL"
 			(at 298.45 85.09 0)
 			(effects
 				(font
@@ -16536,7 +16329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-100RL"
+		(property "mouser#" "603-RC0603FR-100RL"
 			(at 298.45 85.09 0)
 			(effects
 				(font
@@ -16615,7 +16408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 360.68 152.4 0)
 			(effects
 				(font
@@ -16624,16 +16417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 360.68 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 360.68 152.4 0)
 			(effects
 				(font
@@ -16651,7 +16435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 360.68 152.4 0)
 			(effects
 				(font
@@ -16729,7 +16513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "E-Switch"
+		(property "manf" "E-Switch"
 			(at 22.86 218.44 0)
 			(effects
 				(font
@@ -16738,16 +16522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "TL6340AF160Q"
-			(at 22.86 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "TL6340AF160Q"
 			(at 22.86 218.44 0)
 			(effects
 				(font
@@ -16765,7 +16540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160Q"
 			(at 22.86 218.44 0)
 			(effects
 				(font
@@ -16908,7 +16683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Texas Instruments"
+		(property "manf" "Texas Instruments"
 			(at 231.14 238.76 0)
 			(effects
 				(font
@@ -16917,7 +16692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "TS3USB221A"
+		(property "manf#" "TS3USB221A"
 			(at 231.14 238.76 0)
 			(effects
 				(font
@@ -16926,16 +16701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 231.14 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." "595-TS3USB221A"
+		(property "mouser#" "595-TS3USB221A"
 			(at 231.14 238.76 0)
 			(effects
 				(font
@@ -17048,7 +16814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -17057,16 +16823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RC0402FR-074K7L"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "RC0402FR-074K7L"
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -17084,7 +16841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "-- verschiedene Werte --"
+		(property "mouser#" "-- verschiedene Werte --"
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -17164,7 +16921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Taiwan Semiconductor"
+		(property "manf" "Taiwan Semiconductor"
 			(at 295.91 95.25 0)
 			(effects
 				(font
@@ -17173,16 +16930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "BAS316 RRG"
-			(at 295.91 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "BAS316 RRG"
 			(at 295.91 95.25 0)
 			(effects
 				(font
@@ -17200,7 +16948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "821-BAS316RRG"
+		(property "mouser#" "821-BAS316RRG"
 			(at 295.91 95.25 0)
 			(effects
 				(font
@@ -17344,7 +17092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Pomagtor"
+		(property "manf" "Pomagtor"
 			(at 90.17 170.18 0)
 			(effects
 				(font
@@ -17353,16 +17101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RD90_LZH0230529-004_DJ-5PIN_PH2_54"
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
+		(property "manf#" "RD90_LZH0230529-004_DJ-5PIN_PH2_54"
 			(at 90.17 170.18 0)
 			(effects
 				(font
@@ -17457,7 +17196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "E-Switch"
 			(at 46.99 218.44 0)
 			(effects
 				(font
@@ -17466,16 +17205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "E-Switch"
-			(at 46.99 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "TL6340AF160Q"
+		(property "manf#" "TL6340AF160Q"
 			(at 46.99 218.44 0)
 			(effects
 				(font
@@ -17493,7 +17223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160Q"
 			(at 46.99 218.44 0)
 			(effects
 				(font
@@ -17699,7 +17429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "EastRising"
+		(property "manf" "EastRising"
 			(at 365.76 119.38 0)
 			(effects
 				(font
@@ -17708,16 +17438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "OK-24F024-04"
-			(at 365.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
+		(property "manf#" "OK-24F024-04"
 			(at 365.76 119.38 0)
 			(effects
 				(font
@@ -17735,17 +17456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." ""
+		(property "mouser#" ""
 			(at 368.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
-			(at 365.76 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17883,33 +17595,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "u-blox"
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "NORA-B106-00B"
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" ""
 			(at 154.94 121.92 0)
 			(effects
@@ -17919,7 +17604,25 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "377-NORA-B106-00B"
+		(property "manf" "u-blox"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NORA-B106-00B"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "377-NORA-B106-00B"
 			(at 154.94 121.92 0)
 			(effects
 				(font
@@ -18237,7 +17940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 363.22 72.39 0)
 			(effects
 				(font
@@ -18246,7 +17949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 363.22 72.39 0)
 			(effects
 				(font
@@ -18340,7 +18043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 356.87 148.59 0)
 			(effects
 				(font
@@ -18349,7 +18052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 356.87 148.59 0)
 			(effects
 				(font
@@ -18367,7 +18070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." ""
+		(property "mouser#" ""
 			(at 356.87 148.59 0)
 			(effects
 				(font
@@ -18453,7 +18156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -18462,16 +18165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-074K7L"
-			(at 243.84 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "RC0603FR-074K7L"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -18489,7 +18183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "-- verschiedene Werte --"
+		(property "mouser#" "-- verschiedene Werte --"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -18566,7 +18260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -18575,16 +18269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-0712KL"
-			(at 36.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "RC0603FR-0712KL"
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -18602,7 +18287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-0712KL"
+		(property "mouser#" "603-RC0603FR-0712KL"
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -18682,7 +18367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 347.98 27.94 0)
 			(effects
 				(font
@@ -18691,16 +18376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 347.98 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 347.98 27.94 0)
 			(effects
 				(font
@@ -18718,7 +18394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 347.98 27.94 0)
 			(effects
 				(font
@@ -18798,7 +18474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "YAGEO"
 			(at 246.38 217.17 0)
 			(effects
 				(font
@@ -18807,16 +18483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
-			(at 246.38 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "RC0603FR-07270RL"
+		(property "manf#" "RC0603FR-07270RL"
 			(at 246.38 217.17 0)
 			(effects
 				(font
@@ -18834,7 +18501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07270RL"
+		(property "mouser#" "603-RC0603FR-07270RL"
 			(at 246.38 217.17 0)
 			(effects
 				(font
@@ -18911,7 +18578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 233.68 220.98 0)
 			(effects
 				(font
@@ -18920,7 +18587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 233.68 220.98 0)
 			(effects
 				(font
@@ -19015,7 +18682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -19024,16 +18691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RC0402FR-074K7L"
-			(at 256.54 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "RC0402FR-074K7L"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -19051,7 +18709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "-- verschiedene Werte --"
+		(property "mouser#" "-- verschiedene Werte --"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -19127,7 +18785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 280.67 100.33 0)
 			(effects
 				(font
@@ -19136,16 +18794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RT0603FRE07220RL"
-			(at 280.67 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "RT0603FRE07220RL"
 			(at 280.67 100.33 0)
 			(effects
 				(font
@@ -19163,7 +18812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RT0603FRE07220RL"
+		(property "mouser#" "603-RT0603FRE07220RL"
 			(at 280.67 100.33 0)
 			(effects
 				(font
@@ -19373,7 +19022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "Bourns"
 			(at 195.58 236.22 0)
 			(effects
 				(font
@@ -19382,16 +19031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Bourns"
-			(at 195.58 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "CR0402-J/-000GLF"
+		(property "manf#" "CR0402-J/-000GLF"
 			(at 195.58 236.22 0)
 			(effects
 				(font
@@ -19409,7 +19049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "652-CR0603-J/-000ELF"
+		(property "mouser#" "652-CR0603-J/-000ELF"
 			(at 195.58 236.22 0)
 			(effects
 				(font
@@ -19552,7 +19192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 285.75 109.22 0)
 			(effects
 				(font
@@ -19561,16 +19201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-07180RL"
-			(at 285.75 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "RC0603FR-07180RL"
 			(at 285.75 109.22 0)
 			(effects
 				(font
@@ -19588,7 +19219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07180RL"
+		(property "mouser#" "603-RC0603FR-07180RL"
 			(at 285.75 109.22 0)
 			(effects
 				(font
@@ -19665,7 +19296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Wurth Elektronik"
+		(property "manf" "Wurth Elektronik"
 			(at 271.78 100.33 0)
 			(effects
 				(font
@@ -19674,16 +19305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "150060YS75003"
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "150060YS75003"
 			(at 271.78 100.33 0)
 			(effects
 				(font
@@ -19701,7 +19323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "710-150060YS75003"
+		(property "mouser#" "710-150060YS75003"
 			(at 271.78 100.33 0)
 			(effects
 				(font
@@ -20107,7 +19729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -20116,16 +19738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "0603YC105JAT2A"
-			(at 55.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "0603YC105JAT2A"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -20143,7 +19756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-0603YC105JAT2A"
+		(property "mouser#" "581-0603YC105JAT2A"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -20352,7 +19965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
+		(property "manf" "YAGEO"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20361,16 +19974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RC0603FR-074K7L"
-			(at 243.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "RC0603FR-074K7L"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20388,7 +19992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "-- verschiedene Werte --"
+		(property "mouser#" "-- verschiedene Werte --"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20467,7 +20071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 58.42 158.75 0)
 			(effects
 				(font
@@ -20476,7 +20080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "manf#" ""
 			(at 58.42 158.75 0)
 			(effects
 				(font
@@ -20494,7 +20098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." ""
+		(property "mouser#" ""
 			(at 58.42 158.75 0)
 			(effects
 				(font
@@ -20709,7 +20313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Nexperia"
+		(property "manf" "Nexperia"
 			(at 250.19 62.23 0)
 			(effects
 				(font
@@ -20718,16 +20322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "PMZ550UNEYL"
-			(at 250.19 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "PMZ550UNEYL"
 			(at 250.19 62.23 0)
 			(effects
 				(font
@@ -20745,7 +20340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "771-PMZ550UNEYL"
+		(property "mouser#" "771-PMZ550UNEYL"
 			(at 250.19 62.23 0)
 			(effects
 				(font
@@ -20826,7 +20421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 87.63 246.38 0)
 			(effects
 				(font
@@ -20835,16 +20430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 87.63 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 87.63 246.38 0)
 			(effects
 				(font
@@ -20862,7 +20448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 87.63 246.38 0)
 			(effects
 				(font
@@ -20941,7 +20527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "YAGEO"
 			(at 185.42 236.22 0)
 			(effects
 				(font
@@ -20950,16 +20536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
-			(at 185.42 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "RC0603FR-07100KL"
+		(property "manf#" "RC0603FR-07100KL"
 			(at 185.42 236.22 0)
 			(effects
 				(font
@@ -20977,7 +20554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07100KL"
+		(property "mouser#" "603-RC0603FR-07100KL"
 			(at 185.42 236.22 0)
 			(effects
 				(font
@@ -21119,7 +20696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Macronix"
+		(property "manf" "Macronix"
 			(at 81.28 262.89 0)
 			(effects
 				(font
@@ -21128,16 +20705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "MX25U51245GZ4I00"
-			(at 81.28 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "MX25U51245GZ4I00"
 			(at 81.28 262.89 0)
 			(effects
 				(font
@@ -21155,7 +20723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "95-25U51245GZ4I00T"
+		(property "mouser#" "95-25U51245GZ4I00T"
 			(at 81.28 262.89 0)
 			(effects
 				(font
