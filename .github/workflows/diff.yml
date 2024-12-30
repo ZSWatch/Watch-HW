@@ -1,7 +1,10 @@
 name: Diff
 
 on:
-  push:
+  workflow_dispatch:
+  pull_request_target:
+    types:
+      - closed
 
 jobs:
   build:

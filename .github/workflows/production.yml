@@ -32,10 +32,16 @@ jobs:
           path: .
           submodules: recursive
 
+      - name: Cache KiCost data
+        uses: actions/cache@v3
+        with:
+          path: ~/kicost_cache
+          key: kicost_cache
+
       - name: Extract branch name
         shell: bash
-        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
-        id: extract_branch
+        run: |
+          echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
 
       - name: Initialize
         run: |
@@ -49,6 +55,12 @@ jobs:
           kibot -vvvv -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }} 2> ../log/kibot.log
           mkdir ../production/${{ matrix.device_type }}/ordering
           mv ../production/PCBWay ../production/${{ matrix.device_type }}/ordering/PCBWay
+
+      - name: Clean up
+        run: |
+          cd production/${{ matrix.device_type }}
+          find . -type f -iname \*.log -delete
+          find . -type f -iname \*.ogv -delete
 
       - name: Upload logs
         uses: actions/upload-artifact@v4

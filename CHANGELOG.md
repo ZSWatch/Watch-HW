@@ -8,6 +8,7 @@
 
 - Add new vibration motor
 - Add 0R series resistor for buzzer
+- Add KiCost output to KiBot
 
 **Changed:**
 
