@@ -4529,7 +4529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -4538,16 +4538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 252.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -4565,7 +4556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -4840,7 +4831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -4849,16 +4840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 118.11 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -4876,7 +4858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -5086,7 +5068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 250.19 118.11 0)
 			(effects
 				(font
@@ -5095,16 +5077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 250.19 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 250.19 118.11 0)
 			(effects
 				(font
@@ -5122,7 +5095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 250.19 118.11 0)
 			(effects
 				(font
@@ -5201,7 +5174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -5210,16 +5183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06033C224KAT2A"
-			(at 227.33 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06033C224KAT2A"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -5237,7 +5201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06033C224KAT2A"
+		(property "mouser#" "581-06033C224KAT2A"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -5578,7 +5542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Bosch"
+		(property "manf" "Bosch"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -5587,16 +5551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "BMI270"
-			(at 48.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "BMI270"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -5614,7 +5569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "262-BMI270"
+		(property "mouser#" "262-BMI270"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -5730,7 +5685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -5739,16 +5694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -5766,7 +5712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -5847,7 +5793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Diodes Incorporated"
+		(property "manf" "Diodes Incorporated"
 			(at 80.01 146.05 0)
 			(effects
 				(font
@@ -5856,16 +5802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "DMG1013UW-7"
-			(at 80.01 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "DMG1013UW-7"
 			(at 80.01 146.05 0)
 			(effects
 				(font
@@ -5883,7 +5820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "621-DMG1013UW-7"
+		(property "mouser#" "621-DMG1013UW-7"
 			(at 80.01 146.05 0)
 			(effects
 				(font
@@ -5964,7 +5901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Broadcom / Avago"
+		(property "manf" "Broadcom / Avago"
 			(at 24.13 180.34 0)
 			(effects
 				(font
@@ -5973,16 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "APDS-9306-065"
-			(at 24.13 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "APDS-9306-065"
 			(at 24.13 180.34 0)
 			(effects
 				(font
@@ -6000,7 +5928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "630-APDS-9306-065"
+		(property "mouser#" "630-APDS-9306-065"
 			(at 24.13 180.34 0)
 			(effects
 				(font
@@ -6091,7 +6019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -6100,16 +6028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 227.33 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
+		(property "manf#" ""
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -6194,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -6203,16 +6122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 44.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -6230,7 +6140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -6375,7 +6285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 242.57 118.11 0)
 			(effects
 				(font
@@ -6384,16 +6294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 242.57 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 242.57 118.11 0)
 			(effects
 				(font
@@ -6411,7 +6312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 242.57 118.11 0)
 			(effects
 				(font
@@ -6686,7 +6587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 30.48 165.1 0)
 			(effects
 				(font
@@ -6695,16 +6596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 30.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 30.48 165.1 0)
 			(effects
 				(font
@@ -6722,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 30.48 165.1 0)
 			(effects
 				(font
@@ -6801,7 +6693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." ""
+		(property "manf" ""
 			(at 227.33 152.4 0)
 			(effects
 				(font
@@ -6810,16 +6702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 227.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
+		(property "manf#" ""
 			(at 227.33 152.4 0)
 			(effects
 				(font
@@ -6901,7 +6784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "STMicroelectronics"
+		(property "manf" "STMicroelectronics"
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -6910,16 +6793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "LIS2MDLTR"
-			(at 248.92 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "LIS2MDLTR"
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -6937,7 +6811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "511-LIS2MDLTR"
+		(property "mouser#" "511-LIS2MDLTR"
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -7244,7 +7118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "manf" "YAGEO"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -7253,16 +7127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "YAGEO"
-			(at 71.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." "RC0603FR-07150KL"
+		(property "manf#" "RC0603FR-07150KL"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -7280,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "603-RC0603FR-07150KL"
+		(property "mouser#" "603-RC0603FR-07150KL"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -7618,7 +7483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Bosch"
+		(property "manf" "Bosch"
 			(at 246.38 142.24 0)
 			(effects
 				(font
@@ -7627,16 +7492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "BME688"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "BME688"
 			(at 246.38 142.24 0)
 			(effects
 				(font
@@ -7654,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "262-BME688"
+		(property "mouser#" "262-BME688"
 			(at 246.38 142.24 0)
 			(effects
 				(font
@@ -7947,7 +7803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Knowles"
+		(property "manf" "Knowles"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -7956,16 +7812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "SPK0641HT4H-1"
-			(at 80.01 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "SPK0641HT4H-1"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -7983,7 +7830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "721-SPK0641HT4H-1"
+		(property "mouser#" "721-SPK0641HT4H-1"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -8146,7 +7993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -8155,16 +8002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -8182,7 +8020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -8390,7 +8228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Bosch"
+		(property "manf" "Bosch"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -8399,16 +8237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "BMP581"
-			(at 121.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "BMP581"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -8426,7 +8255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "262-BMP581"
+		(property "mouser#" "262-BMP581"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -8594,7 +8423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -8603,16 +8432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "06035C104KAT2A"
-			(at 52.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "06035C104KAT2A"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -8630,7 +8450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "581-06035C104KAT2A"
+		(property "mouser#" "581-06035C104KAT2A"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -8774,7 +8594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "KYOCERA AVX"
+		(property "manf" "KYOCERA AVX"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -8783,16 +8603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "CM105X5R106M25AT"
-			(at 245.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
+		(property "manf#" "CM105X5R106M25AT"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -8810,7 +8621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order No." "346-CM105X5R106M25AT"
+		(property "mouser#" "346-CM105X5R106M25AT"
 			(at 245.11 27.94 0)
 			(effects
 				(font
