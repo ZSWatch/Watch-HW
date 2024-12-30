@@ -355,18 +355,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 301.498 205.148 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb94390c-fdb0-472f-b734-8dc0f364e4d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf" "KYOCERA AVX"
 			(at 301.498 205.148 0)
 			(layer "F.Fab")
@@ -391,7 +379,7 @@
 				)
 			)
 		)
-		(property "mouser#" "581-06036D225KAT2A"
+		(property "mouser#" "581-06036D225K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2059,19 +2047,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9fb9ff9e-975f-4398-ac84-790a56ad83f2")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(property "CONFIG" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -2085,7 +2060,7 @@
 				)
 			)
 		)
-		(property "mouser#" "-- verschiedene Werte --"
+		(property "mouser#" "603-RC0603FR-074K7L"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2712,7 +2687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_pmic%2Fstruct%2Fnpm1300.html"
+		(property "Datasheet" "https://docs.nordicsemi.com/category/npm1300-category"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2743,18 +2718,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39faccf5-b9f7-40c7-9a73-c97582c58634")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53909e79-9045-4f53-86e2-f89557b572e7")
 			(effects
 				(font
 					(size 1 1)
@@ -3995,18 +3958,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 144.487429 280.979965 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49652c6c-2366-4fb7-974c-7cea45f86a2d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf" "E-Switch"
 			(at 144.487429 280.979965 0)
 			(layer "F.Fab")
@@ -4019,7 +3970,7 @@
 				)
 			)
 		)
-		(property "manf#" "TL6340AF160Q"
+		(property "manf#" "TL6340AF160QG"
 			(at 144.487429 280.979965 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4031,7 +3982,7 @@
 				)
 			)
 		)
-		(property "mouser#" "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160QG"
 			(at 0 0 -125)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6373,18 +6324,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 357.053514 19.869706 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "474e8577-0d54-4591-ae3a-05fe8a196479")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf" "E-Switch"
 			(at 357.053514 19.869706 0)
 			(layer "F.Fab")
@@ -6397,7 +6336,7 @@
 				)
 			)
 		)
-		(property "manf#" "TL6340AF160Q"
+		(property "manf#" "TL6340AF160QG"
 			(at 357.053514 19.869706 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6409,7 +6348,7 @@
 				)
 			)
 		)
-		(property "mouser#" "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160QG"
 			(at 0 0 125)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7817,19 +7756,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bbc872eb-f6dc-42f3-9d53-11a103727501")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(property "CONFIG" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7843,7 +7769,7 @@
 				)
 			)
 		)
-		(property "mouser#" "-- verschiedene Werte --"
+		(property "mouser#" "603-RC0603FR-074K7L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11527,18 +11453,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 277.95 -48.45 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db2a7598-ab25-4f86-9bb3-fcbfc66a1824")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf" "Macronix"
 			(at 277.95 -48.45 0)
 			(layer "F.Fab")
@@ -11551,7 +11465,7 @@
 				)
 			)
 		)
-		(property "manf#" "MX25U51245GZ4I00"
+		(property "manf#" "MX25U51245GZ4I00-TR"
 			(at 277.95 -48.45 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11563,7 +11477,7 @@
 				)
 			)
 		)
-		(property "mouser#" "95-25U51245GZ4I00T"
+		(property "mouser#" "95-25U51245GZ4I0TR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12547,18 +12461,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c02d340-b18d-433c-89d5-75980bf0ad77")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -12583,7 +12485,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-CIGT201610EH2R2MNE"
+		(property "mouser#" "187-CIGT201610EH2R2M"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13348,18 +13250,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at -38.382796 171.377334 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "171b2d1f-0e5f-44fc-a249-83df3f9d8522")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf" "E-Switch"
 			(at -38.382796 171.377334 0)
 			(layer "F.Fab")
@@ -13372,7 +13262,7 @@
 				)
 			)
 		)
-		(property "manf#" "TL6340AF160Q"
+		(property "manf#" "TL6340AF160QG"
 			(at -38.382796 171.377334 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13384,7 +13274,7 @@
 				)
 			)
 		)
-		(property "mouser#" "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160QG"
 			(at 0 0 -55)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15731,18 +15621,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 174.313835 -89.743762 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "390050a3-2868-4271-98b1-cb3f4cc88aa3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf" "E-Switch"
 			(at 174.313835 -89.743762 0)
 			(layer "F.Fab")
@@ -15755,7 +15633,7 @@
 				)
 			)
 		)
-		(property "manf#" "TL6340AF160Q"
+		(property "manf#" "TL6340AF160QG"
 			(at 174.313835 -89.743762 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15767,7 +15645,7 @@
 				)
 			)
 		)
-		(property "mouser#" "612-TL6340AF160Q"
+		(property "mouser#" "612-TL6340AF160QG"
 			(at 0 0 55)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16896,18 +16774,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 57.98581 253.87981 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ab09452-367e-4d3e-8d43-4a9a52982b6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf" "Samsung Electro-Mechanics"
 			(at 57.98581 253.87981 0)
 			(layer "F.Fab")
@@ -16932,7 +16798,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-CIGT201610EH2R2MNE"
+		(property "mouser#" "187-CIGT201610EH2R2M"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18787,19 +18653,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 43.1 293.1 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e82505f1-f524-4b82-b052-96a0df8c73d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "manf" "ROHM Semiconductor"
+		(property "manf" "Diodes Incorporated"
 			(at 43.1 293.1 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19115,19 +18969,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cfe3e78e-1de2-4f41-9e1c-4f1e36b8a2ee")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(property "CONFIG" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -19141,7 +18982,7 @@
 				)
 			)
 		)
-		(property "mouser#" "-- verschiedene Werte --"
+		(property "mouser#" "603-RC0402FR-074K7L"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24258,19 +24099,6 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7a2b7b8-d249-4231-bd88-ef87fa79dd79")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(property "CONFIG" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -24284,7 +24112,7 @@
 				)
 			)
 		)
-		(property "mouser#" "-- verschiedene Werte --"
+		(property "mouser#" "603-RC0402FR-074K7L"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25204,19 +25032,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor" ""
-			(at 314.452 211.582 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7d21fd3b-7e26-4aa6-b675-4b3f36c158cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "manf" "Pomagtor"
 			(at 314.452 211.582 0)
 			(layer "B.Fab")
@@ -25243,15 +25058,16 @@
 				(justify mirror)
 			)
 		)
-		(property "Order Number" ""
-			(at 314.452 211.582 0)
+		(property "mouser#" ""
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "75013b81-e31f-4e36-8941-e99f637bbbd8")
+			(uuid "404da73b-5651-45ab-b78d-b6facc07f04b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 				(justify mirror)
 			)

@@ -3265,7 +3265,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-CIGT201610EH2R2MNE"
+		(property "mouser#" "187-CIGT201610EH2R2M"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-CIGT201610EH2R2MNE"
+		(property "mouser#" "187-CIGT201610EH2R2M"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -5422,7 +5422,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-06036D225KAT2A"
+		(property "mouser#" "581-06036D225K"
 			(at 140.97 44.45 0)
 			(effects
 				(font
