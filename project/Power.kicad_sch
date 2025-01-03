@@ -3220,7 +3220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/585/sems_s_a0006918008_1-2288745.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?34649"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -3238,7 +3238,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Samsung Electro-Mechanics"
+		(property "manf" "Vishay / Dale"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -3247,7 +3247,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CIGT201610EH2R2MNE"
+		(property "manf#" "IHLL0806AZEZ2R2M1Z"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -3265,7 +3265,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-CIGT201610EH2R2M"
+		(property "mouser#" "70-IHLL0806AZZ2R2M1Z"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -4748,7 +4748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/585/sems_s_a0006918008_1-2288745.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?34649"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Samsung Electro-Mechanics"
+		(property "manf" "Vishay / Dale"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CIGT201610EH2R2MNE"
+		(property "manf#" "IHLL0806AZEZ2R2M1Z"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-CIGT201610EH2R2M"
+		(property "mouser#" "70-IHLL0806AZZ2R2M1Z"
 			(at 182.88 88.9 0)
 			(effects
 				(font
