@@ -5,11 +5,139 @@
 	(uuid "c6e105ef-aa30-4782-8fe5-1f2d0fabd137")
 	(paper "A4")
 	(title_block
+		(title "Extension")
 		(date "2025-07-13")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Device:Speaker"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at 1.27 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Speaker"
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.254 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Speaker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "speaker sound"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Speaker_0_0"
+				(rectangle
+					(start -2.54 1.27)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Speaker_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ZSWatch:Extension"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -79,7 +207,7 @@
 							)
 						)
 					)
-					(number "S112"
+					(number "S114"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -187,7 +315,7 @@
 							)
 						)
 					)
-					(number "S14"
+					(number "S12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -205,7 +333,7 @@
 							)
 						)
 					)
-					(number "S11"
+					(number "S113"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -223,7 +351,7 @@
 							)
 						)
 					)
-					(number "S12"
+					(number "S14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -277,7 +405,7 @@
 							)
 						)
 					)
-					(number "S114"
+					(number "S112"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -288,14 +416,14 @@
 				(pin output line
 					(at 21.59 1.27 180)
 					(length 5.08)
-					(name "SP_{N}"
+					(name "SP_{P}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S21"
+					(number "S13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -306,14 +434,14 @@
 				(pin output line
 					(at 21.59 -1.27 180)
 					(length 5.08)
-					(name "SP_{P}"
+					(name "SP_{N}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S23"
+					(number "S11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -464,6 +592,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 86.36) (xy 184.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b11f44-2135-4e0b-a3b3-b7d50d611a99")
+	)
+	(wire
+		(pts
 			(xy 152.4 111.76) (xy 152.4 110.49)
 		)
 		(stroke
@@ -481,16 +619,6 @@
 			(type default)
 		)
 		(uuid "2930ee6b-e116-4d8a-985a-cac340fe073d")
-	)
-	(wire
-		(pts
-			(xy 172.72 86.36) (xy 173.99 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ad0b577-0bf8-4e05-9997-fdb520a9e9fb")
 	)
 	(wire
 		(pts
@@ -564,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 173.99 88.9)
+			(xy 172.72 88.9) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -668,17 +796,6 @@
 		)
 		(uuid "6aea7c3b-2f77-479c-b100-aa41e54a2b61")
 	)
-	(hierarchical_label "SP_{P}"
-		(shape output)
-		(at 173.99 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9802c0c5-780a-461e-a83a-d77a5d29ab7b")
-	)
 	(hierarchical_label "VHR"
 		(shape input)
 		(at 148.59 63.5 90)
@@ -689,17 +806,6 @@
 			(justify left)
 		)
 		(uuid "ace1ba05-485b-41e7-aaa1-5574a90d2a32")
-	)
-	(hierarchical_label "SP_{N}"
-		(shape output)
-		(at 173.99 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3d7fd1a-657c-4697-b1fa-0e5bd00edf7e")
 	)
 	(hierarchical_label "PA-WCLK"
 		(shape input)
@@ -858,13 +964,13 @@
 		(pin "S210"
 			(uuid "759d0591-dde6-48c8-8656-5d9a074b0e67")
 		)
-		(pin "S23"
+		(pin "S113"
 			(uuid "8d3978ae-bb44-404d-a8ff-fd251a3bbf50")
 		)
 		(pin "S114"
 			(uuid "7c55c147-21eb-4890-9c55-4199f129ad73")
 		)
-		(pin "S21"
+		(pin "S13"
 			(uuid "4f999c8a-0420-4603-8343-43e4d29ae606")
 		)
 		(instances
@@ -972,6 +1078,112 @@
 			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438"
 					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Speaker")
+		(at 189.23 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaef6556-4fcb-48b8-91f5-d65bc6c7a009")
+		(property "Reference" "LS801"
+			(at 194.31 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Speaker"
+			(at 194.31 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Same Sky:CMR-12062S-67"
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/6118/1/cmr_12062s_67.pdf"
+			(at 188.976 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Speaker"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Same Sky"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CMR-12062S-67"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "490-CMR-12062S-67"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a898da0-b9bf-4e06-bc16-3cd7b173dbe7")
+		)
+		(pin "2"
+			(uuid "42047e0a-b7ac-4dd7-8e5c-bacfc0e13474")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438"
+					(reference "LS801")
 					(unit 1)
 				)
 			)
