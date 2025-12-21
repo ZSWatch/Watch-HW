@@ -5145,14 +5145,6 @@
 		(uuid "bb55aef9-a626-4885-95db-68e2cdf1e72c")
 	)
 	(no_connect
-		(at 153.67 77.47)
-		(uuid "cbef2a43-b939-4fa4-8a7d-e0dd2488587b")
-	)
-	(no_connect
-		(at 231.14 124.46)
-		(uuid "e2e39237-3f29-44cc-9ae8-9679e6291d90")
-	)
-	(no_connect
 		(at 231.14 132.08)
 		(uuid "e3165b15-2dd5-48d9-a0b6-0de0816b6716")
 	)
@@ -5373,7 +5365,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 106.68) (xy 232.41 106.68)
+			(xy 153.67 77.47) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5414,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 85.09) (xy 154.94 85.09)
+			(xy 231.14 104.14) (xy 232.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5909,7 +5901,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 127) (xy 232.41 127)
+			(xy 153.67 125.73) (xy 154.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6879,7 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 67.31) (xy 153.67 67.31)
+			(xy 232.41 124.46) (xy 231.14 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7152,7 +7144,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 125.73) (xy 154.94 125.73)
+			(xy 153.67 85.09) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7189,6 +7181,16 @@
 			(type default)
 		)
 		(uuid "bd9d9da2-5091-4029-ab3c-ec78ae0995e3")
+	)
+	(wire
+		(pts
+			(xy 231.14 127) (xy 232.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddbb638-18e7-4277-a941-c5a1b973f807")
 	)
 	(wire
 		(pts
@@ -7279,16 +7281,6 @@
 			(type default)
 		)
 		(uuid "cd5dfa4a-5b30-4998-a383-d4fcf985ae4b")
-	)
-	(wire
-		(pts
-			(xy 231.14 104.14) (xy 232.41 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4245b5-85bf-416d-96d3-cfcd9a8e1a2b")
 	)
 	(wire
 		(pts
@@ -8989,7 +8981,7 @@
 	)
 	(hierarchical_label "PA-BCLK"
 		(shape output)
-		(at 154.94 125.73 0)
+		(at 154.94 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9022,7 +9014,7 @@
 	)
 	(hierarchical_label "MIC-DATA"
 		(shape input)
-		(at 232.41 104.14 0)
+		(at 154.94 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9044,7 +9036,7 @@
 	)
 	(hierarchical_label "~{RTC-INT}"
 		(shape input)
-		(at 154.94 85.09 0)
+		(at 232.41 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9077,7 +9069,7 @@
 	)
 	(hierarchical_label "~{RESET_{HR}}"
 		(shape output)
-		(at 154.94 87.63 0)
+		(at 154.94 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9099,7 +9091,7 @@
 	)
 	(hierarchical_label "Status"
 		(shape input)
-		(at 154.94 123.19 0)
+		(at 154.94 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9110,7 +9102,7 @@
 	)
 	(hierarchical_label "BMI270-INT"
 		(shape input)
-		(at 232.41 127 0)
+		(at 154.94 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9132,7 +9124,7 @@
 	)
 	(hierarchical_label "MIC-CLK"
 		(shape output)
-		(at 232.41 106.68 0)
+		(at 154.94 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9143,7 +9135,7 @@
 	)
 	(hierarchical_label "LIS2MDL-INT"
 		(shape input)
-		(at 154.94 67.31 0)
+		(at 232.41 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9154,7 +9146,7 @@
 	)
 	(hierarchical_label "VIB-EN"
 		(shape output)
-		(at 154.94 74.93 0)
+		(at 232.41 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
