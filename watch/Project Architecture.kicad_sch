@@ -319,7 +319,7 @@
 		(uuid "2548c437-364c-4e71-a5ec-54458abe8b56")
 	)
 	(junction
-		(at 167.64 175.26)
+		(at 167.64 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f55d23-49a3-4eb1-b710-ba119b2b72f1")
@@ -496,7 +496,7 @@
 	)
 	(bus
 		(pts
-			(xy 167.64 101.6) (xy 167.64 175.26)
+			(xy 167.64 101.6) (xy 167.64 173.99)
 		)
 		(stroke
 			(width 0)
@@ -516,7 +516,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 184.15) (xy 226.06 184.15)
+			(xy 165.1 182.88) (xy 226.06 182.88)
 		)
 		(stroke
 			(width 0)
@@ -566,7 +566,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 179.07) (xy 165.1 179.07)
+			(xy 220.98 177.8) (xy 165.1 177.8)
 		)
 		(stroke
 			(width 0)
@@ -596,7 +596,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 118.11) (xy 220.98 179.07)
+			(xy 220.98 118.11) (xy 220.98 177.8)
 		)
 		(stroke
 			(width 0)
@@ -606,7 +606,7 @@
 	)
 	(bus
 		(pts
-			(xy 210.82 175.26) (xy 167.64 175.26)
+			(xy 210.82 173.99) (xy 167.64 173.99)
 		)
 		(stroke
 			(width 0)
@@ -626,7 +626,7 @@
 	)
 	(bus
 		(pts
-			(xy 210.82 113.03) (xy 210.82 175.26)
+			(xy 210.82 113.03) (xy 210.82 173.99)
 		)
 		(stroke
 			(width 0)
@@ -686,7 +686,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 120.65) (xy 223.52 181.61)
+			(xy 223.52 120.65) (xy 223.52 180.34)
 		)
 		(stroke
 			(width 0)
@@ -706,7 +706,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 123.19) (xy 226.06 184.15)
+			(xy 226.06 123.19) (xy 226.06 182.88)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +886,7 @@
 	)
 	(bus
 		(pts
-			(xy 167.64 175.26) (xy 165.1 175.26)
+			(xy 167.64 173.99) (xy 165.1 173.99)
 		)
 		(stroke
 			(width 0)
@@ -906,13 +906,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 181.61) (xy 223.52 181.61)
+			(xy 165.1 180.34) (xy 223.52 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa00a422-1802-4154-8bf3-ca2360ea7cd5")
+	)
+	(wire
+		(pts
+			(xy 165.1 186.69) (xy 237.49 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9fe44f-efe0-439d-a786-784372016f71")
 	)
 	(wire
 		(pts
@@ -1346,7 +1356,7 @@
 			)
 		)
 		(pin "USB-VBUS-In" output
-			(at 165.1 181.61 0)
+			(at 165.1 180.34 0)
 			(uuid "96cb327f-d37d-4f2d-9c3b-5d505420c6ad")
 			(effects
 				(font
@@ -1356,7 +1366,7 @@
 			)
 		)
 		(pin "USB-CC[1..2]" output
-			(at 165.1 184.15 0)
+			(at 165.1 182.88 0)
 			(uuid "6a0b679b-6522-4527-8ed7-c1ded9b2a9a0")
 			(effects
 				(font
@@ -1366,7 +1376,7 @@
 			)
 		)
 		(pin "USB-VBUS-Out" input
-			(at 165.1 179.07 0)
+			(at 165.1 177.8 0)
 			(uuid "e071ff08-fec4-49e9-949e-186193f82465")
 			(effects
 				(font
@@ -1376,7 +1386,7 @@
 			)
 		)
 		(pin "SW[1..4]" input
-			(at 165.1 175.26 0)
+			(at 165.1 173.99 0)
 			(uuid "f1d5f040-34c2-4367-85d5-baa50b55dc11")
 			(effects
 				(font
@@ -1468,6 +1478,16 @@
 		(pin "PA-BCLK" output
 			(at 165.1 189.23 0)
 			(uuid "37b55da3-cf3d-41a2-8319-ac164a8dc6d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA-MCLK" output
+			(at 165.1 186.69 0)
+			(uuid "d5ab62fc-79f1-4a0f-bbe7-a848934b1b45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,6 +1792,16 @@
 		(pin "PA-BCLK" input
 			(at 237.49 189.23 180)
 			(uuid "8fa15c83-5033-4f0d-8020-72df1b495d55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA-MCLK" input
+			(at 237.49 186.69 180)
+			(uuid "51c648b2-910e-48fc-ba96-fa4bdaadfe98")
 			(effects
 				(font
 					(size 1.27 1.27)
