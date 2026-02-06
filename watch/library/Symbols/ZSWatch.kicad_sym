@@ -169,6 +169,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -21.59 -11.43 0)
+				(length 5.08)
+				(name "MCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S211"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -2.54 22.86 270)
 				(length 5.08)

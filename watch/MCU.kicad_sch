@@ -5117,6 +5117,10 @@
 		(uuid "08d3e366-8c25-4708-8763-551a022dd983")
 	)
 	(no_connect
+		(at 153.67 67.31)
+		(uuid "1e6bf776-5197-4419-ac8b-ad698810a2d4")
+	)
+	(no_connect
 		(at 231.14 114.3)
 		(uuid "59b8fb65-32c3-4136-84da-e805729a0825")
 	)
@@ -5423,6 +5427,16 @@
 			(type default)
 		)
 		(uuid "1093665c-a620-4ee8-9869-ddf593d53615")
+	)
+	(wire
+		(pts
+			(xy 231.14 124.46) (xy 232.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127bc333-0e19-43f0-82ea-a9cf5329edaa")
 	)
 	(wire
 		(pts
@@ -6871,7 +6885,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 124.46) (xy 231.14 124.46)
+			(xy 232.41 106.68) (xy 231.14 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8981,7 +8995,7 @@
 	)
 	(hierarchical_label "PA-BCLK"
 		(shape output)
-		(at 154.94 85.09 0)
+		(at 154.94 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9034,6 +9048,17 @@
 		)
 		(uuid "364402db-4f9c-4419-8c8a-ca83bbcedbc3")
 	)
+	(hierarchical_label "PA-MCLK"
+		(shape output)
+		(at 232.41 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "805b8eb0-2b5c-41f6-b15b-1cb06ff87b24")
+	)
 	(hierarchical_label "~{RTC-INT}"
 		(shape input)
 		(at 232.41 104.14 0)
@@ -9058,7 +9083,7 @@
 	)
 	(hierarchical_label "PA-DIN"
 		(shape output)
-		(at 154.94 130.81 0)
+		(at 154.94 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)

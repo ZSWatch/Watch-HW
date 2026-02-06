@@ -305,6 +305,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -21.59 -11.43 0)
+					(length 5.08)
+					(name "MCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S211"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -2.54 22.86 270)
 					(length 5.08)
@@ -612,6 +630,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256a002f-41f8-4848-9ced-98fdd5ed98eb")
+	)
+	(wire
+		(pts
 			(xy 149.86 111.76) (xy 151.13 111.76)
 		)
 		(stroke
@@ -729,6 +757,17 @@
 			(type default)
 		)
 		(uuid "e4d4796c-2392-45e5-999c-4a3f4f1a089a")
+	)
+	(hierarchical_label "PA-MCLK"
+		(shape input)
+		(at 128.27 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05a6d935-3806-40f3-b0ef-0a79545a81ee")
 	)
 	(hierarchical_label "~{RESET_{HR}}"
 		(shape input)
@@ -972,6 +1011,9 @@
 		)
 		(pin "S13"
 			(uuid "4f999c8a-0420-4603-8343-43e4d29ae606")
+		)
+		(pin "S211"
+			(uuid "5ccb5137-b9b3-42ed-b6d2-eaf2aeca2252")
 		)
 		(instances
 			(project ""
