@@ -6101,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-Switch:TL6340AF160Q_Modified"
+		(property "Footprint" "Wuerth:43633303381_NoMountingPads"
 			(at 25.4 118.11 0)
 			(effects
 				(font
@@ -6110,7 +6110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/140/TL6340-3304863.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/436333033816.pdf"
 			(at 25.4 118.11 0)
 			(effects
 				(font
@@ -6137,7 +6137,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "E-Switch"
+		(property "manf" "Wurth Elektronik"
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -6146,7 +6146,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "TL6340AF160Q"
+		(property "manf#" "436333033816"
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "612-TL6340AF160Q"
+		(property "mouser#" "710-436333033816"
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -8567,13 +8567,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 25.4 134.62 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c120521-4b84-424f-ad7a-b73888a3fd98")
 		(property "Reference" "S504"
 			(at 25.4 127 0)
@@ -8591,7 +8589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-Switch:TL6340AF160Q_Modified"
+		(property "Footprint" "Wuerth:43633303381_NoMountingPads"
 			(at 25.4 129.54 0)
 			(effects
 				(font
@@ -8600,7 +8598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/140/TL6340-3304863.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/436333033816.pdf"
 			(at 25.4 129.54 0)
 			(effects
 				(font
@@ -8627,7 +8625,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "E-Switch"
+		(property "manf" "Wurth Elektronik"
 			(at 25.4 134.62 0)
 			(effects
 				(font
@@ -8636,7 +8634,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "TL6340AF160Q"
+		(property "manf#" "436333033816"
 			(at 25.4 134.62 0)
 			(effects
 				(font
@@ -8645,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "612-TL6340AF160Q"
+		(property "mouser#" "710-436333033816"
 			(at 25.4 134.62 0)
 			(effects
 				(font
@@ -10069,13 +10067,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 25.4 100.33 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a4a8868f-d5e8-46f6-a3fb-15655b890134")
 		(property "Reference" "S501"
 			(at 25.4 92.71 0)
@@ -10093,7 +10089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-Switch:TL6340AF160Q_Modified"
+		(property "Footprint" "Wuerth:43633303381_NoMountingPads"
 			(at 25.4 95.25 0)
 			(effects
 				(font
@@ -10102,7 +10098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/140/TL6340-3304863.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/436333033816.pdf"
 			(at 25.4 95.25 0)
 			(effects
 				(font
@@ -10129,7 +10125,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "E-Switch"
+		(property "manf" "Wurth Elektronik"
 			(at 25.4 100.33 0)
 			(effects
 				(font
@@ -10138,7 +10134,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "TL6340AF160Q"
+		(property "manf#" "436333033816"
 			(at 25.4 100.33 0)
 			(effects
 				(font
@@ -10147,7 +10143,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "612-TL6340AF160Q"
+		(property "mouser#" "710-436333033816"
 			(at 25.4 100.33 0)
 			(effects
 				(font
@@ -10474,7 +10470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-Switch:TL6340AF160Q_Modified"
+		(property "Footprint" "Wuerth:43633303381_NoMountingPads"
 			(at 25.4 106.68 0)
 			(effects
 				(font
@@ -10483,7 +10479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/140/TL6340-3304863.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/436333033816.pdf"
 			(at 25.4 106.68 0)
 			(effects
 				(font
@@ -10510,7 +10506,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "E-Switch"
+		(property "manf" "Wurth Elektronik"
 			(at 25.4 111.76 0)
 			(effects
 				(font
@@ -10519,7 +10515,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "TL6340AF160Q"
+		(property "manf#" "436333033816"
 			(at 25.4 111.76 0)
 			(effects
 				(font
@@ -10528,7 +10524,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "612-TL6340AF160Q"
+		(property "mouser#" "710-436333033816"
 			(at 25.4 111.76 0)
 			(effects
 				(font
