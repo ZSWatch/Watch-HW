@@ -511,9 +511,9 @@
         "microvia_drill": 0.1,
         "name": "Display",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.25,
         "wire_width": 6
@@ -528,9 +528,9 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 72, 72)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.25,
         "wire_width": 6
@@ -545,9 +545,9 @@
         "microvia_drill": 0.1,
         "name": "QSPI",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 58, 6)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.25,
         "wire_width": 6
@@ -562,12 +562,26 @@
         "microvia_drill": 0.1,
         "name": "SWD",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 132, 132)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.25,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Speaker",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.25
       },
       {
         "bus_width": 12,
@@ -579,9 +593,9 @@
         "microvia_drill": 0.1,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(184, 9, 255)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.25,
         "wire_width": 6
@@ -596,7 +610,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 160, 73)",
         "track_width": 0.17,
         "via_diameter": 0.45,
@@ -613,7 +627,7 @@
         "microvia_drill": 0.1,
         "name": "Vibration-Motor",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(128, 77, 0)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -625,7 +639,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(X702-Pin_2)": [
+        "Speaker"
+      ],
+      "Net-(X702-Pin_4)": [
+        "Speaker"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "QSPI",

@@ -9171,7 +9171,7 @@
 	)
 	(hierarchical_label "VIB-EN"
 		(shape output)
-		(at 232.41 127 0)
+		(at 154.94 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9182,7 +9182,7 @@
 	)
 	(hierarchical_label "VIB-PWM"
 		(shape output)
-		(at 154.94 92.71 0)
+		(at 232.41 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)

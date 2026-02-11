@@ -5306,7 +5306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Molex:78171-0002"
+		(property "Footprint" "JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 198.12 36.83 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/781710002?display=pdf"
+		(property "Datasheet" ""
 			(at 198.12 36.83 0)
 			(effects
 				(font
@@ -5342,7 +5342,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Molex"
+		(property "manf" ""
 			(at 198.12 36.83 0)
 			(effects
 				(font
@@ -5351,7 +5351,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "78171-0002"
+		(property "manf#" ""
 			(at 198.12 36.83 0)
 			(effects
 				(font
@@ -5360,7 +5360,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "538-78171-0002"
+		(property "mouser#" ""
 			(at 198.12 36.83 0)
 			(effects
 				(font
