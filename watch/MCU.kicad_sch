@@ -10151,7 +10151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 215.9 185.42 0)
 			(effects
 				(font
@@ -10178,7 +10178,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "YAGEO"
 			(at 215.9 185.42 0)
 			(effects
 				(font
@@ -10187,7 +10187,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "RC0201JR-07100KL"
 			(at 215.9 185.42 0)
 			(effects
 				(font
@@ -10196,7 +10196,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0201JR-07100KL"
 			(at 215.9 185.42 0)
 			(effects
 				(font
@@ -12336,7 +12336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 331.47 60.96 0)
 			(effects
 				(font
@@ -12363,7 +12363,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "YAGEO"
 			(at 331.47 60.96 0)
 			(effects
 				(font
@@ -12372,7 +12372,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "RC0201JR-07100KL"
 			(at 331.47 60.96 0)
 			(effects
 				(font
@@ -12381,7 +12381,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0201JR-07100KL"
 			(at 331.47 60.96 0)
 			(effects
 				(font
@@ -12449,7 +12449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 36.83 199.39 0)
 			(effects
 				(font
@@ -12467,7 +12467,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "YAGEO"
 			(at 36.83 199.39 0)
 			(effects
 				(font
@@ -12476,7 +12476,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "RC0201JR-0712KL"
 			(at 36.83 199.39 0)
 			(effects
 				(font
@@ -12494,7 +12494,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0201JR-0712KL"
 			(at 36.83 199.39 0)
 			(effects
 				(font
