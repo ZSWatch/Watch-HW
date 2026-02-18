@@ -6535,7 +6535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 353.06 107.95 0)
 			(effects
 				(font
@@ -6562,7 +6562,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "YAGEO"
 			(at 353.06 107.95 0)
 			(effects
 				(font
@@ -6571,7 +6571,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "RC0201JR-07200KL"
 			(at 353.06 107.95 0)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0201JR-07200KL"
 			(at 353.06 107.95 0)
 			(effects
 				(font
@@ -6650,7 +6650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 364.49 121.92 0)
 			(effects
 				(font
@@ -6677,7 +6677,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "YAGEO"
 			(at 364.49 121.92 0)
 			(effects
 				(font
@@ -6686,7 +6686,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "RC0201JR-073K3L"
 			(at 364.49 121.92 0)
 			(effects
 				(font
@@ -6695,7 +6695,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0201JR-073K3L"
 			(at 364.49 121.92 0)
 			(effects
 				(font
@@ -7390,7 +7390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VC1027B902F-Jinlong-C1027B902F-datasheet.pdf"
 			(at 379.73 61.976 0)
 			(effects
 				(font
@@ -7716,7 +7716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 240.03 166.37 0)
 			(effects
 				(font
@@ -7743,7 +7743,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "KYOCERA AVX"
 			(at 240.03 166.37 0)
 			(effects
 				(font
@@ -7752,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "0201ZD224KAT2A"
 			(at 240.03 166.37 0)
 			(effects
 				(font
@@ -7761,7 +7761,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "581-0201ZD224KAT2A"
 			(at 240.03 166.37 0)
 			(effects
 				(font
@@ -8178,7 +8178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 314.96 121.92 0)
 			(effects
 				(font
@@ -8205,7 +8205,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "YAGEO"
 			(at 314.96 121.92 0)
 			(effects
 				(font
@@ -8214,7 +8214,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "RC0201JR-071K8L"
 			(at 314.96 121.92 0)
 			(effects
 				(font
@@ -8223,7 +8223,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0201JR-071K8L"
 			(at 314.96 121.92 0)
 			(effects
 				(font
@@ -9739,7 +9739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 367.03 121.92 0)
 			(effects
 				(font
@@ -9766,7 +9766,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "YAGEO"
 			(at 367.03 121.92 0)
 			(effects
 				(font
@@ -9775,7 +9775,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "RC0201JR-073K3L"
 			(at 367.03 121.92 0)
 			(effects
 				(font
@@ -9784,7 +9784,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0201JR-073K3L"
 			(at 367.03 121.92 0)
 			(effects
 				(font
@@ -10694,7 +10694,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "SPK0641HT4H-1"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -10703,7 +10703,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "721-SPK0641HT4H-1"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -10792,7 +10792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 312.42 121.92 0)
 			(effects
 				(font
@@ -10819,7 +10819,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "YAGEO"
 			(at 312.42 121.92 0)
 			(effects
 				(font
@@ -10828,7 +10828,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "RC0201JR-071K8L"
 			(at 312.42 121.92 0)
 			(effects
 				(font
@@ -10837,7 +10837,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0201JR-071K8L"
 			(at 312.42 121.92 0)
 			(effects
 				(font
