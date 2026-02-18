@@ -4809,17 +4809,6 @@
 		)
 		(uuid "22250a73-e843-4666-8351-a40cbc65f9ba")
 	)
-	(text "NOTE: Make sure that the Flash Memory supports\n4k sector erase commands (limited by QSPI driver)!"
-		(exclude_from_sim no)
-		(at 193.04 219.71 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f63d6cd-ddcc-43c1-b1b8-02fa2d519fc2")
-	)
 	(text "Display backlight"
 		(exclude_from_sim no)
 		(at 15.24 161.925 0)
@@ -4853,17 +4842,6 @@
 		)
 		(uuid "a4ddab81-f1d0-4f85-a715-38d25944eefb")
 	)
-	(text "NOTE: 1V8 <-> 3V0 level shifter\nNTS0104GU12 has internal pullups. Works for I2C.\nhttps://www.nxp.com/docs/en/data-sheet/NTS0104.pdf"
-		(exclude_from_sim no)
-		(at 309.245 192.405 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b035ec5b-c1fb-4627-bf57-422d31b7f6f4")
-	)
 	(text "Microcontroller\n(NORA-B106/nRF5340)"
 		(exclude_from_sim no)
 		(at 15.875 26.035 0)
@@ -4885,6 +4863,75 @@
 			(justify left bottom)
 		)
 		(uuid "f6231d01-265a-4506-b5ac-9a76ec557a6f")
+	)
+	(text_box "DESIGN NOTE:\nNTS0104GU12 has internal pullups."
+		(exclude_from_sim no)
+		(at 309.88 179.07 0)
+		(size 30.48 12.7)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4a84f38f-e8e8-43c6-848c-0da30ac64530")
+	)
+	(text_box "DESIGN NOTE:\nMake sure that the Flash Memory supports\n4k sector erase commands (limited by QSPI driver)!"
+		(exclude_from_sim no)
+		(at 194.31 219.71 0)
+		(size 39.37 19.05)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5962cd19-1102-4c72-8084-de0407e7f302")
+	)
+	(text_box "DESIGN NOTE:\nThe SPI lines for the display can´t be changed\n and are required for 32 MHz operation."
+		(exclude_from_sim no)
+		(at 16.51 130.81 0)
+		(size 35.56 21.59)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c9e4aa45-d06c-463d-aaa3-53334d744625")
 	)
 	(junction
 		(at 109.22 124.46)
@@ -5732,7 +5779,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 157.48) (xy 274.32 220.98)
+			(xy 274.32 157.48) (xy 274.32 241.3)
 		)
 		(stroke
 			(width 1)
@@ -5854,7 +5901,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.77 157.48) (xy 191.77 220.98)
+			(xy 191.77 157.48) (xy 191.77 241.3)
 		)
 		(stroke
 			(width 1)
@@ -6330,7 +6377,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 220.98) (xy 191.77 220.98)
+			(xy 274.32 241.3) (xy 191.77 241.3)
 		)
 		(stroke
 			(width 1)
@@ -8577,7 +8624,7 @@
 	)
 	(global_label "DISPLAY-CLK"
 		(shape output)
-		(at 154.94 115.57 0)
+		(at 154.94 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8587,7 +8634,7 @@
 		)
 		(uuid "ac65dabd-da7f-4f8c-b4b3-8e8c9b65866c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.6253 115.57 0)
+			(at 170.6253 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +8954,7 @@
 	)
 	(global_label "DISPLAY-EN"
 		(shape output)
-		(at 154.94 120.65 0)
+		(at 154.94 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8917,7 +8964,7 @@
 		)
 		(uuid "f29c365c-040e-4277-b706-02108f87aa70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5367 120.65 0)
+			(at 169.5367 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

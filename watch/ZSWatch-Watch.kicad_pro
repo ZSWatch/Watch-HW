@@ -640,7 +640,13 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(X702-Pin_1)": [
+        "Speaker"
+      ],
       "Net-(X702-Pin_2)": [
+        "Speaker"
+      ],
+      "Net-(X702-Pin_3)": [
         "Speaker"
       ],
       "Net-(X702-Pin_4)": [
