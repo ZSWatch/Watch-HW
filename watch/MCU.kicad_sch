@@ -9660,15 +9660,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 165.1 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "affadb34-deed-49b1-8b48-8b5b4d893028")
 		)
@@ -9842,15 +9833,6 @@
 			)
 		)
 		(property "mouser#" "377-NORA-B106-00B"
-			(at 86.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 86.36 110.49 0)
 			(effects
 				(font
@@ -10205,15 +10187,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 215.9 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e87530cc-4f41-404c-95ca-05fad4076a72")
 		)
@@ -10309,15 +10282,6 @@
 			)
 		)
 		(property "mouser#" "771-NTS0104GU12115"
-			(at 351.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 351.79 76.2 0)
 			(effects
 				(font
@@ -10455,15 +10419,6 @@
 			)
 		)
 		(property "mouser#" "581-02016D104MAT4A"
-			(at 355.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 355.6 54.61 0)
 			(effects
 				(font
@@ -10877,15 +10832,6 @@
 			)
 		)
 		(property "mouser#" "377-NORA-B106-00B"
-			(at 139.7 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 139.7 102.87 0)
 			(effects
 				(font
@@ -11368,15 +11314,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 53.34 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "41c41f7c-32b7-4d8f-b988-6d8ebd50a771")
 		)
@@ -11759,15 +11696,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 354.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8292a5a2-0ab3-46ce-8e31-2b0521fa84d8")
 		)
@@ -11926,15 +11854,6 @@
 			)
 		)
 		(property "mouser#" "377-NORA-B106-00B"
-			(at 215.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 215.9 123.19 0)
 			(effects
 				(font
@@ -12390,15 +12309,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 331.47 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1914ba59-3149-424c-a153-0430927c1693")
 		)
@@ -12496,15 +12406,6 @@
 		)
 		(property "mouser#" "603-RC0201JR-0712KL"
 			(at 36.83 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 36.83 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,15 +12512,6 @@
 			)
 		)
 		(property "mouser#" "581-02016D104MAT4A"
-			(at 347.98 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 347.98 54.61 0)
 			(effects
 				(font
@@ -12930,15 +12822,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 55.88 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d9c764bb-e2cc-44b0-b0d5-0cf3bd72f49c")
 		)
@@ -13174,15 +13057,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2570739e-0879-4911-9227-23925a6e2a90")
 		)
@@ -13344,15 +13218,6 @@
 			)
 		)
 		(property "mouser#" "95-25U51245GZ4I00T"
-			(at 237.49 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 237.49 199.39 0)
 			(effects
 				(font
@@ -13579,15 +13444,6 @@
 			)
 		)
 		(property "mouser#" "523-12401610E4#2A"
-			(at 93.98 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 93.98 199.39 0)
 			(effects
 				(font

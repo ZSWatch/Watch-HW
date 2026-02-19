@@ -1,4 +1,4 @@
-name: Watch-HW
+name: Production Data
 
 on:
   workflow_dispatch:

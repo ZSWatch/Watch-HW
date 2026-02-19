@@ -811,12 +811,6 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Distributor",
           "name": "Distributor",
           "show": false
