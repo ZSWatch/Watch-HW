@@ -6051,15 +6051,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 360.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ca25bfeb-d92a-4ad5-9a9d-acf22e0dfb92")
 		)
@@ -6156,15 +6147,6 @@
 			)
 		)
 		(property "mouser#" "710-436333033816"
-			(at 25.4 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -6475,15 +6457,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 265.43 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4525af54-1acb-4f00-9a55-00837ad5a001")
 		)
@@ -6581,15 +6554,6 @@
 			)
 		)
 		(property "mouser#" "603-RC0201JR-07200KL"
-			(at 353.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 353.06 107.95 0)
 			(effects
 				(font
@@ -6696,15 +6660,6 @@
 			)
 		)
 		(property "mouser#" "603-RC0201JR-073K3L"
-			(at 364.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 364.49 121.92 0)
 			(effects
 				(font
@@ -6885,15 +6840,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 381 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "214683ee-d7a4-4e95-8abc-321da509a3ac")
 		)
@@ -7011,15 +6957,6 @@
 			)
 		)
 		(property "mouser#" "581-02016D104MAT4A"
-			(at 383.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 383.54 114.3 0)
 			(effects
 				(font
@@ -7264,15 +7201,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 266.7 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5a782ebd-c976-477f-81d3-a019406a6a49")
 		)
@@ -7453,15 +7381,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 379.73 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ed096ae6-b765-464f-9360-d76ee97542ea")
 		)
@@ -7557,15 +7476,6 @@
 			)
 		)
 		(property "mouser#" "595-DRV2603RUNT"
-			(at 337.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 337.82 60.96 0)
 			(effects
 				(font
@@ -7762,15 +7672,6 @@
 			)
 		)
 		(property "mouser#" "581-0201ZD224KAT2A"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 240.03 166.37 0)
 			(effects
 				(font
@@ -8082,15 +7983,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 195.58 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "60299589-2cc0-4553-8565-17aec22300e5")
 		)
@@ -8232,15 +8124,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 314.96 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4cd41bc8-28cf-42ad-af1d-77d1b528c65b")
 		)
@@ -8340,15 +8223,6 @@
 			)
 		)
 		(property "mouser#" "581-02016D104MAT4A"
-			(at 274.32 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 274.32 46.99 0)
 			(effects
 				(font
@@ -8528,15 +8402,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 30.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b38c5b6c-4ef0-401a-bb09-fa46d05b8c17")
 		)
@@ -8644,15 +8509,6 @@
 			)
 		)
 		(property "mouser#" "710-436333033816"
-			(at 25.4 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 25.4 134.62 0)
 			(effects
 				(font
@@ -8824,15 +8680,6 @@
 			)
 		)
 		(property "mouser#" "581-02016D104MAT4A"
-			(at 191.77 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 191.77 49.53 0)
 			(effects
 				(font
@@ -9143,15 +8990,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1ad851ac-b834-4240-8f3d-dd73934506a2")
 		)
@@ -9247,15 +9085,6 @@
 			)
 		)
 		(property "mouser#" "511-LIS2MDLTR"
-			(at 261.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 261.62 158.75 0)
 			(effects
 				(font
@@ -9793,15 +9622,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 367.03 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "10a6cc5d-4b9d-474f-ac0b-bfcf3e506725")
 		)
@@ -10040,15 +9860,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 340.36 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e45e93bb-5952-48cb-a94e-4d5254d714d3")
 		)
@@ -10144,15 +9955,6 @@
 			)
 		)
 		(property "mouser#" "710-436333033816"
-			(at 25.4 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 25.4 100.33 0)
 			(effects
 				(font
@@ -10533,15 +10335,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 25.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d7aa9957-011c-4464-9e4b-e977b9ffea82")
 		)
@@ -10712,15 +10505,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "04f9d484-9a54-4fac-bbff-efae66b432c1")
 		)
@@ -10838,15 +10622,6 @@
 			)
 		)
 		(property "mouser#" "603-RC0201JR-071K8L"
-			(at 312.42 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 312.42 121.92 0)
 			(effects
 				(font
@@ -11025,15 +10800,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 345.44 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "6"
 			(uuid "b6d20776-2764-4ede-9f12-945750acbdaf")
 		)
@@ -11151,15 +10917,6 @@
 			)
 		)
 		(property "mouser#" "581-02016D104MAT4A"
-			(at 90.17 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 90.17 109.22 0)
 			(effects
 				(font
@@ -11663,15 +11420,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 270.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "91ec530e-1fbf-4ff3-80ff-0bc13418a41c")
 		)
@@ -11867,15 +11615,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 199.39 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ac706209-dd34-49c5-8d8a-0cd74d316b9f")
 		)
@@ -12039,15 +11778,6 @@
 			)
 		)
 		(property "mouser#" "81-GRJ155R60J106ME11D"
-			(at 257.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 257.81 135.89 0)
 			(effects
 				(font
