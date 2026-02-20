@@ -1,0 +1,209 @@
+** Drc report for ZSWatch-Watch.kicad_pcb **
+** Created on 2026-02-20T19:27:40+0000 **
+
+** Found 64 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.1250 mm; actual 0.0000 mm)
+    ; error
+    @(185.005263 mm, 138.299996 mm): Segment on Edge.Cuts
+    @(187.425537 mm, 138.528148 mm): PCB text '+ (Unreleased)' on B.Cu
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_QFN'.
+    ; warning
+    @(202.45 mm, 131.19 mm): Footprint IC604
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(203.7 mm, 133.1 mm): Footprint C603
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(216.7 mm, 124.7 mm): Footprint S501
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(210.507497 mm, 136.062499 mm): Footprint C504
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(192.325 mm, 148.675 mm): Footprint C403
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(197.409401 mm, 152.152416 mm): Footprint S504
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(201.23 mm, 132.79 mm): Footprint C604
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(213.976079 mm, 132.307498 mm): Footprint C507
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(202.63 mm, 132.79 mm): Footprint R613
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(210.462496 mm, 134.237499 mm): Footprint C503
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(214.282501 mm, 126.8575 mm): Footprint C509
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(213.100001 mm, 127.675001 mm): Footprint C508
+[lib_footprint_issues]: The current configuration does not include the footprint library 'EastRising'.
+    ; warning
+    @(199.0 mm, 138.5 mm): Footprint X608
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(212.1 mm, 135.2 mm): Footprint IC502
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(216.6 mm, 152.1 mm): Footprint S502
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(212.78 mm, 130.667001 mm): Footprint C505
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(197.675287 mm, 128.024713 mm): Footprint C502
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(214.500001 mm, 128.2375 mm): Footprint IC504
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'.
+    ; warning
+    @(192.9 mm, 146.0 mm): Footprint X402
+[lib_footprint_mismatch]: Footprint 'SOT-666' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(207.0375 mm, 131.35 mm): Footprint IC602
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Molex'.
+    ; warning
+    @(193.95 mm, 140.8 mm): Footprint X509
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(197.433306 mm, 124.890678 mm): Footprint S503
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Knowles'.
+    ; warning
+    @(198.820801 mm, 129.566207 mm): Footprint MK501
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(212.604999 mm, 132.15 mm): Footprint IC503
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Broadcom'.
+    ; warning
+    @(220.146966 mm, 127.633273 mm): Footprint IC501
+[lib_footprint_issues]: The current configuration does not include the footprint library 'uBlox'.
+    ; warning
+    @(207.0 mm, 150.1 mm): Footprint M601
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(211.054999 mm, 132.1875 mm): Footprint C506
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_Amphenol_12401610E4-2A' does not match copy in library 'Connector_USB'.
+    ; warning
+    @(207.0 mm, 123.9 mm): Footprint X603
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(221.234143 mm, 128.879548 mm): Footprint C501
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Same Sky'.
+    ; warning
+    @(188.0 mm, 143.8 mm): Footprint LS801
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_QFN'.
+    ; warning
+    @(197.4 mm, 142.15 mm): Footprint IC505
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(216.3304 mm, 136.3 mm): Footprint C402
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(207.9 mm, 138.0 mm): Footprint R601
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(216.209999 mm, 148.7 mm): Footprint R501
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(217.8 mm, 145.5 mm): Footprint R506
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(214.755 mm, 148.6 mm): Footprint R502
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(209.0 mm, 140.7 mm): Footprint C601
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(215.755 mm, 143.8 mm): Footprint C511
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(220.9 mm, 130.3 mm): Footprint C401
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(201.05 mm, 151.355 mm): Footprint C602
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(220.761401 mm, 131.497172 mm): Footprint C410
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(195.9 mm, 142.2 mm): Footprint C510
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(218.622001 mm, 139.936383 mm): Footprint C409
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Amphenol'.
+    ; warning
+    @(200.8 mm, 138.5 mm): Footprint X702
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(224.5 mm, 137.1 mm): Footprint C512
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(217.892001 mm, 142.308382 mm): Footprint C406
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(193.87 mm, 150.8 mm): Footprint R612
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(224.400001 mm, 135.950002 mm): Footprint C404
+[lib_footprint_mismatch]: Footprint 'L_0603_1608Metric' does not match copy in library 'Inductor_SMD'.
+    ; warning
+    @(221.911 mm, 141.5 mm): Footprint L402
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_SON_Kampi'.
+    ; warning
+    @(216.18 mm, 147.5 mm): Footprint IC506
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(215.109999 mm, 147.420001 mm): Footprint R505
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(217.75 mm, 131.608381 mm): Footprint R408
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(223.8304 mm, 139.278193 mm): Footprint C408
+[lib_footprint_mismatch]: Footprint 'QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm' does not match copy in library 'Package_DFN_QFN'.
+    ; warning
+    @(220.2 mm, 135.7 mm): Footprint IC401
+[lib_footprint_mismatch]: Footprint 'TSOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(206.5375 mm, 140.15 mm): Footprint IC601
+[lib_footprint_mismatch]: Footprint 'WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm' does not match copy in library 'Package_SON'.
+    ; warning
+    @(197.3 mm, 147.135 mm): Footprint IC603
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(221.657 mm, 139.936383 mm): Footprint C407
+[lib_footprint_mismatch]: Footprint 'L_0603_1608Metric' does not match copy in library 'Inductor_SMD'.
+    ; warning
+    @(219.370999 mm, 142.349382 mm): Footprint L401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Micro Crystal'.
+    ; warning
+    @(215.755 mm, 145.430001 mm): Footprint IC507
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(217.1 mm, 145.5 mm): Footprint R504
+[lib_footprint_mismatch]: Footprint 'R_0201_0603Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(218.449999 mm, 131.608381 mm): Footprint R407
+[lib_footprint_mismatch]: Footprint 'C_0201_0603Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(222.730398 mm, 131.087793 mm): Footprint C405
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Amphenol'.
+    ; warning
+    @(212.3 mm, 139.1 mm): Footprint X701
+
+** Found 0 unconnected pads **
+
+** Found 2 Footprint errors **
+[footprint_symbol_mismatch]: Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal doesn't match footprint given by symbol (JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal).
+    ; warning
+    @(192.9 mm, 146.0 mm): Footprint X402
+[extra_footprint]: Extra footprint
+    ; warning
+    @(220.2 mm, 147.8 mm): Footprint REF**
+
+** End of Report **

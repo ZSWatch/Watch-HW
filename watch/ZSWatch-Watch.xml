@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/Watch-HW/Watch-HW/watch/ZSWatch-Watch.kicad_sch</source>
-    <date>2026-02-20T15:50:36+0000</date>
+    <date>2026-02-20T19:32:43+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
@@ -16,8 +16,8 @@
     <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">19-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-19</textvar>
+    <textvar name="RELEASE_DATE">20-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-20</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
@@ -62,7 +62,7 @@
     <textvar name="SHEET_NAME_7">MCU</textvar>
     <textvar name="SHEET_NAME_8">Extension</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZSWatch-Watch</title>
