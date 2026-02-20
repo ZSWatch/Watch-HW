@@ -5,8 +5,8 @@
 <h1 align="center">${BOARD_NAME}</h1>
 
 <p align="center" width="100%">
-  <a href="${GIT_URL}/actions/workflows/devkit.yaml">
-    <img alt="CI Badge" src="${GIT_URL}/actions/workflows/devkit.yaml/badge.svg">
+  <a href="${GIT_URL}/actions/workflows/watch.yaml">
+    <img alt="CI Badge" src="${GIT_URL}/actions/workflows/watch.yaml/badge.svg">
   </a>
 </p>
 
