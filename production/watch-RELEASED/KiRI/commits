@@ -1,0 +1,4 @@
+_local_|2026-02-21|root|Local changes not committed|False|True
+01a5783|2026-02-19|Daniel Kampert|Prepare release 1.0.0|False|True
+0b705ca|2026-02-19|Daniel Kampert|Rename PCB workflow, add part number for battery connector, remove sim pins property|True|True
+aed9bb9|2026-02-18|Daniel Kampert|OPtimize connector positions|True|True

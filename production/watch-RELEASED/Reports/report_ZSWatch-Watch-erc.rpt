@@ -1,0 +1,212 @@
+ERC report (2026-02-21T12:36:46+0000, Encoding UTF8)
+
+***** Sheet /
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.2032 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.2286 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.8636 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.889 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(1.524 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(1.5494 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(2.1844 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(2.2098 mm, 0.3556 mm): Text Box
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Broadcom'.
+    ; warning
+    @(0.3048 mm, 0.5461 mm): Symbol IC501 [APDS-9306-065]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(0.254 mm, 1.0033 mm): Symbol S501 [SW_Push]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(0.254 mm, 1.1176 mm): Symbol S502 [SW_Push]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(0.254 mm, 1.2319 mm): Symbol S503 [SW_Push]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(0.254 mm, 1.3462 mm): Symbol S504 [SW_Push]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Knowles'.
+    ; warning
+    @(0.8636 mm, 1.27 mm): Symbol MK501 [SPK0641HT4H-1]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Knowles'
+    ; warning
+    @(0.8636 mm, 1.27 mm): Symbol MK501 [SPK0641HT4H-1]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(1.9558 mm, 0.7747 mm): Symbol IC502 [BMI270]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Bosch_Kampi'
+    ; warning
+    @(1.9558 mm, 0.7747 mm): Symbol IC502 [BMI270]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(2.7051 mm, 0.762 mm): Symbol IC504 [BMP581]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Bosch_Kampi'
+    ; warning
+    @(2.7051 mm, 0.762 mm): Symbol IC504 [BMP581]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(2.6162 mm, 1.5875 mm): Symbol IC503 [LIS2MDLTR]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ST'
+    ; warning
+    @(2.6162 mm, 1.5875 mm): Symbol IC503 [LIS2MDLTR]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_QFN'.
+    ; warning
+    @(3.3782 mm, 0.6096 mm): Symbol IC505 [DRV2603RUNT]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Texas Instruments'
+    ; warning
+    @(3.3782 mm, 0.6096 mm): Symbol IC505 [DRV2603RUNT]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Molex'.
+    ; warning
+    @(3.6068 mm, 0.6223 mm): Symbol X509 [Conn_01x02]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_SON_Kampi'.
+    ; warning
+    @(3.4544 mm, 1.3081 mm): Symbol IC506 [PCA9306JK]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'NXP'
+    ; warning
+    @(3.4544 mm, 1.3081 mm): Symbol IC506 [PCA9306JK]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Micro Crystal'.
+    ; warning
+    @(3.81 mm, 1.3843 mm): Symbol IC507 [RV-8263-C8]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Micro Crystal'
+    ; warning
+    @(3.81 mm, 1.3843 mm): Symbol IC507 [RV-8263-C8]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'uBlox'.
+    ; warning
+    @(0.8636 mm, 1.1049 mm): Symbol M601 [NORA-B106]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'uBlox'
+    ; warning
+    @(0.8636 mm, 1.1049 mm): Symbol M601 [NORA-B106]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'uBlox'.
+    ; warning
+    @(1.397 mm, 1.0287 mm): Symbol M601 [NORA-B106]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'uBlox'
+    ; warning
+    @(1.397 mm, 1.0287 mm): Symbol M601 [NORA-B106]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ON Semiconductor'
+    ; warning
+    @(0.5334 mm, 1.9685 mm): Symbol IC601 [FAN5622]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'uBlox'.
+    ; warning
+    @(2.159 mm, 1.2319 mm): Symbol M601 [NORA-B106]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'uBlox'
+    ; warning
+    @(2.159 mm, 1.2319 mm): Symbol M601 [NORA-B106]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Infineon'
+    ; warning
+    @(2.3749 mm, 1.9939 mm): Symbol IC603 [S25FS512SAGNFI010]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_QFN'.
+    ; warning
+    @(3.5179 mm, 0.762 mm): Symbol IC604 [NTS0104GU12 (XQFN12)]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'NXP'
+    ; warning
+    @(3.5179 mm, 0.762 mm): Symbol IC604 [NTS0104GU12 (XQFN12)]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'EastRising'.
+    ; warning
+    @(3.5433 mm, 1.4605 mm): Symbol X608 [GC9A01A_CST816S]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Display'
+    ; warning
+    @(3.5433 mm, 1.4605 mm): Symbol X608 [GC9A01A_CST816S]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Nordic'
+    ; warning
+    @(1.7018 mm, 1.0414 mm): Symbol IC401 [nPM1300-QEXX]
+
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(1.9812 mm, 0.3683 mm): Symbol X402 [Conn_01x02]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Amphenol'.
+    ; warning
+    @(0.9017 mm, 0.8636 mm): Symbol X701 [Conn_02x07_Top_Bottom]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Amphenol'.
+    ; warning
+    @(1.5875 mm, 0.8636 mm): Symbol X702 [Conn_02x07_Top_Bottom]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Same Sky'.
+    ; warning
+    @(1.8034 mm, 0.8255 mm): Symbol LS801 [Speaker]
+
+***** Sheet /Block Diagram/
+***** Sheet /Power - Topology/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/Power Management/
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(2.032 mm, 1.2319 mm): Symbol IC401 Pin 29 [LSOUT1/VOUTLDO1, Bidirectional, Line]
+    @(2.3114 mm, 1.2192 mm): Symbol #FLG0502 Pin 1 [Power output, Line]
+
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(2.032 mm, 1.3081 mm): Symbol IC401 Pin 31 [LSOUT2/VOUTLDO2, Bidirectional, Line]
+    @(2.159 mm, 1.2954 mm): Symbol #FLG0501 Pin 1 [Power output, Line]
+
+***** Sheet /Project Architecture/Peripherals/
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(1.8288 mm, 0.7239 mm): Symbol IC502 Pin 1 [SDO, Bidirectional, Line]
+    @(0.889 mm, 1.8796 mm): Symbol #FLG0402 Pin 1 [Power output, Line]
+
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(2.5781 mm, 0.7366 mm): Symbol IC504 Pin 5 [SDO, Bidirectional, Line]
+    @(2.032 mm, 0.8255 mm): Symbol IC401 Pin 1 [VOUT1, Power output, Line]
+
+***** Sheet /Project Architecture/MCU/
+***** Sheet /Project Architecture/Extension/
+***** Sheet /Revision History/
+ ** ERC messages: 49  Errors 0  Warnings 49

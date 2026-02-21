@@ -933,15 +933,15 @@
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "39449ac",
-    "GIT_HASH_SCH": "e976103",
+    "GIT_HASH_PCB": "01a5783",
+    "GIT_HASH_SCH": "fccc54e",
     "GIT_URL": "https://github.com/ZSWatch/Watch-DevKit-HW",
     "PROJECT_NAME": "ZSWatch Watch-DevKit",
     "RELEASE_BODY_1.2.0": "Version 1.2.0 not found.",
     "RELEASE_BODY_1.2.1": "Version 1.2.1 not found.",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "20-Feb-2026",
-    "RELEASE_DATE_NUM": "2026-02-20",
+    "RELEASE_DATE": "21-Feb-2026",
+    "RELEASE_DATE_NUM": "2026-02-21",
     "RELEASE_TITLE_1.2.0": "Version 1.2.0 not found.",
     "RELEASE_TITLE_1.2.1": "Version 1.2.1 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
@@ -986,6 +986,6 @@
     "SHEET_NAME_7": "MCU",
     "SHEET_NAME_8": "Extension",
     "SHEET_NAME_9": "Revision History",
-    "VARIANT": "CHECKED"
+    "VARIANT": "RELEASED"
   }
 }
