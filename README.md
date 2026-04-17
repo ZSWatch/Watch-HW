@@ -1,3 +1,8 @@
+> [!IMPORTANT]  
+> This is a prototype right now, not fully tested. Do not order.
+> Please use https://github.com/ZSWatch/Watch-DevKit-HW until this PCB is finalized.
+> Not recommended to order the older legacy_zswatch. 
+
 # ZSWatch-Watch
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
