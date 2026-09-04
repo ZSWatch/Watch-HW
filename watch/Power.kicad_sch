@@ -11,24 +11,27 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,7 +39,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,6 +48,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,53 +83,24 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -125,24 +108,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1240,6 +1205,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "molex_pico:53261-0271"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "53261-0271"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "532610271"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3.65"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-53261-0271"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/53261-0271?qs=%252B72YyncTwW%252B8%252BBjraxGf3A%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "53261-0271"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "53261-0271_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -2122,6 +2275,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 29.21) (xy 191.77 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa096b8-2fbb-4f30-84d7-1d8cd6c4026c")
+	)
+	(wire
+		(pts
 			(xy 213.36 29.21) (xy 213.36 73.66)
 		)
 		(stroke
@@ -2219,6 +2382,16 @@
 			(type default)
 		)
 		(uuid "52e1e1c3-d4bb-41ae-883d-6d16b92fa7cf")
+	)
+	(wire
+		(pts
+			(xy 191.77 29.21) (xy 191.77 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565d2e8b-259e-4728-a111-614f0b6c41e0")
 	)
 	(wire
 		(pts
@@ -2359,6 +2532,16 @@
 			(type default)
 		)
 		(uuid "6787923e-9f6e-4482-84b2-b9064319740b")
+	)
+	(wire
+		(pts
+			(xy 200.66 39.37) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7ce625-352f-440f-9605-d14bd8a16eed")
 	)
 	(wire
 		(pts
@@ -2562,6 +2745,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 29.21) (xy 179.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940ed568-6143-4ca9-b787-7f51b7f879d8")
+	)
+	(wire
+		(pts
 			(xy 236.22 29.21) (xy 246.38 29.21)
 		)
 		(stroke
@@ -2702,7 +2895,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 36.83) (xy 193.04 36.83)
+			(xy 179.07 36.83) (xy 198.12 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 39.37) (xy 189.23 39.37)
+			(xy 189.23 39.37) (xy 200.66 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3360,7 +3553,7 @@
 			(uuid "e755b06b-9dba-4d87-9939-b10301b052cf")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C405")
 					(unit 1)
@@ -3462,7 +3655,7 @@
 			(uuid "6ff0db71-b2ef-4a93-bb32-af71da689e31")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0420")
 					(unit 1)
@@ -3568,7 +3761,7 @@
 			(uuid "8e27feb9-abd6-4bc1-98a4-9d61a39b36c4")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "L401")
 					(unit 1)
@@ -3674,7 +3867,7 @@
 			(uuid "51756d32-da77-4e81-becd-25d2855bc87f")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C401")
 					(unit 1)
@@ -3781,7 +3974,7 @@
 			(uuid "d5b0087e-e260-44e2-99c1-f7b0adcbabd6")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C406")
 					(unit 1)
@@ -3887,7 +4080,7 @@
 			(uuid "bb20760d-66f7-4b9d-bd4a-8d33b2416d76")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "R408")
 					(unit 1)
@@ -3953,7 +4146,7 @@
 			(uuid "18511920-2939-4683-b8b4-6fc80b63050b")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0411")
 					(unit 1)
@@ -4161,7 +4354,7 @@
 			(uuid "8aa4690c-4f9a-46f8-938c-00be1f1d8416")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C408")
 					(unit 1)
@@ -4263,7 +4456,7 @@
 			(uuid "57c9d164-e0b4-43b1-9391-063135d0d58a")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0424")
 					(unit 1)
@@ -4436,7 +4629,7 @@
 			(uuid "dc39d88e-1438-46e7-89ec-718b50c9aa6c")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "R407")
 					(unit 1)
@@ -4634,7 +4827,7 @@
 			(uuid "ccd1dffe-4d56-4903-953b-df51b1e9a690")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "IC401")
 					(unit 1)
@@ -4740,9 +4933,75 @@
 			(uuid "e592d139-2cba-4933-8f88-823c4faaef4e")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 189.23 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52c328f2-6cd8-42f9-922f-88202ef0275c")
+		(property "Reference" "TP3"
+			(at 185.674 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 184.15 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 194.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 189.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fce0413d-ffb7-4376-86e1-e5f6df1142d2")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4805,9 +5064,137 @@
 			(uuid "3ea7a2b8-c045-479d-8090-8b6a8e8cf478")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "molex_pico:53261-0271")
+		(at 198.12 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f43d65c-69c5-474d-b631-76d217bd15b1")
+		(property "Reference" "J1"
+			(at 204.47 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "53261-0271"
+			(at 204.47 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ZSWatch:molex_pico"
+			(at 293.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf"
+			(at 393.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel"
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.65"
+			(at 593.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-53261-0271"
+			(at 693.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/53261-0271?qs=%252B72YyncTwW%252B8%252BBjraxGf3A%3D%3D"
+			(at 793.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 893.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "53261-0271"
+			(at 993.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP2"
+			(uuid "76f78bb9-ca45-4ea2-9e9f-4d4c86b9a1a4")
+		)
+		(pin "MP1"
+			(uuid "81c5c231-049a-46c3-b868-d304bd363ae0")
+		)
+		(pin "1"
+			(uuid "739499e1-d127-4157-b555-f6f8fa9d80fa")
+		)
+		(pin "2"
+			(uuid "c15d93c5-0257-4a96-8a90-8f966cd56e55")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4871,7 +5258,7 @@
 			(uuid "343ec4b6-d765-4736-840f-f81143c9ac5f")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0427")
 					(unit 1)
@@ -4972,7 +5359,7 @@
 			(uuid "21cbac95-8a0e-42dd-8866-dcd1ab684397")
 		)
 		(instances
-			(project "ZSWatch-Watch-DevKit"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0421")
 					(unit 1)
@@ -5074,7 +5461,7 @@
 			(uuid "8e8f7c46-7263-45a9-8e9e-c027e3638eb0")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0425")
 					(unit 1)
@@ -5180,115 +5567,9 @@
 			(uuid "d98cb30f-7f83-413f-a089-c1800dfda33c")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "L402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 198.12 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78e6b67a-c9a8-47f8-a05d-6dc74c691477")
-		(property "Reference" "X402"
-			(at 200.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
-			(at 198.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_SM02B-SRSS-TB_LF_SN_eSR_SZ.pdf"
-			(at 198.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 198.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "JST Commercial"
-			(at 198.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "SM02B-SRSS-TB"
-			(at 198.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "306-SM02BSRSSTBLFSN"
-			(at 198.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "220736b5-1a68-4593-b140-4e82940ec1ba")
-		)
-		(pin "2"
-			(uuid "adcd2879-0f3e-4a31-8b85-15c79d2c253b")
-		)
-		(instances
-			(project "ZSWatch"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "X402")
 					(unit 1)
 				)
 			)
@@ -5387,7 +5668,7 @@
 			(uuid "3e305365-61b4-4541-9afd-c0a01fa40f32")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0413")
 					(unit 1)
@@ -5489,7 +5770,7 @@
 			(uuid "9a44d266-d806-4057-a92c-86e325f79754")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0410")
 					(unit 1)
@@ -5702,7 +5983,7 @@
 			(uuid "8fbdaedd-158c-424c-9c86-7bb40040019a")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C407")
 					(unit 1)
@@ -5768,7 +6049,7 @@
 			(uuid "3acd369e-ff1b-4c9c-800d-b1015bba582f")
 		)
 		(instances
-			(project "ZSWatch-Watch-DevKit"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#FLG0402")
 					(unit 1)
@@ -5875,7 +6156,7 @@
 			(uuid "6835b2a3-4b79-4f38-b681-df404d9f776d")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C403")
 					(unit 1)
@@ -5976,7 +6257,7 @@
 			(uuid "2d730344-f766-4816-8559-2a0f94702731")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0418")
 					(unit 1)
@@ -6078,9 +6359,75 @@
 			(uuid "3c59f9c0-d629-4cf9-83dd-6399622a8189")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac35863b-8bd7-441d-aa19-eda23e305a73")
+		(property "Reference" "TP1"
+			(at 175.514 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.99 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d88d1309-99af-4abf-bf4f-354f142b77ac")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6144,7 +6491,7 @@
 			(uuid "b1c453f4-e73a-428b-ab6d-2991005267d1")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0426")
 					(unit 1)
@@ -6245,7 +6592,7 @@
 			(uuid "f4af620f-9220-406e-a400-8a188cf6e3fc")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0419")
 					(unit 1)
@@ -6351,7 +6698,7 @@
 			(uuid "f81ab6f7-0b31-429e-9f00-7bb92004dc52")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C402")
 					(unit 1)
@@ -6523,7 +6870,7 @@
 			(uuid "ce22b638-ca35-433c-9238-28f2ad4574b0")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C410")
 					(unit 1)
@@ -6624,7 +6971,7 @@
 			(uuid "df1056e1-3119-4e2c-9edd-82c8a0d60bb4")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0417")
 					(unit 1)
@@ -6731,9 +7078,74 @@
 			(uuid "a57cc4d4-eb45-4fb5-bcbe-76f0ec9ba87c")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "C404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaea2b78-259c-4c2d-80a1-ebd6a636b466")
+		(property "Reference" "#PWR01"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea45a50c-652d-4e09-8263-57bc5ad5993f")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6796,7 +7208,7 @@
 			(uuid "6d8d5d7d-37c1-4536-b53a-180fd914e1d0")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0414")
 					(unit 1)
@@ -6898,7 +7310,7 @@
 			(uuid "1cec550a-ecfb-4831-bf08-59b39df658c2")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0423")
 					(unit 1)
@@ -7000,7 +7412,7 @@
 			(uuid "28e16470-f894-4f79-97a0-c324c242caee")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0412")
 					(unit 1)
@@ -7101,7 +7513,7 @@
 			(uuid "28602bfa-0ac0-426b-91a6-6ec473ce6950")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0409")
 					(unit 1)
