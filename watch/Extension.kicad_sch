@@ -11,6 +11,137 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_2Pole"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_2Pole_0_1"
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x07_Top_Bottom"
 			(pin_names
 				(offset 1.016)
@@ -731,6 +862,12 @@
 		)
 	)
 	(junction
+		(at 170.18 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7583dca9-d55a-4ff0-b2da-f1f49d3f11a7")
+	)
+	(junction
 		(at 172.72 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -741,6 +878,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4627d22-2ef7-46b6-8656-3d692fe84075")
+	)
+	(junction
+		(at 170.18 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4d2719f-7298-41cc-9fc9-3a6f7501f71e")
 	)
 	(no_connect
 		(at 151.13 81.28)
@@ -836,6 +979,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 68.58) (xy 200.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d9a202-3553-4e84-8aab-71148c73841c")
+	)
+	(wire
+		(pts
 			(xy 99.06 86.36) (xy 97.79 86.36)
 		)
 		(stroke
@@ -886,6 +1039,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 68.58) (xy 170.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44cd7c4e-5171-4f4e-ab5f-2e4c76dd270b")
+	)
+	(wire
+		(pts
 			(xy 147.32 83.82) (xy 151.13 83.82)
 		)
 		(stroke
@@ -913,6 +1076,16 @@
 			(type default)
 		)
 		(uuid "52a15e9e-b5b6-4d9e-8665-8c8b19724490")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534ce03d-dc5b-4db3-ad5e-fc9cb43879f4")
 	)
 	(wire
 		(pts
@@ -953,6 +1126,26 @@
 			(type default)
 		)
 		(uuid "768dc7f2-51a3-4eb6-a7d7-6dbcfb98b1ad")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879fe18b-e1cf-4778-8326-711f9968816b")
+	)
+	(wire
+		(pts
+			(xy 200.66 68.58) (xy 200.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96efbb00-a9b8-4769-985f-953383360dca")
 	)
 	(wire
 		(pts
@@ -1013,6 +1206,16 @@
 			(type default)
 		)
 		(uuid "db31ed75-fff0-48b4-8fb1-931bccb58547")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea74a8b-ac6b-4714-8c62-dc591aace91e")
 	)
 	(wire
 		(pts
@@ -1698,6 +1901,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 181.61 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed655757-d53c-42df-8d7d-dc47826ef5f6")
+		(property "Reference" "TP2"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 181.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e915761a-f271-46c7-976b-8087419e53a0")
+		)
+		(pin "1"
+			(uuid "ae0f10cc-de3f-4856-b91f-1b67d4384a59")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x07_Top_Bottom")
 		(at 90.17 86.36 0)
 		(unit 1)
@@ -1828,7 +2098,7 @@
 			(uuid "42786cb7-ee4f-485b-9a44-b8bc5ff38a1b")
 		)
 		(instances
-			(project ""
+			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438"
 					(reference "X701")
 					(unit 1)
