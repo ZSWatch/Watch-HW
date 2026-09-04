@@ -1,1 +1,4 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
+TP1,/Project Architecture/Peripherals/VBAT,Default,186.5000,-142.6000,top,THRU,TestPoint,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP2,"Net-(X702-Pin_1),Net-(X702-Pin_3)","Speaker,Default",189.7000,-138.9000,top,THRU,TestPoint_2Pole,TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
+TP3,GND,Default,186.5000,-148.8000,top,THRU,TestPoint,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded

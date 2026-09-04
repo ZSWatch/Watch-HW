@@ -2,22 +2,22 @@
 <export version="E">
   <design>
     <source>/__w/Watch-HW/Watch-HW/watch/ZSWatch-Watch.kicad_sch</source>
-    <date>2026-02-21T12:41:45+0000</date>
+    <date>2026-09-04T19:36:03+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">01a5783</textvar>
+    <textvar name="GIT_HASH_PCB">34ea03e</textvar>
     <textvar name="GIT_HASH_SCH">fccc54e</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
     <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">21-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-21</textvar>
+    <textvar name="RELEASE_DATE">04-Sep-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-09-04</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
@@ -62,7 +62,7 @@
     <textvar name="SHEET_NAME_7">MCU</textvar>
     <textvar name="SHEET_NAME_8">Extension</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZSWatch-Watch</title>
@@ -536,6 +536,32 @@
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>3a814bb8-dec5-4449-9e7b-7701173fed68</tstamps>
     </comp>
+    <comp ref="J1">
+      <value>53261-0271</value>
+      <footprint>ZSWatch:molex_pico</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/532610271_sd.pdf</datasheet>
+      <description>1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel</description>
+      <fields>
+        <field name="Height">3.65</field>
+        <field name="Mouser Part Number">538-53261-0271</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/53261-0271?qs=%252B72YyncTwW%252B8%252BBjraxGf3A%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53261-0271</field>
+        <field name="Footprint">ZSWatch:molex_pico</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/532610271_sd.pdf</field>
+        <field name="Description">1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel</field>
+      </fields>
+      <libsource lib="molex_pico" part="53261-0271" description="1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel"/>
+      <property name="Height" value="3.65"/>
+      <property name="Mouser Part Number" value="538-53261-0271"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/53261-0271?qs=%252B72YyncTwW%252B8%252BBjraxGf3A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="53261-0271"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
+      <tstamps>5f43d65c-69c5-474d-b631-76d217bd15b1</tstamps>
+    </comp>
     <comp ref="L401">
       <value>2u2</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
@@ -640,31 +666,41 @@
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>18743cfe-9c1d-44ae-87b8-60eea41e377f</tstamps>
     </comp>
-    <comp ref="X402">
-      <value>Battery</value>
-      <footprint>JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</footprint>
-      <datasheet>https://www.mouser.com/catalog/specsheets/JST_SM02B-SRSS-TB_LF_SN_eSR_SZ.pdf</datasheet>
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
-        <field name="CONFIG"/>
-        <field name="manf">JST Commercial</field>
-        <field name="manf#">SM02B-SRSS-TB</field>
-        <field name="mouser#">306-SM02BSRSSTBLFSN</field>
-        <field name="Footprint">JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</field>
-        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/JST_SM02B-SRSS-TB_LF_SN_eSR_SZ.pdf</field>
-        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="JST Commercial"/>
-      <property name="manf#" value="SM02B-SRSS-TB"/>
-      <property name="mouser#" value="306-SM02BSRSSTBLFSN"/>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
-      <tstamps>78e6b67a-c9a8-47f8-a05d-6dc74c691477</tstamps>
+      <tstamps>ac35863b-8bd7-441d-aa19-eda23e305a73</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
+      <tstamps>52c328f2-6cd8-42f9-922f-88202ef0275c</tstamps>
     </comp>
     <comp ref="C501">
       <value>100n</value>
@@ -1812,6 +1848,24 @@
       <sheetpath names="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/"/>
       <tstamps>eaef6556-4fcb-48b8-91f5-d65bc6c7a009</tstamps>
     </comp>
+    <comp ref="TP2">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <datasheet>~</datasheet>
+      <description>2-polar test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">2-polar test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value="Extension"/>
+      <property name="Sheetfile" value="Extension.kicad_sch"/>
+      <property name="ki_keywords" value="point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/"/>
+      <tstamps>ed655757-d53c-42df-8d7d-dc47826ef5f6</tstamps>
+    </comp>
     <comp ref="X701">
       <value>MB1</value>
       <footprint>Amphenol:101R014FB110</footprint>
@@ -1912,6 +1966,43 @@
         <pin num="8" name="GND" type="power_in"/>
         <pin num="9" name="GND" type="power_in"/>
         <pin num="10" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_2Pole">
+      <description>2-polar test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2Pole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">2-polar test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="USB_C_Receptacle">
@@ -2410,6 +2501,28 @@
         <pin num="10" name="GND" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="molex_pico" part="53261-0271">
+      <description>1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel</description>
+      <docs>https://www.molex.com/pdm_docs/sd/532610271_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">53261-0271</field>
+        <field name="Footprint">532610271</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/532610271_sd.pdf</field>
+        <field name="Description">1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel</field>
+        <field name="Height">3.65</field>
+        <field name="Mouser Part Number">538-53261-0271</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/53261-0271?qs=%252B72YyncTwW%252B8%252BBjraxGf3A%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53261-0271</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="uBlox" part="NORA-B106">
       <fields>
         <field name="Reference">M</field>
@@ -2525,6 +2638,9 @@
     </library>
     <library logical="Switch">
       <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="molex_pico">
+      <uri>/__w/Watch-HW/Watch-HW/watch/library/Symbols/molex_pico.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -2724,10 +2840,11 @@
       <node ref="C511" pin="1" pintype="passive"/>
       <node ref="IC401" pin="19" pinfunction="V_{BAT}" pintype="power_out"/>
       <node ref="IC507" pin="5" pinfunction="V_{DD}" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R504" pin="2" pintype="passive"/>
       <node ref="R505" pin="2" pintype="passive"/>
       <node ref="R506" pin="2" pintype="passive"/>
-      <node ref="X402" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="34" name="/Project Architecture/Power Management/VSYS" class="Default">
       <node ref="C407" pin="1" pintype="passive"/>
@@ -2822,6 +2939,7 @@
       <node ref="IC603" pin="4" pinfunction="GND" pintype="passive"/>
       <node ref="IC603" pin="9" pinfunction="EP" pintype="passive"/>
       <node ref="IC604" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="M601" pin="A1" pinfunction="GND" pintype="power_in"/>
       <node ref="M601" pin="A9" pinfunction="GND" pintype="power_in"/>
       <node ref="M601" pin="B2" pinfunction="GND" pintype="power_in"/>
@@ -2853,7 +2971,7 @@
       <node ref="S502" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S503" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S504" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X402" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X603" pin="A1" pinfunction="GND" pintype="passive"/>
       <node ref="X603" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="X603" pin="B1" pinfunction="GND" pintype="passive"/>
@@ -2939,10 +3057,12 @@
     </net>
     <net code="60" name="Net-(X702-Pin_1)" class="Default">
       <node ref="LS801" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X702" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="61" name="Net-(X702-Pin_3)" class="Default">
       <node ref="LS801" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="TP2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="X702" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="62" name="QSPI-CLK" class="Default">
@@ -3082,100 +3202,106 @@
     <net code="99" name="unconnected-(IC507-NC-Pad6)" class="Default">
       <node ref="IC507" pin="6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="100" name="unconnected-(M501-+-Pad1)" class="Default">
+    <net code="100" name="unconnected-(J1-PadMP1)" class="Default">
+      <node ref="J1" pin="MP1" pinfunction="MP1" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(J1-PadMP2)" class="Default">
+      <node ref="J1" pin="MP2" pinfunction="MP2" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(M501-+-Pad1)" class="Default">
       <node ref="M501" pin="1" pinfunction="+" pintype="passive+no_connect"/>
     </net>
-    <net code="101" name="unconnected-(M501---Pad2)" class="Default">
+    <net code="103" name="unconnected-(M501---Pad2)" class="Default">
       <node ref="M501" pin="2" pinfunction="-" pintype="passive+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(M601A-NC-PadA6)" class="Default">
+    <net code="104" name="unconnected-(M601A-NC-PadA6)" class="Default">
       <node ref="M601" pin="A6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="103" name="unconnected-(M601A-NC-PadJ1)" class="Default">
+    <net code="105" name="unconnected-(M601A-NC-PadJ1)" class="Default">
       <node ref="M601" pin="J1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="104" name="unconnected-(M601A-NC-PadJ4)" class="Default">
+    <net code="106" name="unconnected-(M601A-NC-PadJ4)" class="Default">
       <node ref="M601" pin="J4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="105" name="unconnected-(M601A-NC-PadJ5)" class="Default">
+    <net code="107" name="unconnected-(M601A-NC-PadJ5)" class="Default">
       <node ref="M601" pin="J5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="106" name="unconnected-(M601A-NC-PadK1)" class="Default">
+    <net code="108" name="unconnected-(M601A-NC-PadK1)" class="Default">
       <node ref="M601" pin="K1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="107" name="unconnected-(M601A-NC-PadK9)" class="Default">
+    <net code="109" name="unconnected-(M601A-NC-PadK9)" class="Default">
       <node ref="M601" pin="K9" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="108" name="unconnected-(M601B-P0.27/AIN6-PadH3)" class="Default">
+    <net code="110" name="unconnected-(M601B-P0.27/AIN6-PadH3)" class="Default">
       <node ref="M601" pin="H3" pinfunction="P0.27/AIN6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(M601B-P0.28/AIN7-PadJ8)" class="Default">
+    <net code="111" name="unconnected-(M601B-P0.28/AIN7-PadJ8)" class="Default">
       <node ref="M601" pin="J8" pinfunction="P0.28/AIN7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="110" name="unconnected-(M601B-P0.29-PadH7)" class="Default">
+    <net code="112" name="unconnected-(M601B-P0.29-PadH7)" class="Default">
       <node ref="M601" pin="H7" pinfunction="P0.29" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="111" name="unconnected-(M601B-P0.30-PadH8)" class="Default">
+    <net code="113" name="unconnected-(M601B-P0.30-PadH8)" class="Default">
       <node ref="M601" pin="H8" pinfunction="P0.30" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="112" name="unconnected-(M601C-P1.04-PadG4)" class="Default">
+    <net code="114" name="unconnected-(M601C-P1.04-PadG4)" class="Default">
       <node ref="M601" pin="G4" pinfunction="P1.04" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="113" name="unconnected-(M601C-P1.08-PadG5)" class="Default">
+    <net code="115" name="unconnected-(M601C-P1.08-PadG5)" class="Default">
       <node ref="M601" pin="G5" pinfunction="P1.08" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(M601C-P1.09-PadG7)" class="Default">
+    <net code="116" name="unconnected-(M601C-P1.09-PadG7)" class="Default">
       <node ref="M601" pin="G7" pinfunction="P1.09" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="115" name="unconnected-(M601C-P1.11-PadH9)" class="Default">
+    <net code="117" name="unconnected-(M601C-P1.11-PadH9)" class="Default">
       <node ref="M601" pin="H9" pinfunction="P1.11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="116" name="unconnected-(M601C-P1.12-PadG8)" class="Default">
+    <net code="118" name="unconnected-(M601C-P1.12-PadG8)" class="Default">
       <node ref="M601" pin="G8" pinfunction="P1.12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="117" name="unconnected-(M601C-P1.13-PadG9)" class="Default">
+    <net code="119" name="unconnected-(M601C-P1.13-PadG9)" class="Default">
       <node ref="M601" pin="G9" pinfunction="P1.13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="118" name="unconnected-(X608-SDO-Pad7)" class="Default">
+    <net code="120" name="unconnected-(X608-SDO-Pad7)" class="Default">
       <node ref="X608" pin="7" pinfunction="SDO" pintype="input+no_connect"/>
     </net>
-    <net code="119" name="unconnected-(X701-Pin_1-Pad1)" class="Default">
+    <net code="121" name="unconnected-(X701-Pin_1-Pad1)" class="Default">
       <node ref="X701" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="120" name="unconnected-(X701-Pin_2-Pad2)" class="Default">
+    <net code="122" name="unconnected-(X701-Pin_2-Pad2)" class="Default">
       <node ref="X701" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="121" name="unconnected-(X701-Pin_3-Pad3)" class="Default">
+    <net code="123" name="unconnected-(X701-Pin_3-Pad3)" class="Default">
       <node ref="X701" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="122" name="unconnected-(X701-Pin_4-Pad4)" class="Default">
+    <net code="124" name="unconnected-(X701-Pin_4-Pad4)" class="Default">
       <node ref="X701" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(X701-Pin_6-Pad6)" class="Default">
+    <net code="125" name="unconnected-(X701-Pin_6-Pad6)" class="Default">
       <node ref="X701" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(X701-Pin_8-Pad8)" class="Default">
+    <net code="126" name="unconnected-(X701-Pin_8-Pad8)" class="Default">
       <node ref="X701" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="125" name="unconnected-(X701-Pin_13-Pad13)" class="Default">
+    <net code="127" name="unconnected-(X701-Pin_13-Pad13)" class="Default">
       <node ref="X701" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
     </net>
-    <net code="126" name="unconnected-(X701-Pin_14-Pad14)" class="Default">
+    <net code="128" name="unconnected-(X701-Pin_14-Pad14)" class="Default">
       <node ref="X701" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(X702-Pin_5-Pad5)" class="Default">
+    <net code="129" name="unconnected-(X702-Pin_5-Pad5)" class="Default">
       <node ref="X702" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="128" name="unconnected-(X702-Pin_6-Pad6)" class="Default">
+    <net code="130" name="unconnected-(X702-Pin_6-Pad6)" class="Default">
       <node ref="X702" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
     </net>
-    <net code="129" name="unconnected-(X702-Pin_7-Pad7)" class="Default">
+    <net code="131" name="unconnected-(X702-Pin_7-Pad7)" class="Default">
       <node ref="X702" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="130" name="unconnected-(X702-Pin_9-Pad9)" class="Default">
+    <net code="132" name="unconnected-(X702-Pin_9-Pad9)" class="Default">
       <node ref="X702" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
     </net>
-    <net code="131" name="unconnected-(X702-Pin_11-Pad11)" class="Default">
+    <net code="133" name="unconnected-(X702-Pin_11-Pad11)" class="Default">
       <node ref="X702" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
   </nets>

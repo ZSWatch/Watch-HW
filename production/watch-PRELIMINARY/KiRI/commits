@@ -1,4 +1,4 @@
-_local_|2026-02-20|root|Local changes not committed|False|True
-39449ac|2026-02-19|Daniel Kampert|Prepare release 1.0.0|False|True
-5983a4b|2026-02-19|Daniel Kampert|Rename PCB workflow, add part number for battery connector, remove sim pins property|True|True
-043d58a|2026-02-18|Daniel Kampert|OPtimize connector positions|True|True
+_local_|2026-09-04|root|Local changes not committed|False|True
+34ea03e|2026-09-04|Jakob Krantz|Change to a larger battery connector (JST 1.25). Add pads for speaker instead.|True|True
+f34db5b|2026-02-21|GitHub Actions|Update outputs (release)|False|True
+01a5783|2026-02-19|Daniel Kampert|Prepare release 1.0.0|False|True

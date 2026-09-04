@@ -17,21 +17,21 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,manf,manf#
 16,1,IC507,RV-8263-C8,https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8263-C8.pdf,RV-8263-C8,,Micro Crystal,RV-8263-C8 32.768kHz-20PPM-TA-QA,428-204291-MC01
 17,1,IC602,USBLC6-2P6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,SOT-666,"Very low capacitance ESD protection diode, 2 data-line, SOT-666",STMicroelectronics,USBLC6-2P6,511-USBLC6-2P6
 18,1,IC401,nPM1300-QEXX,https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_pmic%2Fstruct%2Fnpm1300.html,QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm,,Nordic Semiconductor,nPM1300-QEAA-R7,949-NPM1300-QEAA-R7
-19,2,L401 L402,2u2,https://www.mouser.de/datasheet/3/76/1/JELF243B-9121.pdf,L_0603_1608Metric,Inductor,Murata Electronics,LQM18PZ2R2MDHD,81-LQM18PZ2R2MDHD
-20,1,LS801,Speaker,https://www.mouser.de/datasheet/3/6118/1/cmr_12062s_67.pdf,CMR-12062S-67,Speaker,Same Sky,CMR-12062S-67,490-CMR-12062S-67
-21,1,M601,NORA-B106,https://www.u-blox.com/docs/UBX-20027119,NORA-B106,,u-blox,NORA-B106-00B,377-NORA-B106-00B
-22,1,MK501,SPK0641HT4H-1,https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf,SPK0641HT4H-1,Digital MEMS Microphone,Knowles,SPK0641HT4H-1,721-SPK0641HT4H-1
-23,2,R501 R502,1k8,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-071K8L,603-RC0201JR-071K8L
-24,2,R504 R505,3k3,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-073K3L,603-RC0201JR-073K3L
-25,1,R601,12k,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-0712KL,603-RC0201JR-0712KL
-26,1,R407,47k,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-0747KL,603-RC0201JR-0747KL
-27,2,R408 R613,100k,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-07100KL,603-RC0201JR-07100KL
-28,1,R506,200k,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-07200KL,603-RC0201JR-07200KL
-29,1,S501,SW1,https://www.we-online.com/components/products/datasheet/436333033816.pdf,43633303381_NoMountingPads,"Push button switch, generic, two pins",Wurth Elektronik,436333033816,710-436333033816
-30,1,S502,SW2,https://www.we-online.com/components/products/datasheet/436333033816.pdf,43633303381_NoMountingPads,"Push button switch, generic, two pins",Wurth Elektronik,436333033816,710-436333033816
-31,1,S503,SW3,https://www.we-online.com/components/products/datasheet/436333033816.pdf,43633303381_NoMountingPads,"Push button switch, generic, two pins",Wurth Elektronik,436333033816,710-436333033816
-32,1,S504,SW4,https://www.we-online.com/components/products/datasheet/436333033816.pdf,43633303381_NoMountingPads,"Push button switch, generic, two pins",Wurth Elektronik,436333033816,710-436333033816
-33,1,X402,Battery,https://www.mouser.com/catalog/specsheets/JST_SM02B-SRSS-TB_LF_SN_eSR_SZ.pdf,JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",JST Commercial,SM02B-SRSS-TB,306-SM02BSRSSTBLFSN
+19,1,J1,53261-0271,https://www.molex.com/pdm_docs/sd/532610271_sd.pdf,molex_pico,"1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel",,,
+20,2,L401 L402,2u2,https://www.mouser.de/datasheet/3/76/1/JELF243B-9121.pdf,L_0603_1608Metric,Inductor,Murata Electronics,LQM18PZ2R2MDHD,81-LQM18PZ2R2MDHD
+21,1,LS801,Speaker,https://www.mouser.de/datasheet/3/6118/1/cmr_12062s_67.pdf,CMR-12062S-67,Speaker,Same Sky,CMR-12062S-67,490-CMR-12062S-67
+22,1,M601,NORA-B106,https://www.u-blox.com/docs/UBX-20027119,NORA-B106,,u-blox,NORA-B106-00B,377-NORA-B106-00B
+23,1,MK501,SPK0641HT4H-1,https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf,SPK0641HT4H-1,Digital MEMS Microphone,Knowles,SPK0641HT4H-1,721-SPK0641HT4H-1
+24,2,R501 R502,1k8,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-071K8L,603-RC0201JR-071K8L
+25,2,R504 R505,3k3,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-073K3L,603-RC0201JR-073K3L
+26,1,R601,12k,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-0712KL,603-RC0201JR-0712KL
+27,1,R407,47k,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-0747KL,603-RC0201JR-0747KL
+28,2,R408 R613,100k,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-07100KL,603-RC0201JR-07100KL
+29,1,R506,200k,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,R_0201_0603Metric,"Resistor, small symbol",YAGEO,RC0201JR-07200KL,603-RC0201JR-07200KL
+30,1,S501,SW1,https://www.we-online.com/components/products/datasheet/436333033816.pdf,43633303381_NoMountingPads,"Push button switch, generic, two pins",Wurth Elektronik,436333033816,710-436333033816
+31,1,S502,SW2,https://www.we-online.com/components/products/datasheet/436333033816.pdf,43633303381_NoMountingPads,"Push button switch, generic, two pins",Wurth Elektronik,436333033816,710-436333033816
+32,1,S503,SW3,https://www.we-online.com/components/products/datasheet/436333033816.pdf,43633303381_NoMountingPads,"Push button switch, generic, two pins",Wurth Elektronik,436333033816,710-436333033816
+33,1,S504,SW4,https://www.we-online.com/components/products/datasheet/436333033816.pdf,43633303381_NoMountingPads,"Push button switch, generic, two pins",Wurth Elektronik,436333033816,710-436333033816
 34,1,X603,Device,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,USB_C_Receptacle_Amphenol_12401610E4-2A,USB Full-Featured Type-C Receptacle connector,Amphenol Commercial Products,12401610E4#2A,523-12401610E4#2A
 35,1,X608,Display,https://www.buydisplay.com/download/manual/ER-TFT1.28-2_Datasheet.pdf,ER-CON0.4-24P,,EastRising,OK-24F024-04,
 36,2,X701 X702,MB1,https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/101r014fb110.pdf,101R014FB110,"Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)",Amphenol Aorora,101R014FB110,649-101R014FB110
