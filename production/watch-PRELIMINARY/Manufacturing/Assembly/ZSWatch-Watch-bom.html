@@ -1,90 +1,223 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
  <meta charset="UTF-8">
  <title>Bill of Materials</title>
+
+ <!-- Apply theme immediately to prevent flashing -->
+ <script>
+  (function() {
+    const theme = localStorage.getItem('kibot-theme') || 'auto';
+    if (theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+ </script>
+
 <style>
- .cell-title { vertical-align: bottom; }
- .cell-info { vertical-align: top; padding: 1em;}
- .cell-extra-info { vertical-align: top; padding: 1em;}
- .cell-stats { vertical-align: top; padding: 1em;}
- .title { font-size:2.5em; font-weight: bold; }
- .subtitle { font-size:1.5em; font-weight: bold; }
- .h2 { font-size:1.5em; font-weight: bold; }
- .td-empty0 { text-align: center; background-color: #F57676;}
- .td-gen0 { text-align: center; background-color: #DCF5E4;}
- .td-kicad0 { text-align: center; background-color: #F5DCA9;}
- .td-user0 { text-align: center; background-color: #DCEFF5;}
- .td-empty1 { text-align: center; background-color: #FF8080;}
- .td-gen1 { text-align: center; background-color: #E6FFEE;}
- .td-kicad1 { text-align: center; background-color: #FFE6B3;}
- .td-user1 { text-align: center; background-color: #E6F9FF;}
- .td-nocolor { text-align: center; }
- .color-ref { margin: 25px 0; }
- .color-ref th { text-align: left }
- .color-ref td { padding: 5px 20px; }
- .head-table { margin-bottom: 2em; }
- .centered-checkmark { font-size: 30vw; text-align: center; color: green; }
- .tg-sort-header::-moz-selection{background:0 0}
- .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
- .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
-                       border-color:#ffffff transparent;visibility:hidden;opacity:.6}
- .tg-sort-header:hover:after{visibility:visible}
- .tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:1}
- .tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}
+  /* Light colors */
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #222222;
+    --link-color: #0e4e8e;
 
- .content-table {
-   border-collapse:
-   collapse;
-   margin-top: 5px;
-   margin-bottom: 4em;
-   font-size: 0.9em;
-   font-family: sans-serif;
-   min-width: 400px;
-   border-radius: 5px 5px 0 0;
-   overflow: hidden;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
- }
- .content-table thead tr { background-color: #0e4e8e; color: #ffffff; text-align: left; }
- .content-table th, .content-table td { padding: 12px 15px; }
- .content-table tbody tr { border-bottom: 1px solid #dddddd; }
- .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
- .content-table tbody tr:last-of-type { border-bottom: 2px solid #0e4e8e; }
- .content-table * tr:hover > td { background-color: @bgl@ !important }
+    /* Tables */
+    --table-header-bg: #0e4e8e; /* Theme style defined */
+    --table-header-text: #ffffff;
+    --table-row-even: #f3f3f3;
+    --table-row-hover: #3e7ebe; /* Theme style defined */
+    --table-border: #dddddd;
+    --table-shadow: rgba(0, 0, 0, 0.15);
+    --table-cl-border: black;
 
- .content-table {
-   border-collapse:
-   collapse;
-   margin-top: 5px;
-   margin-bottom: 4em;
-   font-size: 0.9em;
-   font-family: sans-serif;
-   min-width: 400px;
-   border-radius: 5px 5px 0 0;
-   overflow: hidden;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
- }
- .content-table thead tr { background-color: @bg@; color: #ffffff; text-align: left; }
- .content-table th, .content-table td { padding: 12px 15px; }
- .content-table tbody tr { border-bottom: 1px solid #dddddd; }
- .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
- .content-table tbody tr:last-of-type { border-bottom: 2px solid @bg@; }
- .content-table * tr:hover > td { background-color: #3e7ebe !important }
+    /* Status Colors */
+    --td-empty0: #F57676;
+    --td-gen0: #DCF5E4;
+    --td-kicad0: #F5DCA9;
+    --td-user0: #DCEFF5;
+    --td-empty1: #FF8080;
+    --td-gen1: #E6FFEE;
+    --td-kicad1: #FFE6B3;
+    --td-user1: #E6F9FF;
+    --td-error: #db1218;
+    --td-warning: #f2e30c;
+    --td-excluded: #C0C0C0;
+    --checkmark: green;
+
+    /* Toggle Button */
+    --btn-bg: #ffffff;
+    --btn-border: #e2e8f0;
+    --btn-hover: #f1f5f9;
+  }
+
+  /* Dark colors */
+  [data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #e2e8f0;
+    --link-color: #38bdf8;
+
+    /* Tables */
+    --table-header-bg: #09335e; /* Theme style defined */
+    --table-header-text: #f8fafc;
+    --table-row-even: #1e1e1e;
+    --table-row-hover: #114b8a; /* Theme style defined */
+    --table-border: #333333;
+    --table-shadow: rgba(0, 0, 0, 0.5);
+    --table-cl-border: #dddddd;
+
+    /* Status Colors (Darker adaptations) */
+    --td-empty0: #7f1d1d;
+    --td-gen0: #14532d;
+    --td-kicad0: #78350f;
+    --td-user0: #164e63;
+    --td-empty1: #991b1b;
+    --td-gen1: #166534;
+    --td-kicad1: #92400e;
+    --td-user1: #0891b2;
+    --td-error: #ef4444;
+    --td-warning: #ca8a04;
+    --td-excluded: #64748b;
+    --checkmark: #4ade80;
+
+    /* Toggle Button */
+    --btn-bg: #1e293b;
+    --btn-border: #334155;
+    --btn-hover: #475569;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  a {
+    color: var(--link-color);
+  }
+
+  /* Theme Toggle Button */
+  .theme-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: var(--btn-bg);
+    border: 1px solid var(--btn-border);
+    color: var(--text-color);
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px var(--table-shadow);
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+  }
+  .theme-toggle:hover {
+    background: var(--btn-hover);
+  }
+  .theme-toggle svg {
+    width: 20px;
+    height: 20px;
+    display: none; /* Handled by JS */
+  }
+
+  .cell-title { vertical-align: bottom; }
+  .cell-info { vertical-align: top; padding: 1em;}
+  .cell-extra-info { vertical-align: top; padding: 1em;}
+  .cell-stats { vertical-align: top; padding: 1em;}
+  .title h1 { font-size:2.5em; font-weight: bold; padding: 0px; margin: 0px; }
+  .h1 { font-size:1.5em; font-weight: bold; }
+  .subtitle { font-size:1.5em; font-weight: bold; }
+  .h2 { font-size:1.5em; font-weight: bold; }
+
+  .td-empty0 { text-align: center; background-color: var(--td-empty0); }
+  .td-gen0 { text-align: center; background-color: var(--td-gen0); }
+  .td-kicad0 { text-align: center; background-color: var(--td-kicad0); }
+  .td-user0 { text-align: center; background-color: var(--td-user0); }
+  .td-empty1 { text-align: center; background-color: var(--td-empty1); }
+  .td-gen1 { text-align: center; background-color: var(--td-gen1); }
+  .td-kicad1 { text-align: center; background-color: var(--td-kicad1); }
+  .td-user1 { text-align: center; background-color: var(--td-user1); }
+  .td-nocolor { text-align: center; }
+
+  .color-ref { margin: 25px 0; }
+  .color-ref th { text-align: left }
+  .color-ref td { padding: 5px 20px; }
+  .head-table { margin-bottom: 2em; }
+  .centered-checkmark { font-size: 30vw; text-align: center; color: var(--checkmark); }
+  /* Sort Header */
+  .tg-sort-header::-moz-selection{background:0 0}
+  .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
+  .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
+                        border-color:#ffffff transparent;visibility:hidden;opacity:.6}
+  .tg-sort-header:hover:after{visibility:visible}
+  .tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:1}
+  .tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}
+
+  .content-table {
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-bottom: 4em;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px var(--table-shadow);
+  }
+  .content-table thead tr { background-color: var(--table-header-bg); color: var(--table-header-text); text-align: left; }
+  .content-table th, .content-table td { padding: 12px 15px; }
+  .content-table tbody tr { border-bottom: 1px solid var(--table-border); }
+  .content-table tbody tr:nth-of-type(even) { background-color: var(--table-row-even); }
+  .content-table tbody tr:last-of-type { border-bottom: 2px solid var(--table-header-bg); }
+  .content-table * tr:hover > td { background-color: var(--table-row-hover) !important; color: #ffffff; }
 </style>
 </head>
 <body>
+
+<!-- Theme Cycle Button -->
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+  <!-- Sun (Light) -->
+  <svg id="icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+       stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle>
+    <line x1="12" y1="1" x2="12" y2="3"></line>
+    <line x1="12" y1="21" x2="12" y2="23"></line>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+    <line x1="1" y1="12" x2="3" y2="12"></line>
+    <line x1="21" y1="12" x2="23" y2="12"></line>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+  </svg>
+  <!-- Moon (Dark) -->
+  <svg id="icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+       stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+  </svg>
+  <!-- Monitor (Auto) -->
+  <svg id="icon-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+       stroke-linejoin="round">
+    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+    <line x1="8" y1="21" x2="16" y2="21"></line>
+    <line x1="12" y1="17" x2="12" y2="21"></line>
+  </svg>
+</button>
+
 <table class="head-table">
 <tr>
  <td rowspan="2">
  </td>
  <td colspan="2" class="cell-title">
-  <div class="title">Bill of Materials</div>
+  <div class="title"><h1>Bill of Materials</h1></div>
  </td>
 </tr>
 <tr>
  <td class="cell-info">
    <b>Schematic</b>: ZSWatch-Watch<br>
    <b>Variant</b>: PRELIMINARY<br>
-   <b>Revision</b>: + (Unreleased)<br>
+   <b>Revision</b>: 1.0.0+ (Unreleased)<br>
    <b>Date</b>: 2025-07-13<br>
    <b>KiCad Version</b>: 9.0.7+1<br>
  </td>
@@ -333,141 +466,141 @@
   </tr>
   <tr id="18">
    <td class="td-gen0">19</td>
-   <td class="td-gen0">2</td>
-   <td class="td-kicad0"><div id="L402"></div><div id="L401"></div>L401 L402</td>
-   <td class="td-kicad0">2u2</td>
-   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/3/76/1/JELF243B-9121.pdf">https://www.mouser.de/datasheet/3/76/1/JELF243B-9121.pdf</a></td>
-   <td class="td-kicad0">L_0603_1608Metric</td>
-   <td class="td-user0">Inductor</td>
-   <td class="td-user0">Murata Electronics</td>
-   <td class="td-user0">LQM18PZ2R2MDHD</td>
-   <td class="td-user0">81-LQM18PZ2R2MDHD</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="J1"></div>J1</td>
+   <td class="td-kicad0">53261-0271</td>
+   <td class="td-kicad0"><a href="https://www.molex.com/pdm_docs/sd/532610271_sd.pdf">https://www.molex.com/pdm_docs/sd/532610271_sd.pdf</a></td>
+   <td class="td-kicad0">molex_pico</td>
+   <td class="td-user0">1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
   </tr>
   <tr id="19">
    <td class="td-gen1">20</td>
-   <td class="td-gen1">1</td>
-   <td class="td-kicad1"><div id="LS801"></div>LS801</td>
-   <td class="td-kicad1">Speaker</td>
-   <td class="td-kicad1"><a href="https://www.mouser.de/datasheet/3/6118/1/cmr_12062s_67.pdf">https://www.mouser.de/datasheet/3/6118/1/cmr_12062s_67.pdf</a></td>
-   <td class="td-kicad1">CMR-12062S-67</td>
-   <td class="td-user1">Speaker</td>
-   <td class="td-user1">Same Sky</td>
-   <td class="td-user1">CMR-12062S-67</td>
-   <td class="td-user1">490-CMR-12062S-67</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="L402"></div><div id="L401"></div>L401 L402</td>
+   <td class="td-kicad1">2u2</td>
+   <td class="td-kicad1"><a href="https://www.mouser.de/datasheet/3/76/1/JELF243B-9121.pdf">https://www.mouser.de/datasheet/3/76/1/JELF243B-9121.pdf</a></td>
+   <td class="td-kicad1">L_0603_1608Metric</td>
+   <td class="td-user1">Inductor</td>
+   <td class="td-user1">Murata Electronics</td>
+   <td class="td-user1">LQM18PZ2R2MDHD</td>
+   <td class="td-user1">81-LQM18PZ2R2MDHD</td>
   </tr>
   <tr id="20">
    <td class="td-gen0">21</td>
    <td class="td-gen0">1</td>
-   <td class="td-kicad0"><div id="M601"></div>M601</td>
-   <td class="td-kicad0">NORA-B106</td>
-   <td class="td-kicad0"><a href="https://www.u-blox.com/docs/UBX-20027119">https://www.u-blox.com/docs/UBX-20027119</a></td>
-   <td class="td-kicad0">NORA-B106</td>
-   <td class="td-empty0"></td>
-   <td class="td-user0">u-blox</td>
-   <td class="td-user0">NORA-B106-00B</td>
-   <td class="td-user0">377-NORA-B106-00B</td>
+   <td class="td-kicad0"><div id="LS801"></div>LS801</td>
+   <td class="td-kicad0">Speaker</td>
+   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/3/6118/1/cmr_12062s_67.pdf">https://www.mouser.de/datasheet/3/6118/1/cmr_12062s_67.pdf</a></td>
+   <td class="td-kicad0">CMR-12062S-67</td>
+   <td class="td-user0">Speaker</td>
+   <td class="td-user0">Same Sky</td>
+   <td class="td-user0">CMR-12062S-67</td>
+   <td class="td-user0">490-CMR-12062S-67</td>
   </tr>
   <tr id="21">
    <td class="td-gen1">22</td>
    <td class="td-gen1">1</td>
-   <td class="td-kicad1"><div id="MK501"></div>MK501</td>
-   <td class="td-kicad1">SPK0641HT4H-1</td>
-   <td class="td-kicad1"><a href="https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf">https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf</a></td>
-   <td class="td-kicad1">SPK0641HT4H-1</td>
-   <td class="td-user1">Digital MEMS Microphone</td>
-   <td class="td-user1">Knowles</td>
-   <td class="td-user1">SPK0641HT4H-1</td>
-   <td class="td-user1">721-SPK0641HT4H-1</td>
+   <td class="td-kicad1"><div id="M601"></div>M601</td>
+   <td class="td-kicad1">NORA-B106</td>
+   <td class="td-kicad1"><a href="https://www.u-blox.com/docs/UBX-20027119">https://www.u-blox.com/docs/UBX-20027119</a></td>
+   <td class="td-kicad1">NORA-B106</td>
+   <td class="td-empty1"></td>
+   <td class="td-user1">u-blox</td>
+   <td class="td-user1">NORA-B106-00B</td>
+   <td class="td-user1">377-NORA-B106-00B</td>
   </tr>
   <tr id="22">
    <td class="td-gen0">23</td>
-   <td class="td-gen0">2</td>
-   <td class="td-kicad0"><div id="R502"></div><div id="R501"></div>R501 R502</td>
-   <td class="td-kicad0">1k8</td>
-   <td class="td-kicad0"><a href="https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</a></td>
-   <td class="td-kicad0">R_0201_0603Metric</td>
-   <td class="td-user0">Resistor, small symbol</td>
-   <td class="td-user0">YAGEO</td>
-   <td class="td-user0">RC0201JR-071K8L</td>
-   <td class="td-user0">603-RC0201JR-071K8L</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="MK501"></div>MK501</td>
+   <td class="td-kicad0">SPK0641HT4H-1</td>
+   <td class="td-kicad0"><a href="https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf">https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf</a></td>
+   <td class="td-kicad0">SPK0641HT4H-1</td>
+   <td class="td-user0">Digital MEMS Microphone</td>
+   <td class="td-user0">Knowles</td>
+   <td class="td-user0">SPK0641HT4H-1</td>
+   <td class="td-user0">721-SPK0641HT4H-1</td>
   </tr>
   <tr id="23">
    <td class="td-gen1">24</td>
    <td class="td-gen1">2</td>
-   <td class="td-kicad1"><div id="R505"></div><div id="R504"></div>R504 R505</td>
-   <td class="td-kicad1">3k3</td>
+   <td class="td-kicad1"><div id="R502"></div><div id="R501"></div>R501 R502</td>
+   <td class="td-kicad1">1k8</td>
    <td class="td-kicad1"><a href="https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</a></td>
    <td class="td-kicad1">R_0201_0603Metric</td>
    <td class="td-user1">Resistor, small symbol</td>
    <td class="td-user1">YAGEO</td>
-   <td class="td-user1">RC0201JR-073K3L</td>
-   <td class="td-user1">603-RC0201JR-073K3L</td>
+   <td class="td-user1">RC0201JR-071K8L</td>
+   <td class="td-user1">603-RC0201JR-071K8L</td>
   </tr>
   <tr id="24">
    <td class="td-gen0">25</td>
-   <td class="td-gen0">1</td>
-   <td class="td-kicad0"><div id="R601"></div>R601</td>
-   <td class="td-kicad0">12k</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="R505"></div><div id="R504"></div>R504 R505</td>
+   <td class="td-kicad0">3k3</td>
    <td class="td-kicad0"><a href="https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</a></td>
    <td class="td-kicad0">R_0201_0603Metric</td>
    <td class="td-user0">Resistor, small symbol</td>
    <td class="td-user0">YAGEO</td>
-   <td class="td-user0">RC0201JR-0712KL</td>
-   <td class="td-user0">603-RC0201JR-0712KL</td>
+   <td class="td-user0">RC0201JR-073K3L</td>
+   <td class="td-user0">603-RC0201JR-073K3L</td>
   </tr>
   <tr id="25">
    <td class="td-gen1">26</td>
    <td class="td-gen1">1</td>
-   <td class="td-kicad1"><div id="R407"></div>R407</td>
-   <td class="td-kicad1">47k</td>
+   <td class="td-kicad1"><div id="R601"></div>R601</td>
+   <td class="td-kicad1">12k</td>
    <td class="td-kicad1"><a href="https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</a></td>
    <td class="td-kicad1">R_0201_0603Metric</td>
    <td class="td-user1">Resistor, small symbol</td>
    <td class="td-user1">YAGEO</td>
-   <td class="td-user1">RC0201JR-0747KL</td>
-   <td class="td-user1">603-RC0201JR-0747KL</td>
+   <td class="td-user1">RC0201JR-0712KL</td>
+   <td class="td-user1">603-RC0201JR-0712KL</td>
   </tr>
   <tr id="26">
    <td class="td-gen0">27</td>
-   <td class="td-gen0">2</td>
-   <td class="td-kicad0"><div id="R613"></div><div id="R408"></div>R408 R613</td>
-   <td class="td-kicad0">100k</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R407"></div>R407</td>
+   <td class="td-kicad0">47k</td>
    <td class="td-kicad0"><a href="https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</a></td>
    <td class="td-kicad0">R_0201_0603Metric</td>
    <td class="td-user0">Resistor, small symbol</td>
    <td class="td-user0">YAGEO</td>
-   <td class="td-user0">RC0201JR-07100KL</td>
-   <td class="td-user0">603-RC0201JR-07100KL</td>
+   <td class="td-user0">RC0201JR-0747KL</td>
+   <td class="td-user0">603-RC0201JR-0747KL</td>
   </tr>
   <tr id="27">
    <td class="td-gen1">28</td>
-   <td class="td-gen1">1</td>
-   <td class="td-kicad1"><div id="R506"></div>R506</td>
-   <td class="td-kicad1">200k</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="R613"></div><div id="R408"></div>R408 R613</td>
+   <td class="td-kicad1">100k</td>
    <td class="td-kicad1"><a href="https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</a></td>
    <td class="td-kicad1">R_0201_0603Metric</td>
    <td class="td-user1">Resistor, small symbol</td>
    <td class="td-user1">YAGEO</td>
-   <td class="td-user1">RC0201JR-07200KL</td>
-   <td class="td-user1">603-RC0201JR-07200KL</td>
+   <td class="td-user1">RC0201JR-07100KL</td>
+   <td class="td-user1">603-RC0201JR-07100KL</td>
   </tr>
   <tr id="28">
    <td class="td-gen0">29</td>
    <td class="td-gen0">1</td>
-   <td class="td-kicad0"><div id="S501"></div>S501</td>
-   <td class="td-kicad0">SW1</td>
-   <td class="td-kicad0"><a href="https://www.we-online.com/components/products/datasheet/436333033816.pdf">https://www.we-online.com/components/products/datasheet/436333033816.pdf</a></td>
-   <td class="td-kicad0">43633303381_NoMountingPads</td>
-   <td class="td-user0">Push button switch, generic, two pins</td>
-   <td class="td-user0">Wurth Elektronik</td>
-   <td class="td-user0">436333033816</td>
-   <td class="td-user0">710-436333033816</td>
+   <td class="td-kicad0"><div id="R506"></div>R506</td>
+   <td class="td-kicad0">200k</td>
+   <td class="td-kicad0"><a href="https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</a></td>
+   <td class="td-kicad0">R_0201_0603Metric</td>
+   <td class="td-user0">Resistor, small symbol</td>
+   <td class="td-user0">YAGEO</td>
+   <td class="td-user0">RC0201JR-07200KL</td>
+   <td class="td-user0">603-RC0201JR-07200KL</td>
   </tr>
   <tr id="29">
    <td class="td-gen1">30</td>
    <td class="td-gen1">1</td>
-   <td class="td-kicad1"><div id="S502"></div>S502</td>
-   <td class="td-kicad1">SW2</td>
+   <td class="td-kicad1"><div id="S501"></div>S501</td>
+   <td class="td-kicad1">SW1</td>
    <td class="td-kicad1"><a href="https://www.we-online.com/components/products/datasheet/436333033816.pdf">https://www.we-online.com/components/products/datasheet/436333033816.pdf</a></td>
    <td class="td-kicad1">43633303381_NoMountingPads</td>
    <td class="td-user1">Push button switch, generic, two pins</td>
@@ -478,8 +611,8 @@
   <tr id="30">
    <td class="td-gen0">31</td>
    <td class="td-gen0">1</td>
-   <td class="td-kicad0"><div id="S503"></div>S503</td>
-   <td class="td-kicad0">SW3</td>
+   <td class="td-kicad0"><div id="S502"></div>S502</td>
+   <td class="td-kicad0">SW2</td>
    <td class="td-kicad0"><a href="https://www.we-online.com/components/products/datasheet/436333033816.pdf">https://www.we-online.com/components/products/datasheet/436333033816.pdf</a></td>
    <td class="td-kicad0">43633303381_NoMountingPads</td>
    <td class="td-user0">Push button switch, generic, two pins</td>
@@ -490,8 +623,8 @@
   <tr id="31">
    <td class="td-gen1">32</td>
    <td class="td-gen1">1</td>
-   <td class="td-kicad1"><div id="S504"></div>S504</td>
-   <td class="td-kicad1">SW4</td>
+   <td class="td-kicad1"><div id="S503"></div>S503</td>
+   <td class="td-kicad1">SW3</td>
    <td class="td-kicad1"><a href="https://www.we-online.com/components/products/datasheet/436333033816.pdf">https://www.we-online.com/components/products/datasheet/436333033816.pdf</a></td>
    <td class="td-kicad1">43633303381_NoMountingPads</td>
    <td class="td-user1">Push button switch, generic, two pins</td>
@@ -502,14 +635,14 @@
   <tr id="32">
    <td class="td-gen0">33</td>
    <td class="td-gen0">1</td>
-   <td class="td-kicad0"><div id="X402"></div>X402</td>
-   <td class="td-kicad0">Battery</td>
-   <td class="td-kicad0"><a href="https://www.mouser.com/catalog/specsheets/JST_SM02B-SRSS-TB_LF_SN_eSR_SZ.pdf">https://www.mouser.com/catalog/specsheets/JST_SM02B-SRSS-TB_LF_SN_eSR_SZ.pdf</a></td>
-   <td class="td-kicad0">JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</td>
-   <td class="td-user0">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
-   <td class="td-user0">JST Commercial</td>
-   <td class="td-user0">SM02B-SRSS-TB</td>
-   <td class="td-user0">306-SM02BSRSSTBLFSN</td>
+   <td class="td-kicad0"><div id="S504"></div>S504</td>
+   <td class="td-kicad0">SW4</td>
+   <td class="td-kicad0"><a href="https://www.we-online.com/components/products/datasheet/436333033816.pdf">https://www.we-online.com/components/products/datasheet/436333033816.pdf</a></td>
+   <td class="td-kicad0">43633303381_NoMountingPads</td>
+   <td class="td-user0">Push button switch, generic, two pins</td>
+   <td class="td-user0">Wurth Elektronik</td>
+   <td class="td-user0">436333033816</td>
+   <td class="td-user0">710-436333033816</td>
   </tr>
   <tr id="33">
    <td class="td-gen1">34</td>
@@ -568,7 +701,7 @@
 <tr><td class="td-user0">User Fields</td></tr>
 <tr><td class="td-empty0">Empty Fields</td></tr>
 </table>
-<script charset="utf-8">
+<script>
   var TGSort = window.TGSort || function(n) {
     "use strict";
     function r(n) { return n ? n.length : 0 }
@@ -682,4 +815,51 @@
     })
   }(document)
 </script>
+
+<!-- Interactive Theme Logic -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggleBtn = document.getElementById('theme-toggle');
+    const iconLight = document.getElementById('icon-light');
+    const iconDark = document.getElementById('icon-dark');
+    const iconAuto = document.getElementById('icon-auto');
+
+    function updateIcons(theme) {
+        iconLight.style.display = theme === 'light' ? 'block' : 'none';
+        iconDark.style.display = theme === 'dark' ? 'block' : 'none';
+        iconAuto.style.display = theme === 'auto' ? 'block' : 'none';
+    }
+
+    function applyTheme(theme) {
+        if (theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+            document.documentElement.removeAttribute('data-theme');
+        }
+        updateIcons(theme);
+        toggleBtn.title = `Theme: ${theme.charAt(0).toUpperCase() + theme.slice(1)} (Click to change)`;
+    }
+
+    let currentTheme = localStorage.getItem('kibot-theme') || 'auto';
+    applyTheme(currentTheme);
+
+    // Cycle through themes on click
+    toggleBtn.addEventListener('click', () => {
+        if (currentTheme === 'auto') currentTheme = 'light';
+        else if (currentTheme === 'light') currentTheme = 'dark';
+        else currentTheme = 'auto';
+
+        localStorage.setItem('kibot-theme', currentTheme);
+        applyTheme(currentTheme);
+    });
+
+    // Listen for OS theme changes if in 'auto' mode
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+        }
+    });
+  });
+</script>
+
 </body></html>
