@@ -5,8 +5,8 @@
 <h1 align="center">Watch-DevKit-HW</h1>
 
 <p align="center" width="100%">
-  <a href="https://github.com/ZSWatch/Watch-DevKit-HW/actions/workflows/devkit.yaml">
-    <img alt="CI Badge" src="https://github.com/ZSWatch/Watch-DevKit-HW/actions/workflows/devkit.yaml/badge.svg">
+  <a href="https://github.com/ZSWatch/Watch-DevKit-HW/actions/workflows/watch.yaml">
+    <img alt="CI Badge" src="https://github.com/ZSWatch/Watch-DevKit-HW/actions/workflows/watch.yaml/badge.svg">
   </a>
 </p>
 
