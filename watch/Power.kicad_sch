@@ -1899,6 +1899,12 @@
 		(uuid "0d2d6408-fe5f-43d2-b9a2-8e3805797b20")
 	)
 	(junction
+		(at 252.73 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fc29164-f066-4caa-b2b0-7479f403846a")
+	)
+	(junction
 		(at 231.14 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,6 +1977,12 @@
 		(uuid "b28f70b1-684e-4a2e-9e43-177b9de2ce56")
 	)
 	(junction
+		(at 242.57 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63277ad-bdd1-4d45-8c1c-8432c7540337")
+	)
+	(junction
 		(at 231.14 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1987,6 +1999,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed54861c-483d-45f7-bf91-de52447fb920")
+	)
+	(junction
+		(at 242.57 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f23c791e-1c9d-448c-9048-fef7008df59e")
 	)
 	(no_connect
 		(at 137.16 96.52)
@@ -2215,6 +2233,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 83.82) (xy 251.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2588ef35-30f3-4dff-b2d0-e9058bf70897")
+	)
+	(wire
+		(pts
 			(xy 207.01 109.22) (xy 222.25 109.22)
 		)
 		(stroke
@@ -2345,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 83.82) (xy 251.46 83.82)
+			(xy 231.14 83.82) (xy 242.57 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2435,6 +2463,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b38e272-adbd-4631-8832-e77291bfb19e")
+	)
+	(wire
+		(pts
 			(xy 226.06 29.21) (xy 213.36 29.21)
 		)
 		(stroke
@@ -2455,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 29.21) (xy 264.16 29.21)
+			(xy 246.38 29.21) (xy 252.73 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 101.6) (xy 251.46 101.6)
+			(xy 222.25 101.6) (xy 242.57 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2902,6 +2940,16 @@
 			(type default)
 		)
 		(uuid "afa9be2e-84e9-45a7-b1f0-04353752af52")
+	)
+	(wire
+		(pts
+			(xy 252.73 29.21) (xy 264.16 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0efcf0c-fbe2-44c6-bb16-fc173c9f4866")
 	)
 	(wire
 		(pts
@@ -3764,6 +3812,72 @@
 			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "L401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e2bba0d-b80b-417f-b030-45901f1fac53")
+		(property "Reference" "TP6"
+			(at 249.174 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.65 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 257.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8f2bf74-3614-4267-95ea-7ab0e3af3b90")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6500,6 +6614,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 242.57 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5c144c1-5121-4d08-ba74-474471ae7130")
+		(property "Reference" "TP5"
+			(at 239.014 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 237.49 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 247.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fee9aaf-e18f-4aee-be7a-1fdc9a39f07f")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 220.98 54.61 0)
 		(unit 1)
@@ -6595,6 +6775,72 @@
 			(project "ZSWatch-Watch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 242.57 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c62bba1c-3646-4b3f-afce-97e132a38cb5")
+		(property "Reference" "TP4"
+			(at 239.014 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 237.49 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 242.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "770def25-26f8-4d59-8ada-975a9ee9a24c")
+		)
+		(instances
+			(project "ZSWatch-Watch"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
