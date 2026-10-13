@@ -1,11 +1,11 @@
 ** Drc report for ZSWatch-Watch.kicad_pcb **
-** Created on 2026-02-20T19:27:40+0000 **
+** Created on 2026-10-13T19:10:05+0000 **
 
 ** Found 64 DRC violations **
 [copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.1250 mm; actual 0.0000 mm)
     ; error
     @(185.005263 mm, 138.299996 mm): Segment on Edge.Cuts
-    @(187.425537 mm, 138.528148 mm): PCB text '+ (Unreleased)' on B.Cu
+    @(187.425537 mm, 138.528148 mm): PCB text '1.0.0+ (Unreleased)' on B.Cu
 [lib_footprint_issues]: The current configuration does not include the footprint library 'Package_QFN'.
     ; warning
     @(202.45 mm, 131.19 mm): Footprint IC604
