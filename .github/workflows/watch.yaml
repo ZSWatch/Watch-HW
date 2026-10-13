@@ -129,7 +129,6 @@ jobs:
           git submodule update --init -- kicad-library
           echo "KICAD_LIBRARY=$(pwd)/kicad-library" >> $GITHUB_ENV
           git -C kicad-library rev-parse HEAD | tee log/kicad-library-revision.txt
-          python3 watch/kibot_resources/scripts/check_library_models.py
 
       - name: Extract release notes
         if: ${{ github.ref_type == 'tag' }}

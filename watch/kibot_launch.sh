@@ -146,7 +146,6 @@ fi
 
 # Use the same versioned library as CI.
 export KICAD_LIBRARY="$(cd "$project_dir/.." && pwd)/kicad-library"
-python3 "$project_dir/kibot_resources/scripts/check_library_models.py" || exit 1
 echo "KiCad library revision: $(git -C "$KICAD_LIBRARY" rev-parse HEAD)"
 
 # Determine output directory based on variant

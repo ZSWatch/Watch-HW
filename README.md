@@ -56,11 +56,10 @@ Git submodule. Git records its exact commit alongside the board design; CI
 does not fetch the latest library version automatically.
 
 After cloning Watch-HW, or after pulling a change to the library version, run
-these commands from the repository root:
+this command from the repository root:
 
 ```sh
 git submodule update --init -- kicad-library
-python3 watch/kibot_resources/scripts/check_library_models.py
 ```
 
 The initial library revision is `e78be312e017463be06bc1b227d8ba26fa0384dc`
@@ -79,8 +78,7 @@ KICAD_LIBRARY="$PWD/kicad-library" kicad watch/ZSWatch-Watch.kicad_pro
 
 Alternatively, set `KICAD_LIBRARY` to this repository's `kicad-library` directory
 in KiCad's **Preferences → Configure Paths**. `watch/kibot_launch.sh` sets the
-variable automatically for local KiBot runs. CI logs the library revision and
-checks that the PCB's Kampi model files exist before generating outputs.
+variable automatically for local KiBot runs. CI logs the library revision.
 
 To intentionally update the library, select a reviewed commit and test the
 board before recording the new submodule revision:
@@ -88,7 +86,6 @@ board before recording the new submodule revision:
 ```sh
 git -C kicad-library fetch origin
 git -C kicad-library checkout --detach <reviewed-commit>
-python3 watch/kibot_resources/scripts/check_library_models.py
 # Verify the schematic, footprints, and 3D renders, then:
 git add kicad-library
 ```
