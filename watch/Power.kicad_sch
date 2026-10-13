@@ -5139,7 +5139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-53261-0271"
+		(property "mouser#" "538-53261-0271"
 			(at 693.04 17.78 0)
 			(effects
 				(font
@@ -5159,7 +5159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "manf" "Molex"
 			(at 893.04 17.78 0)
 			(effects
 				(font
@@ -5169,7 +5169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "53261-0271"
+		(property "manf#" "53261-0271"
 			(at 993.04 17.78 0)
 			(effects
 				(font
