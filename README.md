@@ -14,6 +14,7 @@
   - [📖 About](#-about)
   - [📂 Directory Breakdown](#-directory-breakdown)
   - [Purchasing](#purchasing)
+  - [KiCad library](#kicad-library)
   - [Ressources](#ressources)
   - [👨‍💻 Maintainer](#-maintainer)
 
@@ -47,6 +48,50 @@ You can also view this project on [CADLAB.io](...).
 ## Purchasing
 
 TBD
+
+## KiCad library
+
+Kampi's symbols, footprints, and 3D models are stored in the `kicad-library`
+Git submodule. Git records its exact commit alongside the board design; CI
+does not fetch the latest library version automatically.
+
+After cloning Watch-HW, or after pulling a change to the library version, run
+these commands from the repository root:
+
+```sh
+git submodule update --init -- kicad-library
+python3 watch/kibot_resources/scripts/check_library_models.py
+```
+
+The initial library revision is `e78be312e017463be06bc1b227d8ba26fa0384dc`
+(19 February 2026), reconstructed from the library history at the 1.0.0 release.
+The original CI logs have expired, so the exact revision used then could not
+be confirmed directly.
+
+The project library tables and existing PCB model paths use the submodule
+relative to `${KIPRJMOD}`. To ensure that models referenced inside newly
+imported library footprints also use this checkout, launch KiCad with
+`KICAD_LIBRARY` set to its absolute path:
+
+```sh
+KICAD_LIBRARY="$PWD/kicad-library" kicad watch/ZSWatch-Watch.kicad_pro
+```
+
+Alternatively, set `KICAD_LIBRARY` to this repository's `kicad-library` directory
+in KiCad's **Preferences → Configure Paths**. `watch/kibot_launch.sh` sets the
+variable automatically for local KiBot runs. CI logs the library revision and
+checks that the PCB's Kampi model files exist before generating outputs.
+
+To intentionally update the library, select a reviewed commit and test the
+board before recording the new submodule revision:
+
+```sh
+git -C kicad-library fetch origin
+git -C kicad-library checkout --detach <reviewed-commit>
+python3 watch/kibot_resources/scripts/check_library_models.py
+# Verify the schematic, footprints, and 3D renders, then:
+git add kicad-library
+```
 
 ## Ressources
 

@@ -121,6 +121,10 @@ while [[ $# -gt 0 ]]; do
     shift
 done
 
+# Resolve the project independently of the caller's working directory.
+project_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+cd "$project_dir" || exit 1
+
 # Get version if not specified
 if [[ -z "$revision" ]]; then
     revision=$(python3 kibot_resources/scripts/get_changelog_version.py -f CHANGELOG.md)
@@ -139,6 +143,11 @@ if [[ "$server_flag" == true ]]; then
     echo -e "${GREEN}Server running. Navigate to: http://localhost:$server_port${NC}"
     exit 0
 fi
+
+# Use the same versioned library as CI.
+export KICAD_LIBRARY="$(cd "$project_dir/.." && pwd)/kicad-library"
+python3 "$project_dir/kibot_resources/scripts/check_library_models.py" || exit 1
+echo "KiCad library revision: $(git -C "$KICAD_LIBRARY" rev-parse HEAD)"
 
 # Determine output directory based on variant
 case "$variant" in

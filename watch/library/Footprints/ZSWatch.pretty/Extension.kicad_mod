@@ -1382,7 +1382,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD_LIBRARY}/3D/Amphenol/101R014FB110.stp"
+	(model "${KIPRJMOD}/../kicad-library/3D/Amphenol/101R014FB110.stp"
 		(offset
 			(xyz -5.8 0 0.5)
 		)
@@ -1393,7 +1393,7 @@
 			(xyz -0 -0 -90)
 		)
 	)
-	(model "${KICAD_LIBRARY}/3D/Amphenol/101R014FB110.stp"
+	(model "${KIPRJMOD}/../kicad-library/3D/Amphenol/101R014FB110.stp"
 		(offset
 			(xyz 5.7 0.6 0.5)
 		)

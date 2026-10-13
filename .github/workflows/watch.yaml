@@ -105,6 +105,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          submodules: true
 
       - name: Initialize
         run: |
@@ -121,11 +122,14 @@ jobs:
           git fetch
           git pull origin ${{ env.master_branch }}
 
-      - name: Getting the dependencies
+      - name: Initialize pinned KiCad library
         shell: bash
         run: |
-          git clone https://github.com/Kampi/KiCad.git kicad-library
+          git submodule sync -- kicad-library
+          git submodule update --init -- kicad-library
           echo "KICAD_LIBRARY=$(pwd)/kicad-library" >> $GITHUB_ENV
+          git -C kicad-library rev-parse HEAD | tee log/kicad-library-revision.txt
+          python3 watch/kibot_resources/scripts/check_library_models.py
 
       - name: Extract release notes
         if: ${{ github.ref_type == 'tag' }}
@@ -236,10 +240,9 @@ jobs:
       - name: Clean up
         shell: bash
         run: |
-          rm -rf ${KICAD_LIBRARY}
-          find . -type f -iname \*.log -delete
-          find . -type f -iname \*.ogv -delete
-          find . -type f -iname \*.kicad_pro-bak -delete
+          find ${{ env.kibot_input_dir }} production -type f -iname \*.log -delete
+          find ${{ env.kibot_input_dir }} production -type f -iname \*.ogv -delete
+          find ${{ env.kibot_input_dir }} production -type f -iname \*.kicad_pro-bak -delete
           rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
           rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
 

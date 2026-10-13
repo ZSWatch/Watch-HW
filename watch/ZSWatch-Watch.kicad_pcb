@@ -671,7 +671,7 @@
 			(uuid "2627a2cc-8dc0-4e1d-8063-55bf10257109")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Packages/XQFN-12.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Packages/XQFN-12.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1270,7 +1270,7 @@
 			(uuid "fa5cc1f4-4899-4aba-832f-ee4c4e2b004a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Wuerth Elektronik/436333033816.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Wuerth Elektronik/436333033816.stp"
 			(offset
 				(xyz 0 -1 1.7)
 			)
@@ -2122,7 +2122,7 @@
 			(uuid "b3e63067-4df9-43c6-ba69-2e468fdcea06")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Wuerth Elektronik/436333033816.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Wuerth Elektronik/436333033816.stp"
 			(offset
 				(xyz 0 -1 1.7)
 			)
@@ -4173,7 +4173,7 @@
 			(uuid "73b62991-b6cd-434a-b6dd-8edab251dbc1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/EastRising/ER-CON0.4-24P.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/EastRising/ER-CON0.4-24P.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4873,7 +4873,7 @@
 			(uuid "2eea92cc-8255-44ad-9929-62528e28a254")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Wuerth Elektronik/436333033816.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Wuerth Elektronik/436333033816.stp"
 			(offset
 				(xyz 0 -1 1.7)
 			)
@@ -5972,7 +5972,7 @@
 			(uuid "71e270a9-fb17-4304-b68c-ad2298d96b72")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Bosch/BMP581.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Bosch/BMP581.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6579,7 +6579,7 @@
 			(uuid "0a731db8-3c24-4154-94c5-b8214286fb94")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Molex/781710002.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Molex/781710002.stp"
 			(offset
 				(xyz 0 0 1.5)
 			)
@@ -7017,7 +7017,7 @@
 			(uuid "a87e539a-d658-4f35-af4b-7b64f3de15a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Wuerth Elektronik/436333033816.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Wuerth Elektronik/436333033816.stp"
 			(offset
 				(xyz 0 -1 1.7)
 			)
@@ -7434,7 +7434,7 @@
 			(uuid "97efb579-fbb4-4da1-b08a-014cc2490005")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Knowles/SPK0641HT4H.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Knowles/SPK0641HT4H.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8051,7 +8051,7 @@
 			(uuid "82ca7d67-11dd-4e5b-ab4d-61fd3fb664b1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Broadcom/APDS-9306-065.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Broadcom/APDS-9306-065.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9050,7 +9050,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/u-blox/NORA-B1x6.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/u-blox/NORA-B1x6.stp"
 			(offset
 				(xyz -7.7 5.25 0.5)
 			)
@@ -10539,7 +10539,7 @@
 			(uuid "9c60f3fe-fed2-4180-a596-8cfc633b3e1a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Packages/WQFN-10.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Packages/WQFN-10.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14329,7 +14329,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Amphenol/101R014FB110.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Amphenol/101R014FB110.stp"
 			(offset
 				(xyz 0 -0.5 0.5)
 			)
@@ -15896,7 +15896,7 @@
 			(uuid "405b43ef-3278-498c-b9cb-b688d63a8780")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Packages/SOT1089.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Packages/SOT1089.stp"
 			(offset
 				(xyz -1 0.65 0.75)
 			)
@@ -17230,7 +17230,7 @@
 			(uuid "17730a3c-e5fd-4c8b-96ed-4eac87aac41e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Packages/QFN-32-5x5_0.5_EP3.6x3.6mm.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Packages/QFN-32-5x5_0.5_EP3.6x3.6mm.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17781,7 +17781,7 @@
 			(uuid "236e1930-cd45-402d-8739-59dca126372d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Packages/WSON-8-8x6.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Packages/WSON-8-8x6.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18722,7 +18722,7 @@
 			(uuid "7c8a39af-4a43-4174-9a3c-e53eb7d3e25f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Micro Crystal/RV-8263-C8.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Micro Crystal/RV-8263-C8.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19977,7 +19977,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Amphenol/101R014FB110.stp"
+		(model "${KIPRJMOD}/../kicad-library/3D/Amphenol/101R014FB110.stp"
 			(offset
 				(xyz 0 -0.5 0.5)
 			)
