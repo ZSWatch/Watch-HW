@@ -2007,6 +2007,10 @@
 		(uuid "f23c791e-1c9d-448c-9048-fef7008df59e")
 	)
 	(no_connect
+		(at 200.66 13.97)
+		(uuid "00b2f026-4ff6-4505-af32-53e16dde6c3b")
+	)
+	(no_connect
 		(at 137.16 96.52)
 		(uuid "255b4797-fe1f-4d2b-b438-a13be005b6a3")
 	)
@@ -2033,6 +2037,10 @@
 	(no_connect
 		(at 137.16 101.6)
 		(uuid "a467e627-5dd4-479c-b02b-186829c645d2")
+	)
+	(no_connect
+		(at 198.12 13.97)
+		(uuid "bf537a2c-aa2f-4be0-9e7b-dc2507b0810a")
 	)
 	(bus_entry
 		(at 123.19 135.89)
