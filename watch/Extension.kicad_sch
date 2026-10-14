@@ -1801,7 +1801,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eaef6556-4fcb-48b8-91f5-d65bc6c7a009")
 		(property "Reference" "LS801"
