@@ -2,22 +2,22 @@
 <export version="E">
   <design>
     <source>/__w/Watch-HW/Watch-HW/watch/ZSWatch-Watch.kicad_sch</source>
-    <date>2026-10-13T19:15:03+0000</date>
+    <date>2026-10-14T21:06:42+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">f34db5b</textvar>
+    <textvar name="GIT_HASH_PCB">82480c4</textvar>
     <textvar name="GIT_HASH_SCH">fccc54e</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
     <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">13-Oct-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-10-13</textvar>
+    <textvar name="RELEASE_DATE">14-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-14</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
@@ -543,20 +543,20 @@
       <description>1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel</description>
       <fields>
         <field name="Height">3.65</field>
-        <field name="Mouser Part Number">538-53261-0271</field>
+        <field name="mouser#">538-53261-0271</field>
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/53261-0271?qs=%252B72YyncTwW%252B8%252BBjraxGf3A%3D%3D</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">53261-0271</field>
+        <field name="manf">Molex</field>
+        <field name="manf#">53261-0271</field>
         <field name="Footprint">ZSWatch:molex_pico</field>
         <field name="Datasheet">https://www.molex.com/pdm_docs/sd/532610271_sd.pdf</field>
         <field name="Description">1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel</field>
       </fields>
       <libsource lib="molex_pico" part="53261-0271" description="1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel"/>
       <property name="Height" value="3.65"/>
-      <property name="Mouser Part Number" value="538-53261-0271"/>
+      <property name="mouser#" value="538-53261-0271"/>
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/53261-0271?qs=%252B72YyncTwW%252B8%252BBjraxGf3A%3D%3D"/>
-      <property name="Manufacturer_Name" value="Molex"/>
-      <property name="Manufacturer_Part_Number" value="53261-0271"/>
+      <property name="manf" value="Molex"/>
+      <property name="manf#" value="53261-0271"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
@@ -701,6 +701,60 @@
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>52c328f2-6cd8-42f9-922f-88202ef0275c</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
+      <tstamps>c62bba1c-3646-4b3f-afce-97e132a38cb5</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
+      <tstamps>b5c144c1-5121-4d08-ba74-474471ae7130</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
+      <tstamps>0e2bba0d-b80b-417f-b030-45901f1fac53</tstamps>
     </comp>
     <comp ref="C501">
       <value>100n</value>
@@ -1844,6 +1898,9 @@
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Extension"/>
       <property name="Sheetfile" value="Extension.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="speaker sound"/>
       <sheetpath names="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/"/>
       <tstamps>eaef6556-4fcb-48b8-91f5-d65bc6c7a009</tstamps>
@@ -2680,6 +2737,7 @@
       <node ref="R502" pin="2" pintype="passive"/>
       <node ref="R612" pin="1" pintype="passive"/>
       <node ref="R613" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X608" pin="11" pinfunction="VDDIO" pintype="input"/>
       <node ref="X608" pin="12" pinfunction="VDDIO" pintype="input"/>
     </net>
@@ -2691,6 +2749,7 @@
       <node ref="IC601" pin="3" pinfunction="VIN" pintype="power_in"/>
       <node ref="IC604" pin="11" pinfunction="VCCB" pintype="power_in"/>
       <node ref="L401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X608" pin="13" pinfunction="VDD" pintype="input"/>
       <node ref="X608" pin="14" pinfunction="VDD" pintype="input"/>
       <node ref="X608" pin="17" pinfunction="CTP-VDD" pintype="input"/>
@@ -2856,6 +2915,7 @@
       <node ref="IC401" pin="30" pinfunction="LSIN2/VINLDO2" pintype="input"/>
       <node ref="IC401" pin="4" pinfunction="V_{DD}" pintype="power_in"/>
       <node ref="IC505" pin="7" pinfunction="VDD" pintype="power_in"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X702" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="35" name="DISPLAY-BLK" class="Default">
@@ -3203,10 +3263,10 @@
       <node ref="IC507" pin="6" pinfunction="NC" pintype="no_connect"/>
     </net>
     <net code="100" name="unconnected-(J1-PadMP1)" class="Default">
-      <node ref="J1" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J1" pin="MP1" pinfunction="MP1" pintype="passive+no_connect"/>
     </net>
     <net code="101" name="unconnected-(J1-PadMP2)" class="Default">
-      <node ref="J1" pin="MP2" pinfunction="MP2" pintype="passive"/>
+      <node ref="J1" pin="MP2" pinfunction="MP2" pintype="passive+no_connect"/>
     </net>
     <net code="102" name="unconnected-(M501-+-Pad1)" class="Default">
       <node ref="M501" pin="1" pinfunction="+" pintype="passive+no_connect"/>

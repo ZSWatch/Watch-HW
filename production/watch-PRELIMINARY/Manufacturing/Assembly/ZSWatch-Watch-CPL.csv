@@ -37,7 +37,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "IC602","USBLC6-2P6","SOT-666",207.0375,-131.3500,-90.0000,top
 "IC603","MX25U51245GZ4I00","WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm",197.3000,-147.1350,0.0000,bottom
 "IC604","NTS0104GU12","XQFN-12-1.7x2mm_P0.4mm",202.4500,-131.1900,180.0000,top
-"J1","53261-0271","molex_pico",188.9000,-145.7250,-90.0000,top
+"J1","53261-0271","molex_pico",189.1000,-145.7250,-90.0000,top
 "L401","2u2","L_0603_1608Metric",219.3710,-142.3494,90.0000,bottom
 "L402","2u2","L_0603_1608Metric",221.9110,-141.5000,180.0000,bottom
 "M601","NORA-B106","NORA-B106",207.0000,-150.1000,-90.0000,top
@@ -55,8 +55,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "S502","SW2","43633303381_NoMountingPads",216.6000,-152.1000,35.0000,top
 "S503","SW3","43633303381_NoMountingPads",197.4333,-124.8907,-145.0000,top
 "S504","SW4","43633303381_NoMountingPads",197.4094,-152.1524,-35.0000,top
-"TP1","TestPoint","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",186.5000,-142.6000,0.0000,top
-"TP3","TestPoint","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",186.5000,-148.8000,0.0000,top
+"TP1","TestPoint","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",186.8000,-142.6000,0.0000,top
+"TP3","TestPoint","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",186.8000,-148.8000,0.0000,top
 "X509","Motor","78171-0002",193.9500,-140.8000,180.0000,top
 "X603","Device","USB_C_Receptacle_Amphenol_12401610E4-2A",207.0000,-123.9000,180.0000,top
 "X608","Display","ER-CON0.4-24P",199.0000,-138.5000,90.0000,top
