@@ -2,22 +2,22 @@
 <export version="E">
   <design>
     <source>/__w/Watch-HW/Watch-HW/watch/ZSWatch-Watch.kicad_sch</source>
-    <date>2026-10-14T21:06:42+0000</date>
+    <date>2026-10-15T21:04:09+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">82480c4</textvar>
+    <textvar name="GIT_HASH_PCB">e50a45a</textvar>
     <textvar name="GIT_HASH_SCH">fccc54e</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
     <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">14-Oct-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-10-14</textvar>
+    <textvar name="RELEASE_DATE">15-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-15</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
@@ -1738,7 +1738,7 @@
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
-      <tstamps>6b4b5775-802d-4f65-8ea3-f1ad7a56059c c66b6205-994e-4910-84eb-438fc910075c 2fcc3851-9c97-4fb2-a186-a9f7198acfc3</tstamps>
+      <tstamps>c66b6205-994e-4910-84eb-438fc910075c 6b4b5775-802d-4f65-8ea3-f1ad7a56059c 2fcc3851-9c97-4fb2-a186-a9f7198acfc3</tstamps>
     </comp>
     <comp ref="R601">
       <value>12k</value>
@@ -1819,6 +1819,42 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>d14c6737-1755-4442-b0d2-0fd9be5edccb</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>3313e427-21e7-4dd6-b7b1-dbec81e6958b</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>606abb70-0c37-4475-ad2b-391c0c99719c</tstamps>
     </comp>
     <comp ref="X603">
       <value>Device</value>
@@ -3115,203 +3151,205 @@
       <node ref="IC604" pin="7" pinfunction="B4" pintype="bidirectional"/>
       <node ref="X608" pin="21" pinfunction="CTP-INT" pintype="input"/>
     </net>
-    <net code="60" name="Net-(X702-Pin_1)" class="Default">
+    <net code="60" name="Net-(M601C-P1.08)" class="Default">
+      <node ref="M601" pin="G5" pinfunction="P1.08" pintype="bidirectional"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(M601C-P1.09)" class="Default">
+      <node ref="M601" pin="G7" pinfunction="P1.09" pintype="bidirectional"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(X702-Pin_1)" class="Default">
       <node ref="LS801" pin="2" pinfunction="2" pintype="input"/>
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X702" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(X702-Pin_3)" class="Default">
+    <net code="63" name="Net-(X702-Pin_3)" class="Default">
       <node ref="LS801" pin="1" pinfunction="1" pintype="input"/>
       <node ref="TP2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="X702" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="62" name="QSPI-CLK" class="Default">
+    <net code="64" name="QSPI-CLK" class="Default">
       <node ref="IC603" pin="6" pinfunction="SCK" pintype="input"/>
       <node ref="M601" pin="F1" pinfunction="P0.17/QSPI_CLK" pintype="bidirectional"/>
     </net>
-    <net code="63" name="QSPI-CS" class="Default">
+    <net code="65" name="QSPI-CS" class="Default">
       <node ref="IC603" pin="1" pinfunction="~{CS}" pintype="passive"/>
       <node ref="M601" pin="E1" pinfunction="P0.18/QSPI_CS" pintype="bidirectional"/>
       <node ref="R612" pin="2" pintype="passive"/>
     </net>
-    <net code="64" name="QSPI-IO0" class="Default">
+    <net code="66" name="QSPI-IO0" class="Default">
       <node ref="IC603" pin="5" pinfunction="SI(I/O0)" pintype="passive"/>
       <node ref="M601" pin="D2" pinfunction="P0.13/QSPI[0]" pintype="bidirectional"/>
     </net>
-    <net code="65" name="QSPI-IO1" class="Default">
+    <net code="67" name="QSPI-IO1" class="Default">
       <node ref="IC603" pin="2" pinfunction="SO(I/O1)" pintype="passive"/>
       <node ref="M601" pin="E2" pinfunction="P0.14/QSPI[1]" pintype="bidirectional"/>
     </net>
-    <net code="66" name="QSPI-IO2" class="Default">
+    <net code="68" name="QSPI-IO2" class="Default">
       <node ref="IC603" pin="3" pinfunction="~{WP(I}/O2)" pintype="passive"/>
       <node ref="M601" pin="D1" pinfunction="P0.15/QSPI[2]" pintype="bidirectional"/>
     </net>
-    <net code="67" name="QSPI-IO3" class="Default">
+    <net code="69" name="QSPI-IO3" class="Default">
       <node ref="IC603" pin="7" pinfunction="~{HOLD(I}/O3)" pintype="passive"/>
       <node ref="M601" pin="F2" pinfunction="P0.16/QSPI[3]" pintype="bidirectional"/>
     </net>
-    <net code="68" name="RESETn" class="Default">
+    <net code="70" name="RESETn" class="Default">
       <node ref="M601" pin="J3" pinfunction="~{RESET}" pintype="input"/>
       <node ref="X603" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
       <node ref="X603" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
     </net>
-    <net code="69" name="RxD" class="Default">
+    <net code="71" name="RxD" class="Default">
       <node ref="M601" pin="C6" pinfunction="P0.00/XL1" pintype="bidirectional"/>
       <node ref="X603" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
       <node ref="X603" pin="B2" pinfunction="TX2+" pintype="bidirectional"/>
     </net>
-    <net code="70" name="SWDCLK" class="Default">
+    <net code="72" name="SWDCLK" class="Default">
       <node ref="M601" pin="J2" pinfunction="SWDCLK" pintype="input"/>
       <node ref="X603" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
       <node ref="X603" pin="B11" pinfunction="RX1+" pintype="bidirectional"/>
     </net>
-    <net code="71" name="SWDIO" class="Default">
+    <net code="73" name="SWDIO" class="Default">
       <node ref="M601" pin="H2" pinfunction="SWDIO" pintype="bidirectional"/>
       <node ref="X603" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
       <node ref="X603" pin="B10" pinfunction="RX1-" pintype="bidirectional"/>
     </net>
-    <net code="72" name="TOUCH-INT" class="Default">
+    <net code="74" name="TOUCH-INT" class="Default">
       <node ref="IC604" pin="5" pinfunction="A4" pintype="bidirectional"/>
       <node ref="M601" pin="B5" pinfunction="P0.03/NFC2" pintype="bidirectional"/>
     </net>
-    <net code="73" name="TOUCH-RST" class="Default">
+    <net code="75" name="TOUCH-RST" class="Default">
       <node ref="IC604" pin="2" pinfunction="A1" pintype="bidirectional"/>
       <node ref="M601" pin="A4" pinfunction="P1.00" pintype="bidirectional"/>
     </net>
-    <net code="74" name="TOUCH-SCL" class="Default">
+    <net code="76" name="TOUCH-SCL" class="Default">
       <node ref="IC604" pin="4" pinfunction="A3" pintype="bidirectional"/>
       <node ref="M601" pin="A5" pinfunction="P0.20" pintype="bidirectional"/>
     </net>
-    <net code="75" name="TOUCH-SDA" class="Default">
+    <net code="77" name="TOUCH-SDA" class="Default">
       <node ref="IC604" pin="3" pinfunction="A2" pintype="bidirectional"/>
       <node ref="M601" pin="B4" pinfunction="P1.02/I2C" pintype="bidirectional"/>
     </net>
-    <net code="76" name="TxD" class="Default">
+    <net code="78" name="TxD" class="Default">
       <node ref="M601" pin="C5" pinfunction="P0.02/NFC1" pintype="bidirectional"/>
       <node ref="X603" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
       <node ref="X603" pin="B3" pinfunction="TX2-" pintype="bidirectional"/>
     </net>
-    <net code="77" name="USB-D+" class="Default">
+    <net code="79" name="USB-D+" class="Default">
       <node ref="IC602" pin="6" pinfunction="I/O1" pintype="passive"/>
       <node ref="M601" pin="C9" pinfunction="D+" pintype="bidirectional"/>
     </net>
-    <net code="78" name="USB-D-" class="Default">
+    <net code="80" name="USB-D-" class="Default">
       <node ref="IC602" pin="4" pinfunction="I/O2" pintype="passive"/>
       <node ref="M601" pin="D9" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="79" name="unconnected-(IC401-GPIO0-Pad7)" class="Default">
+    <net code="81" name="unconnected-(IC401-GPIO0-Pad7)" class="Default">
       <node ref="IC401" pin="7" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(IC401-GPIO1-Pad8)" class="Default">
+    <net code="82" name="unconnected-(IC401-GPIO1-Pad8)" class="Default">
       <node ref="IC401" pin="8" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(IC401-GPIO2-Pad9)" class="Default">
+    <net code="83" name="unconnected-(IC401-GPIO2-Pad9)" class="Default">
       <node ref="IC401" pin="9" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(IC401-GPIO3-Pad10)" class="Default">
+    <net code="84" name="unconnected-(IC401-GPIO3-Pad10)" class="Default">
       <node ref="IC401" pin="10" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(IC401-LED0-Pad25)" class="Default">
+    <net code="85" name="unconnected-(IC401-LED0-Pad25)" class="Default">
       <node ref="IC401" pin="25" pinfunction="LED0" pintype="output+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(IC401-LED1-Pad26)" class="Default">
+    <net code="86" name="unconnected-(IC401-LED1-Pad26)" class="Default">
       <node ref="IC401" pin="26" pinfunction="LED1" pintype="output+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(IC401-LED2-Pad27)" class="Default">
+    <net code="87" name="unconnected-(IC401-LED2-Pad27)" class="Default">
       <node ref="IC401" pin="27" pinfunction="LED2" pintype="output+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(IC501-INT-Pad4)" class="Default">
+    <net code="88" name="unconnected-(IC501-INT-Pad4)" class="Default">
       <node ref="IC501" pin="4" pinfunction="INT" pintype="open_collector+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(IC501-NC-Pad5)" class="Default">
+    <net code="89" name="unconnected-(IC501-NC-Pad5)" class="Default">
       <node ref="IC501" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="88" name="unconnected-(IC502-ASCX-Pad3)" class="Default">
+    <net code="90" name="unconnected-(IC502-ASCX-Pad3)" class="Default">
       <node ref="IC502" pin="3" pinfunction="ASCX" pintype="passive+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(IC502-ASDX-Pad2)" class="Default">
+    <net code="91" name="unconnected-(IC502-ASDX-Pad2)" class="Default">
       <node ref="IC502" pin="2" pinfunction="ASDX" pintype="passive+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(IC502-INT1-Pad4)" class="Default">
+    <net code="92" name="unconnected-(IC502-INT1-Pad4)" class="Default">
       <node ref="IC502" pin="4" pinfunction="INT1" pintype="output+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(IC502-OCSB-Pad10)" class="Default">
+    <net code="93" name="unconnected-(IC502-OCSB-Pad10)" class="Default">
       <node ref="IC502" pin="10" pinfunction="OCSB" pintype="passive+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(IC502-OSDO-Pad11)" class="Default">
+    <net code="94" name="unconnected-(IC502-OSDO-Pad11)" class="Default">
       <node ref="IC502" pin="11" pinfunction="OSDO" pintype="passive+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(IC503-NC-Pad2)" class="Default">
+    <net code="95" name="unconnected-(IC503-NC-Pad2)" class="Default">
       <node ref="IC503" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="94" name="unconnected-(IC503-NC-Pad11)" class="Default">
+    <net code="96" name="unconnected-(IC503-NC-Pad11)" class="Default">
       <node ref="IC503" pin="11" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="95" name="unconnected-(IC503-NC-Pad12)" class="Default">
+    <net code="97" name="unconnected-(IC503-NC-Pad12)" class="Default">
       <node ref="IC503" pin="12" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="96" name="unconnected-(IC504-INT-Pad7)" class="Default">
+    <net code="98" name="unconnected-(IC504-INT-Pad7)" class="Default">
       <node ref="IC504" pin="7" pinfunction="INT" pintype="passive+no_connect"/>
     </net>
-    <net code="97" name="unconnected-(IC505-NC-Pad4)" class="Default">
+    <net code="99" name="unconnected-(IC505-NC-Pad4)" class="Default">
       <node ref="IC505" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="98" name="unconnected-(IC507-CLKOUT-Pad7)" class="Default">
+    <net code="100" name="unconnected-(IC507-CLKOUT-Pad7)" class="Default">
       <node ref="IC507" pin="7" pinfunction="CLKOUT" pintype="output+no_connect"/>
     </net>
-    <net code="99" name="unconnected-(IC507-NC-Pad6)" class="Default">
+    <net code="101" name="unconnected-(IC507-NC-Pad6)" class="Default">
       <node ref="IC507" pin="6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="100" name="unconnected-(J1-PadMP1)" class="Default">
+    <net code="102" name="unconnected-(J1-PadMP1)" class="Default">
       <node ref="J1" pin="MP1" pinfunction="MP1" pintype="passive+no_connect"/>
     </net>
-    <net code="101" name="unconnected-(J1-PadMP2)" class="Default">
+    <net code="103" name="unconnected-(J1-PadMP2)" class="Default">
       <node ref="J1" pin="MP2" pinfunction="MP2" pintype="passive+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(M501-+-Pad1)" class="Default">
+    <net code="104" name="unconnected-(M501-+-Pad1)" class="Default">
       <node ref="M501" pin="1" pinfunction="+" pintype="passive+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(M501---Pad2)" class="Default">
+    <net code="105" name="unconnected-(M501---Pad2)" class="Default">
       <node ref="M501" pin="2" pinfunction="-" pintype="passive+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(M601A-NC-PadA6)" class="Default">
+    <net code="106" name="unconnected-(M601A-NC-PadA6)" class="Default">
       <node ref="M601" pin="A6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="105" name="unconnected-(M601A-NC-PadJ1)" class="Default">
+    <net code="107" name="unconnected-(M601A-NC-PadJ1)" class="Default">
       <node ref="M601" pin="J1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="106" name="unconnected-(M601A-NC-PadJ4)" class="Default">
+    <net code="108" name="unconnected-(M601A-NC-PadJ4)" class="Default">
       <node ref="M601" pin="J4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="107" name="unconnected-(M601A-NC-PadJ5)" class="Default">
+    <net code="109" name="unconnected-(M601A-NC-PadJ5)" class="Default">
       <node ref="M601" pin="J5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="108" name="unconnected-(M601A-NC-PadK1)" class="Default">
+    <net code="110" name="unconnected-(M601A-NC-PadK1)" class="Default">
       <node ref="M601" pin="K1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="109" name="unconnected-(M601A-NC-PadK9)" class="Default">
+    <net code="111" name="unconnected-(M601A-NC-PadK9)" class="Default">
       <node ref="M601" pin="K9" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="110" name="unconnected-(M601B-P0.27/AIN6-PadH3)" class="Default">
+    <net code="112" name="unconnected-(M601B-P0.27/AIN6-PadH3)" class="Default">
       <node ref="M601" pin="H3" pinfunction="P0.27/AIN6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="111" name="unconnected-(M601B-P0.28/AIN7-PadJ8)" class="Default">
+    <net code="113" name="unconnected-(M601B-P0.28/AIN7-PadJ8)" class="Default">
       <node ref="M601" pin="J8" pinfunction="P0.28/AIN7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="112" name="unconnected-(M601B-P0.29-PadH7)" class="Default">
+    <net code="114" name="unconnected-(M601B-P0.29-PadH7)" class="Default">
       <node ref="M601" pin="H7" pinfunction="P0.29" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="113" name="unconnected-(M601B-P0.30-PadH8)" class="Default">
+    <net code="115" name="unconnected-(M601B-P0.30-PadH8)" class="Default">
       <node ref="M601" pin="H8" pinfunction="P0.30" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(M601C-P1.04-PadG4)" class="Default">
+    <net code="116" name="unconnected-(M601C-P1.04-PadG4)" class="Default">
       <node ref="M601" pin="G4" pinfunction="P1.04" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="115" name="unconnected-(M601C-P1.08-PadG5)" class="Default">
-      <node ref="M601" pin="G5" pinfunction="P1.08" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="116" name="unconnected-(M601C-P1.09-PadG7)" class="Default">
-      <node ref="M601" pin="G7" pinfunction="P1.09" pintype="bidirectional+no_connect"/>
     </net>
     <net code="117" name="unconnected-(M601C-P1.11-PadH9)" class="Default">
       <node ref="M601" pin="H9" pinfunction="P1.11" pintype="bidirectional+no_connect"/>
