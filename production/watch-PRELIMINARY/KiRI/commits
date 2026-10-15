@@ -1,4 +1,4 @@
 _local_|2026-10-15|root|Local changes not committed|False|True
+6e3feee|2026-10-15|Jakob Krantz|Add orientation arrow for HR add-on silkscreen|False|True
 860c1f4|2026-10-15|Jakob Krantz|Add 1.1.0 release notes to Revision History|True|False
 e50a45a|2026-10-15|Jakob Krantz|Add test pads for FEM pins if NORA-126 is used instead.|True|True
-208c5d2|2026-10-14|Jakob Krantz|Fix some ERC Errors due to NC mount points.|True|False
