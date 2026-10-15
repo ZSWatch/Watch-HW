@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/Watch-HW/Watch-HW/watch/ZSWatch-Watch.kicad_sch</source>
-    <date>2026-10-15T21:04:09+0000</date>
+    <date>2026-10-15T21:43:27+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
@@ -13,11 +13,17 @@
     <textvar name="GIT_HASH_SCH">fccc54e</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
+    <textvar name="RELEASE_BODY_1.0.0">**Added:**
+
+Initial release</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">15-Oct-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-10-15</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-02-21</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>

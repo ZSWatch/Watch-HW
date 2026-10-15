@@ -1,4 +1,4 @@
 _local_|2026-10-15|root|Local changes not committed|False|True
+860c1f4|2026-10-15|Jakob Krantz|Add 1.1.0 release notes to Revision History|True|False
 e50a45a|2026-10-15|Jakob Krantz|Add test pads for FEM pins if NORA-126 is used instead.|True|True
 208c5d2|2026-10-14|Jakob Krantz|Fix some ERC Errors due to NC mount points.|True|False
-82480c4|2026-10-13|Jakob Krantz|Make battery/speaker stickout 0.5mm shorter. Add few extra Test Points for power at bottom.|True|True
