@@ -20207,6 +20207,26 @@
 			)
 		)
 	)
+	(gr_line
+		(start 204 128.6)
+		(end 207 130.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "8ac875d2-6558-4118-86ab-7a54425d67dd")
+	)
+	(gr_line
+		(start 207 130.6)
+		(end 210.2 128.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "3c61c1e9-0d4f-40c5-bb8c-3e31b37ee4fe")
+	)
 	(gr_rect
 		(start 40 90.000001)
 		(end 174 214.000001)
