@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/Watch-HW/Watch-HW/watch/ZSWatch-Watch.kicad_sch</source>
-    <date>2026-10-15T22:09:22+0000</date>
+    <date>2026-10-16T16:54:19+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
@@ -16,14 +16,32 @@
     <textvar name="RELEASE_BODY_1.0.0">**Added:**
 
 Initial release</textvar>
-    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">___________________________________
+
+Added
+
+-   Test pads for FEM pins, so NORA-W126 (drop-in compatible, with FEM for higher output power) can be mounted instead of NORA-B106 (#21)
+
+-   Pads for speaker instead of a speaker connector (#18)
+
+-   Extra power test points on the bottom side of the board (#18)
+
+___________________________________
+
+Changed
+
+-   Larger 1.25 mm pitch battery connector (Molex 53261-0271) (#18)
+
+-   Battery and speaker stickout reduced by 0.5 mm (#18)
+
+-   Optional speaker LS801 excluded from the board and BOM (#18)</textvar>
     <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">15-Oct-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-10-15</textvar>
+    <textvar name="RELEASE_DATE">16-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-16</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-02-21</textvar>
-    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 - 2026-10-16</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
@@ -68,7 +86,7 @@ Initial release</textvar>
     <textvar name="SHEET_NAME_7">MCU</textvar>
     <textvar name="SHEET_NAME_8">Extension</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZSWatch-Watch</title>

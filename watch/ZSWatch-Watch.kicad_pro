@@ -938,14 +938,14 @@
     "GIT_URL": "https://github.com/ZSWatch/Watch-DevKit-HW",
     "PROJECT_NAME": "ZSWatch Watch-DevKit",
     "RELEASE_BODY_1.0.0": "**Added:**\n\nInitial release",
-    "RELEASE_BODY_1.1.0": "Version 1.1.0 not found.",
+    "RELEASE_BODY_1.1.0": "___________________________________\n\nAdded\n\n-   Test pads for FEM pins, so NORA-W126 (drop-in compatible, with FEM for higher output power) can be mounted instead of NORA-B106 (#21)\n\n-   Pads for speaker instead of a speaker connector (#18)\n\n-   Extra power test points on the bottom side of the board (#18)\n\n___________________________________\n\nChanged\n\n-   Larger 1.25 mm pitch battery connector (Molex 53261-0271) (#18)\n\n-   Battery and speaker stickout reduced by 0.5 mm (#18)\n\n-   Optional speaker LS801 excluded from the board and BOM (#18)",
     "RELEASE_BODY_1.2.0": "Version 1.2.0 not found.",
     "RELEASE_BODY_1.2.1": "Version 1.2.1 not found.",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "15-Oct-2026",
-    "RELEASE_DATE_NUM": "2026-10-15",
+    "RELEASE_DATE": "16-Oct-2026",
+    "RELEASE_DATE_NUM": "2026-10-16",
     "RELEASE_TITLE_1.0.0": "Version 1.0.0 - 2026-02-21",
-    "RELEASE_TITLE_1.1.0": "Version 1.1.0 not found.",
+    "RELEASE_TITLE_1.1.0": "Version 1.1.0 - 2026-10-16",
     "RELEASE_TITLE_1.2.0": "Version 1.2.0 not found.",
     "RELEASE_TITLE_1.2.1": "Version 1.2.1 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
@@ -990,6 +990,6 @@
     "SHEET_NAME_7": "MCU",
     "SHEET_NAME_8": "Extension",
     "SHEET_NAME_9": "Revision History",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": "RELEASED"
   }
 }
