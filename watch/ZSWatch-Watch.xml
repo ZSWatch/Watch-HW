@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/__w/Watch-HW/Watch-HW/watch/ZSWatch-Watch.kicad_sch</source>
-    <date>2026-10-16T16:54:19+0000</date>
+    <date>2026-10-21T09:38:05+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">6e3feee</textvar>
+    <textvar name="GIT_HASH_PCB">4ce5e67</textvar>
     <textvar name="GIT_HASH_SCH">fccc54e</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
@@ -38,8 +38,8 @@ Changed
     <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">16-Oct-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-10-16</textvar>
+    <textvar name="RELEASE_DATE">21-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-02-21</textvar>
     <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 - 2026-10-16</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
@@ -86,7 +86,7 @@ Changed
     <textvar name="SHEET_NAME_7">MCU</textvar>
     <textvar name="SHEET_NAME_8">Extension</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZSWatch-Watch</title>
@@ -2735,6 +2735,9 @@ Changed
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Bosch_Kampi">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Bosch.kicad_sym</uri>
+    </library>
     <library logical="Connector">
       <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
@@ -2744,11 +2747,35 @@ Changed
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Display">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Display.kicad_sym</uri>
+    </library>
+    <library logical="Infineon">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Infineon.kicad_sym</uri>
+    </library>
+    <library logical="Knowles">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Knowles.kicad_sym</uri>
+    </library>
+    <library logical="Micro Crystal">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Micro Crystal.kicad_sym</uri>
+    </library>
     <library logical="Motor">
       <uri>/usr/share/kicad/symbols//Motor.kicad_sym</uri>
     </library>
+    <library logical="NXP">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/NXP.kicad_sym</uri>
+    </library>
+    <library logical="Nordic">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Nordic.kicad_sym</uri>
+    </library>
+    <library logical="ON Semiconductor">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/ON Semiconductor.kicad_sym</uri>
+    </library>
     <library logical="Power_Protection">
       <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="ST">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/ST.kicad_sym</uri>
     </library>
     <library logical="Sensor_Optical">
       <uri>/usr/share/kicad/symbols//Sensor_Optical.kicad_sym</uri>
@@ -2756,8 +2783,14 @@ Changed
     <library logical="Switch">
       <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
     </library>
+    <library logical="Texas Instruments">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Texas Instruments.kicad_sym</uri>
+    </library>
     <library logical="molex_pico">
       <uri>/__w/Watch-HW/Watch-HW/watch/library/Symbols/molex_pico.kicad_sym</uri>
+    </library>
+    <library logical="uBlox">
+      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/uBlox.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
