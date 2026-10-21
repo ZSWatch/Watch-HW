@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+-   Restore missing 3D models in previews and STEP exports, and correct release validation reports. PCB layout and electrical design unchanged (#24)
+
 ## [1.1.0] - 2026-10-16
 
 ### Added
