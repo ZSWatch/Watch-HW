@@ -14,6 +14,7 @@
   - [📖 About](#-about)
   - [📂 Directory Breakdown](#-directory-breakdown)
   - [Purchasing](#purchasing)
+  - [KiCad library](#kicad-library)
   - [Ressources](#ressources)
   - [👨‍💻 Maintainer](#-maintainer)
 
@@ -47,6 +48,14 @@ You can also view this project on [CADLAB.io](...).
 ## Purchasing
 
 TBD
+
+## KiCad library
+
+Initialize the pinned library after cloning:
+
+```sh
+git submodule update --init -- kicad-library
+```
 
 ## Ressources
 
