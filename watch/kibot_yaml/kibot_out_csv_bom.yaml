@@ -15,8 +15,8 @@ outputs:
     csv:
       hide_pcb_info: true
       hide_stats_info: true
-      
-    group_fields: ['@MPN_FIELD@', 'Value']
+
+    group_fields: ['Value', '@MPN_FIELD@', '@ASSEMBLY_FIELD@']
 
     columns:
       - "Row"
@@ -28,10 +28,12 @@ outputs:
       - "Description"
       - "@MAN_FIELD@"
       - "@MPN_FIELD@"
+      - field: "@ASSEMBLY_FIELD@"
+        name: "Assembly"
       # - "arrow#"
       # - "digikey#"
       # - "farnell#"
-      - "mouser#"
+      # - "mouser#"
       # - "newark#"
       # - "rs#"
       # - "tme#"
@@ -43,3 +45,4 @@ definitions:
   DIR: Manufacturing/Assembly
   MPN_FIELD: 'Manufacturer Part Number'
   MAN_FIELD: 'Manufacturer'
+  ASSEMBLY_FIELD: 'assembly'
