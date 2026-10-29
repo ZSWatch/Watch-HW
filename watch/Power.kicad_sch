@@ -2051,12 +2051,6 @@
 		(uuid "0d2d6408-fe5f-43d2-b9a2-8e3805797b20")
 	)
 	(junction
-		(at 252.73 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fc29164-f066-4caa-b2b0-7479f403846a")
-	)
-	(junction
 		(at 231.14 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2069,10 +2063,28 @@
 		(uuid "223628d6-4051-494f-a0db-7dd8b01c8910")
 	)
 	(junction
+		(at 252.73 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "301e4197-57e8-4c33-9de3-f1f177a92828")
+	)
+	(junction
+		(at 242.57 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d163352-35cd-44f8-83b7-924ac61a1ae9")
+	)
+	(junction
 		(at 166.37 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e78a0e-0c66-4523-b8dd-281bc01f7d40")
+	)
+	(junction
+		(at 242.57 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b6834b5-ed90-4ca4-a6ef-17fd5055c388")
 	)
 	(junction
 		(at 220.98 46.99)
@@ -2129,12 +2141,6 @@
 		(uuid "b28f70b1-684e-4a2e-9e43-177b9de2ce56")
 	)
 	(junction
-		(at 242.57 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d63277ad-bdd1-4d45-8c1c-8432c7540337")
-	)
-	(junction
 		(at 231.14 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2151,12 +2157,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed54861c-483d-45f7-bf91-de52447fb920")
-	)
-	(junction
-		(at 242.57 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f23c791e-1c9d-448c-9048-fef7008df59e")
 	)
 	(no_connect
 		(at 200.66 13.97)
@@ -2283,6 +2283,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 100.33) (xy 242.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104de031-ef87-4195-9351-af0a95c2265d")
+	)
+	(wire
+		(pts
 			(xy 173.99 36.83) (xy 173.99 66.04)
 		)
 		(stroke
@@ -2320,6 +2330,16 @@
 			(type default)
 		)
 		(uuid "14c1e065-c298-491f-a8a0-ed8aab168360")
+	)
+	(wire
+		(pts
+			(xy 252.73 27.94) (xy 252.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168ecfc9-f438-45c5-9fe0-eb03ddaf8fa1")
 	)
 	(wire
 		(pts
@@ -2393,16 +2413,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 83.82) (xy 251.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2588ef35-30f3-4dff-b2d0-e9058bf70897")
-	)
-	(wire
-		(pts
 			(xy 207.01 109.22) (xy 222.25 109.22)
 		)
 		(stroke
@@ -2420,6 +2430,26 @@
 			(type default)
 		)
 		(uuid "266d4512-e4f0-49cf-953a-5faaf4bad483")
+	)
+	(wire
+		(pts
+			(xy 242.57 83.82) (xy 251.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac9241a-cf1b-4c34-be45-03af856fc2b7")
+	)
+	(wire
+		(pts
+			(xy 242.57 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d308eae-ba81-409a-bcc6-af7f585cb32e")
 	)
 	(wire
 		(pts
@@ -2623,16 +2653,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 101.6) (xy 251.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b38e272-adbd-4631-8832-e77291bfb19e")
-	)
-	(wire
-		(pts
 			(xy 226.06 29.21) (xy 213.36 29.21)
 		)
 		(stroke
@@ -2820,6 +2840,16 @@
 			(type default)
 		)
 		(uuid "7873e81c-6606-429a-9b5a-3910bc78f785")
+	)
+	(wire
+		(pts
+			(xy 242.57 82.55) (xy 242.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cdd2733-b239-4dd5-b1b2-7d515c90c366")
 	)
 	(wire
 		(pts
@@ -3103,16 +3133,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 29.21) (xy 264.16 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0efcf0c-fbe2-44c6-bb16-fc173c9f4866")
-	)
-	(wire
-		(pts
 			(xy 231.14 121.92) (xy 231.14 123.19)
 		)
 		(stroke
@@ -3280,6 +3300,16 @@
 			(type default)
 		)
 		(uuid "d3e244ea-c1d0-4d51-9ae3-ebced741013b")
+	)
+	(wire
+		(pts
+			(xy 252.73 29.21) (xy 264.16 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43ca83a-fcc5-4600-901e-7be6f117b6f1")
 	)
 	(wire
 		(pts
@@ -4039,39 +4069,38 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 252.73 29.21 0)
+		(at 252.73 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0e2bba0d-b80b-417f-b030-45901f1fac53")
 		(property "Reference" "TP6"
-			(at 249.174 20.574 0)
+			(at 252.73 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 247.65 22.098 0)
+			(at 252.73 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 257.81 29.21 0)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_D1.0mm"
+			(at 257.81 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4082,7 +4111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 29.21 0)
+			(at 257.81 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4093,7 +4122,51 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 252.73 29.21 0)
+			(at 252.73 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" ""
+			(at 252.73 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
+			(at 252.73 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" ""
+			(at 252.73 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 252.73 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7343,39 +7416,38 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 242.57 101.6 0)
+		(at 242.57 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b5c144c1-5121-4d08-ba74-474471ae7130")
 		(property "Reference" "TP5"
-			(at 239.014 92.964 0)
+			(at 242.57 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 237.49 94.488 0)
+			(at 242.57 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 247.65 101.6 0)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_D1.0mm"
+			(at 247.65 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7386,7 +7458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 101.6 0)
+			(at 247.65 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7397,7 +7469,51 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 242.57 101.6 0)
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" ""
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" ""
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,39 +7658,38 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 242.57 83.82 0)
+		(at 242.57 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c62bba1c-3646-4b3f-afce-97e132a38cb5")
 		(property "Reference" "TP4"
-			(at 239.014 75.184 0)
+			(at 242.57 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 237.49 76.708 0)
+			(at 242.57 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 247.65 83.82 0)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_D1.0mm"
+			(at 247.65 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +7700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 83.82 0)
+			(at 247.65 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,7 +7711,51 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 242.57 83.82 0)
+			(at 242.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" ""
+			(at 242.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
+			(at 242.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" ""
+			(at 242.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 242.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
