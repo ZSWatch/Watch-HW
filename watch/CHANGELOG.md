@@ -2,7 +2,16 @@
 
 ## [Unreleased]
 
-### Fixed
+**Added:**
+
+-   Mouser cart (CSV) for the BoM import and a check of the BoM against the schematic in the assembly outputs
+
+**Changed:**
+
+-   Project ported to KiCad 10 and updated to the latest KiCad template (KiBot configuration, CI/CD workflow, release skills)
+-   Manufacturing outputs are no longer committed to the repository, they are attached to the release and published on GitHub Pages
+
+**Fixed:**
 
 -   Restore missing 3D models in previews and STEP exports, and correct release validation reports. PCB layout and electrical design unchanged (#24)
 

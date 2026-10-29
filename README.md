@@ -1,8 +1,3 @@
-> [!IMPORTANT]  
-> This is a prototype right now, not fully tested. Do not order.
-> Please use https://github.com/ZSWatch/Watch-DevKit-HW until this PCB is finalized.
-> Not recommended to order the older legacy_zswatch. 
-
 # ZSWatch-Watch
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
@@ -33,17 +28,22 @@ Key features:
 
 Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
 
-You can also view this project on [CADLAB.io](...). 
+You can also view this project on [CADLAB.io](...).
 
 ## 📂 Directory Breakdown
 
 - **`.github`**: GitHub related files
 - **`.gitignore`**: Ignored files list
-- **`devkit`**: KiCad project for the devkit
-- **`production`**: Manufacturing outputs (Gerbers, documentation, etc.)
+- **`docs`**: Drawings and documentation
+- **`kicad-library`**: Pinned KiCad library (submodule)
+- **`scripts`**: Additional scripts for CI/CD
+- **`watch`**: KiCad project for the watch
 - **`CHANGELOG.md`**: Version history
 - **`LICENSE`**: Project license (GPL-3.0)
 - **`README.md`**: Project overview
+
+The manufacturing outputs (Gerbers, BoM, documentation, etc.) are not part of the repository. They are
+attached to each [release](https://github.com/ZSWatch/Watch-HW/releases) and published on GitHub Pages.
 
 ## Purchasing
 

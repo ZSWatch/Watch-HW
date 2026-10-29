@@ -990,6 +990,6 @@
     "SHEET_NAME_7": "MCU",
     "SHEET_NAME_8": "Extension",
     "SHEET_NAME_9": "Revision History",
-    "VARIANT": "PRELIMINARY"
+    "PCB_VARIANT": "PRELIMINARY"
   }
 }
