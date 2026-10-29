@@ -2,46 +2,29 @@
 <export version="E">
   <design>
     <source>/__w/Watch-HW/Watch-HW/watch/ZSWatch-Watch.kicad_sch</source>
-    <date>2026-10-21T09:38:05+0000</date>
-    <tool>Eeschema 9.0.7+1</tool>
+    <date>2026-10-29T21:06:55</date>
+    <tool>Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">4ce5e67</textvar>
-    <textvar name="GIT_HASH_SCH">fccc54e</textvar>
+    <textvar name="GIT_HASH_PCB">9bdbac2</textvar>
+    <textvar name="GIT_HASH_SCH">9bdbac2</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
+    <textvar name="PCB_VARIANT">CHECKED</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
     <textvar name="RELEASE_BODY_1.0.0">**Added:**
 
-Initial release</textvar>
-    <textvar name="RELEASE_BODY_1.1.0">___________________________________
-
-Added
-
--   Test pads for FEM pins, so NORA-W126 (drop-in compatible, with FEM for higher output power) can be mounted instead of NORA-B106 (#21)
-
--   Pads for speaker instead of a speaker connector (#18)
-
--   Extra power test points on the bottom side of the board (#18)
-
-___________________________________
-
-Changed
-
--   Larger 1.25 mm pitch battery connector (Molex 53261-0271) (#18)
-
--   Battery and speaker stickout reduced by 0.5 mm (#18)
-
--   Optional speaker LS801 excluded from the board and BOM (#18)</textvar>
+- Initial release</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">21-Oct-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-10-21</textvar>
+    <textvar name="RELEASE_DATE">2026-10-29</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-29</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-02-21</textvar>
-    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 - 2026-10-16</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
@@ -68,7 +51,7 @@ Changed
     <textvar name="SHEET_NAME_27">......................................</textvar>
     <textvar name="SHEET_NAME_28">......................................</textvar>
     <textvar name="SHEET_NAME_29">......................................</textvar>
-    <textvar name="SHEET_NAME_3">Power - Topology</textvar>
+    <textvar name="SHEET_NAME_3">Project Architecture</textvar>
     <textvar name="SHEET_NAME_30">......................................</textvar>
     <textvar name="SHEET_NAME_31">......................................</textvar>
     <textvar name="SHEET_NAME_32">......................................</textvar>
@@ -79,14 +62,13 @@ Changed
     <textvar name="SHEET_NAME_37">......................................</textvar>
     <textvar name="SHEET_NAME_38">......................................</textvar>
     <textvar name="SHEET_NAME_39">......................................</textvar>
-    <textvar name="SHEET_NAME_4">Project Architecture</textvar>
+    <textvar name="SHEET_NAME_4">Power Management</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">Power Management</textvar>
-    <textvar name="SHEET_NAME_6">Peripherals</textvar>
-    <textvar name="SHEET_NAME_7">MCU</textvar>
-    <textvar name="SHEET_NAME_8">Extension</textvar>
-    <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="SHEET_NAME_5">Peripherals</textvar>
+    <textvar name="SHEET_NAME_6">MCU</textvar>
+    <textvar name="SHEET_NAME_7">Extension</textvar>
+    <textvar name="SHEET_NAME_8">Revision History</textvar>
+    <textvar name="SHEET_NAME_9">......................................</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZSWatch-Watch</title>
@@ -123,25 +105,7 @@ Changed
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/Power - Topology/" tstamps="/70f6edc8-bded-4e9c-939c-3c02d7485169/">
-      <title_block>
-        <title/>
-        <company>ZSWatch</company>
-        <rev/>
-        <date>2025-07-13</date>
-        <source>Power - Topology.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="4" name="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
+    <sheet number="3" name="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
       <title_block>
         <title>Power-Management</title>
         <company>ZSWatch</company>
@@ -159,7 +123,7 @@ Changed
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/">
+    <sheet number="4" name="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/">
       <title_block>
         <title>Power-Management</title>
         <company>ZSWatch</company>
@@ -177,7 +141,7 @@ Changed
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/">
+    <sheet number="5" name="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/">
       <title_block>
         <title>Peripherals</title>
         <company>ZSWatch</company>
@@ -195,7 +159,7 @@ Changed
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/">
+    <sheet number="6" name="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/">
       <title_block>
         <title>MCU</title>
         <company>ZSWatch</company>
@@ -213,7 +177,7 @@ Changed
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/">
+    <sheet number="7" name="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/">
       <title_block>
         <title>Extension</title>
         <company>ZSWatch</company>
@@ -231,7 +195,7 @@ Changed
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="9" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+    <sheet number="8" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision-History</title>
         <company>ZSWatch</company>
@@ -276,6 +240,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>0f86fcbe-c89a-4b08-baed-2057f2cdec85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C402">
       <value>100n</value>
@@ -302,6 +274,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>e262cf8a-52fa-4671-926b-aa4f0fc5e293</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C403">
       <value>2u2</value>
@@ -328,6 +308,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>93546abb-c4af-464d-9ec2-5521f5e20bca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C404">
       <value>10u</value>
@@ -354,6 +342,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>e76f71ad-30fe-4f05-84e5-b1433afa37ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C405">
       <value>1u</value>
@@ -380,6 +376,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>03cfecf6-c11a-4c4d-b5da-a534c194ec1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C406">
       <value>10u</value>
@@ -406,6 +410,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>10141337-eb0c-40a3-90f0-5efac755f045</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C407">
       <value>10u</value>
@@ -432,6 +444,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>87837e07-75c0-477c-8f09-a572e9459c52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C408">
       <value>10u</value>
@@ -458,6 +478,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>26acfb06-5cc5-4b56-bd13-6fada4843d06</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C409">
       <value>10u</value>
@@ -484,6 +512,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>4e8391d9-dcc1-4cf1-b9be-affad3ad3a4d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C410">
       <value>10u</value>
@@ -510,6 +546,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>e4648c30-036c-40cd-a72a-b1f637c1d4bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C512">
       <value>10u</value>
@@ -536,6 +580,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>836f64f5-55f6-4367-a254-f0629ee459db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC401">
       <value>nPM1300-QEXX</value>
@@ -559,6 +611,45 @@ Changed
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>3a814bb8-dec5-4449-9e7b-7701173fed68</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="21"/>
+            <pin num="12"/>
+            <pin num="33"/>
+            <pin num="4"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="32"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="18"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="J1">
       <value>53261-0271</value>
@@ -585,6 +676,16 @@ Changed
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>5f43d65c-69c5-474d-b631-76d217bd15b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="MP2"/>
+            <pin num="MP1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="L401">
       <value>2u2</value>
@@ -611,6 +712,14 @@ Changed
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>08e7a198-02b2-4f4c-bbb1-361fc894d09c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="L402">
       <value>2u2</value>
@@ -637,6 +746,14 @@ Changed
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>75f3a760-522b-437c-aae9-d902aa26e953</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R407">
       <value>47k</value>
@@ -663,6 +780,14 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>372eed9d-925c-4f11-8f3d-4bc6e45e0e05</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R408">
       <value>100k</value>
@@ -689,15 +814,22 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>18743cfe-9c1d-44ae-87b8-60eea41e377f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="TP1">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -707,15 +839,21 @@ Changed
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>ac35863b-8bd7-441d-aa19-eda23e305a73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="TP3">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -725,60 +863,115 @@ Changed
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>52c328f2-6cd8-42f9-922f-88202ef0275c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="TP4">
       <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_D1.0mm</footprint>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="Config"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="Config" value=""/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_pos_files"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>c62bba1c-3646-4b3f-afce-97e132a38cb5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="TP5">
       <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_D1.0mm</footprint>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="Config"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="Config" value=""/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_pos_files"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>b5c144c1-5121-4d08-ba74-474471ae7130</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="TP6">
       <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_D1.0mm</footprint>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="Config"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="Config" value=""/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_pos_files"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>0e2bba0d-b80b-417f-b030-45901f1fac53</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C501">
       <value>100n</value>
@@ -805,6 +998,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>798cf1c8-d1ff-475e-915e-4f4d768a9bd2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C502">
       <value>100n</value>
@@ -831,6 +1032,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>cdc5b82d-a066-4aba-8efb-723cd4f2abff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C503">
       <value>100n</value>
@@ -857,6 +1066,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>66c0e0bc-8194-404e-85c0-e2bf8fe1793e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C504">
       <value>100n</value>
@@ -883,6 +1100,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>f1f9f893-158e-4894-8d99-17f33d025ed7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C505">
       <value>220n</value>
@@ -909,6 +1134,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>441246d9-bd74-4288-ab2b-02b040e72e0c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C506">
       <value>10u</value>
@@ -935,6 +1168,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>f509dc1e-03c6-4a55-af70-0a604f74c42e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C507">
       <value>100n</value>
@@ -961,6 +1202,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>1718f657-b263-4aa8-a007-c6c1ebb55c58</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C508">
       <value>100n</value>
@@ -987,6 +1236,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>2f99a992-e354-4583-b254-5944f4906bd8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C509">
       <value>100n</value>
@@ -1013,6 +1270,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>4c5e640f-fe5b-4fb4-9d9d-09c2c6117a3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C510">
       <value>100n</value>
@@ -1039,6 +1304,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>a20be320-fbe5-4e92-965d-6c98c914f29e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C511">
       <value>100n</value>
@@ -1065,6 +1338,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>24538a51-baaf-4c93-a719-64df0fb57da5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC501">
       <value>APDS-9306-065</value>
@@ -1091,6 +1372,18 @@ Changed
       <property name="ki_fp_filters" value="Broadcom*DFN*2x2mm*P0.65mm*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>599b6d90-9858-4791-a8b8-094e62b5eaf4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC502">
       <value>BMI270</value>
@@ -1114,6 +1407,26 @@ Changed
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>48bfe2c5-d8d7-4c92-a75e-738d779cd208</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="4"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC503">
       <value>LIS2MDLTR</value>
@@ -1137,6 +1450,24 @@ Changed
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>7fb098cd-233f-44ab-a92a-299057a912f0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="6"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="2"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC504">
       <value>BMP581</value>
@@ -1160,6 +1491,22 @@ Changed
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>ee60d560-c4ce-4b4a-b08f-2f6863782e81</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC505">
       <value>DRV2603RUNT</value>
@@ -1183,6 +1530,22 @@ Changed
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>3acf795d-f67f-45a0-8bda-e0ec71562660</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC506">
       <value>PCA9306JK</value>
@@ -1207,6 +1570,20 @@ Changed
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>c59d97dc-053d-4b2e-9543-f84e12d6274a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC507">
       <value>RV-8263-C8</value>
@@ -1230,6 +1607,20 @@ Changed
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>22ce91fb-60a0-4882-9711-ed0b94fc3598</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="M501">
       <value>Vibrator DC Motor</value>
@@ -1259,6 +1650,14 @@ Changed
       <property name="ki_fp_filters" value="PinHeader*P2.54mm* TerminalBlock*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>3a7a70da-21c8-4d45-8ca1-32163354087e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="MK501">
       <value>SPK0641HT4H-1</value>
@@ -1285,6 +1684,20 @@ Changed
       <property name="ki_fp_filters" value="Knowles*LGA*3.5x2.65mm*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>bf9ce5f3-a078-4f6f-9475-0e21201387ab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R501">
       <value>1k8</value>
@@ -1311,6 +1724,14 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>c1b1713b-80f7-4e7a-b63d-c6f6c34b9e6f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R502">
       <value>1k8</value>
@@ -1337,6 +1758,14 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>4ac3172d-c50a-4bf3-b775-6105473a5f6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R504">
       <value>3k3</value>
@@ -1363,6 +1792,14 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>1e93a9bc-a117-40d4-b32c-f91b7efa0451</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R505">
       <value>3k3</value>
@@ -1389,6 +1826,14 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>9853bfc8-ca34-47cd-a859-a4322b4a3cb5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R506">
       <value>200k</value>
@@ -1415,6 +1860,14 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>1c26a46c-3e38-4db6-b8de-71792669e4bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="S501">
       <value>SW1</value>
@@ -1440,6 +1893,14 @@ Changed
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>a4a8868f-d5e8-46f6-a3fb-15655b890134</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="S502">
       <value>SW2</value>
@@ -1465,6 +1926,14 @@ Changed
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>ba1c354e-03dd-4626-9341-528413c6dc4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="S503">
       <value>SW3</value>
@@ -1490,6 +1959,14 @@ Changed
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>01f557f5-32fe-4f36-ac1b-7c33d9bc0ef5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="S504">
       <value>SW4</value>
@@ -1515,6 +1992,14 @@ Changed
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>5c120521-4b84-424f-ad7a-b73888a3fd98</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="X509">
       <value>Motor</value>
@@ -1541,6 +2026,14 @@ Changed
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>01ddc775-726d-4c7c-b8ae-50c739d86b97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C601">
       <value>1u</value>
@@ -1567,6 +2060,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>e5188f64-72b3-4fd0-861f-2676bf210a4a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C602">
       <value>100n</value>
@@ -1593,6 +2094,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>f7f8716e-3e65-46e0-9180-593b52f144c4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C603">
       <value>100n</value>
@@ -1619,6 +2128,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>d3db60f8-1b99-4300-9a61-fdf3170b0fc6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="C604">
       <value>100n</value>
@@ -1645,6 +2162,14 @@ Changed
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>578a4e63-5933-4527-906b-bd6ada2b4997</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC601">
       <value>FAN5622SX</value>
@@ -1668,6 +2193,18 @@ Changed
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>7926bc05-4cc8-4e97-a9bb-b5eded3d1cc2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC602">
       <value>USBLC6-2P6</value>
@@ -1694,6 +2231,18 @@ Changed
       <property name="ki_fp_filters" value="SOT?666*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>1a425a5e-dfd9-4e17-b9df-8f2924955957</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC603">
       <value>MX25U51245GZ4I00</value>
@@ -1717,6 +2266,21 @@ Changed
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>fbf847b0-94f2-42ad-aaf2-4af69fe90b16</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="IC604">
       <value>NTS0104GU12</value>
@@ -1740,6 +2304,24 @@ Changed
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>3e71532f-4630-43cd-ad21-3dc7f1ef5e83</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="12"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="M601">
       <value>NORA-B106</value>
@@ -1762,7 +2344,103 @@ Changed
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
-      <tstamps>c66b6205-994e-4910-84eb-438fc910075c 6b4b5775-802d-4f65-8ea3-f1ad7a56059c 2fcc3851-9c97-4fb2-a186-a9f7198acfc3</tstamps>
+      <tstamps>6b4b5775-802d-4f65-8ea3-f1ad7a56059c c66b6205-994e-4910-84eb-438fc910075c 2fcc3851-9c97-4fb2-a186-a9f7198acfc3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A8"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="B9"/>
+            <pin num="D9"/>
+            <pin num="C9"/>
+            <pin num="J3"/>
+            <pin num="J2"/>
+            <pin num="H2"/>
+            <pin num="A6"/>
+            <pin num="J1"/>
+            <pin num="J4"/>
+            <pin num="J5"/>
+            <pin num="K1"/>
+            <pin num="K9"/>
+            <pin num="A1"/>
+            <pin num="A9"/>
+            <pin num="B2"/>
+            <pin num="B8"/>
+            <pin num="E4"/>
+            <pin num="E5"/>
+            <pin num="F4"/>
+            <pin num="F5"/>
+            <pin num="K2"/>
+            <pin num="K3"/>
+            <pin num="K5"/>
+            <pin num="K7"/>
+            <pin num="K8"/>
+            <pin num="L1"/>
+            <pin num="L9"/>
+            <pin num="M1"/>
+            <pin num="M2"/>
+            <pin num="M8"/>
+            <pin num="M9"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="J9"/>
+            <pin num="H8"/>
+            <pin num="H7"/>
+            <pin num="J8"/>
+            <pin num="H3"/>
+            <pin num="G2"/>
+            <pin num="G3"/>
+            <pin num="H1"/>
+            <pin num="D7"/>
+            <pin num="C8"/>
+            <pin num="E3"/>
+            <pin num="A5"/>
+            <pin num="F3"/>
+            <pin num="E1"/>
+            <pin num="F1"/>
+            <pin num="F2"/>
+            <pin num="D1"/>
+            <pin num="E2"/>
+            <pin num="D2"/>
+            <pin num="A2"/>
+            <pin num="B3"/>
+            <pin num="C1"/>
+            <pin num="C2"/>
+            <pin num="B1"/>
+            <pin num="D3"/>
+            <pin num="E7"/>
+            <pin num="E8"/>
+            <pin num="D8"/>
+            <pin num="B5"/>
+            <pin num="C5"/>
+            <pin num="B6"/>
+            <pin num="C6"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="F9"/>
+            <pin num="F8"/>
+            <pin num="G9"/>
+            <pin num="G8"/>
+            <pin num="H9"/>
+            <pin num="J7"/>
+            <pin num="G7"/>
+            <pin num="G5"/>
+            <pin num="F7"/>
+            <pin num="G1"/>
+            <pin num="E9"/>
+            <pin num="G4"/>
+            <pin num="A3"/>
+            <pin num="B4"/>
+            <pin num="C4"/>
+            <pin num="A4"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R601">
       <value>12k</value>
@@ -1789,6 +2467,14 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>d2423ec0-a255-469d-a7c7-cc4b007f02fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R612">
       <value>100k</value>
@@ -1817,6 +2503,14 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>3381be32-e853-4783-aa10-90ead6179a20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="R613">
       <value>100k</value>
@@ -1843,42 +2537,82 @@ Changed
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>d14c6737-1755-4442-b0d2-0fd9be5edccb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="TP7">
       <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_D1.0mm</footprint>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="Config"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="Config" value=""/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_pos_files"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>3313e427-21e7-4dd6-b7b1-dbec81e6958b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="TP8">
       <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_D1.0mm</footprint>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="Config"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="Config" value=""/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_pos_files"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>606abb70-0c37-4475-ad2b-391c0c99719c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="X603">
       <value>Device</value>
@@ -1905,6 +2639,37 @@ Changed
       <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>ffc731a8-b733-42af-83bc-5fe747e3f89a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="S1"/>
+            <pin num="B1"/>
+            <pin num="B12"/>
+            <pin num="A1"/>
+            <pin num="A12"/>
+            <pin num="B9"/>
+            <pin num="A9"/>
+            <pin num="B4"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="B5"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="A6"/>
+            <pin num="B6"/>
+            <pin num="B10"/>
+            <pin num="B11"/>
+            <pin num="A3"/>
+            <pin num="A2"/>
+            <pin num="A10"/>
+            <pin num="A11"/>
+            <pin num="B3"/>
+            <pin num="B2"/>
+            <pin num="A8"/>
+            <pin num="B8"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="X608">
       <value>Display</value>
@@ -1936,6 +2701,35 @@ Changed
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>c61b3f8f-efae-4329-9503-bc2f0355ecb4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="10"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="LS801">
       <value>Speaker</value>
@@ -1964,15 +2758,22 @@ Changed
       <property name="ki_keywords" value="speaker sound"/>
       <sheetpath names="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/"/>
       <tstamps>eaef6556-4fcb-48b8-91f5-d65bc6c7a009</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="TP2">
       <value>TestPoint_2Pole</value>
       <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
-      <datasheet>~</datasheet>
       <description>2-polar test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">2-polar test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
@@ -1982,6 +2783,14 @@ Changed
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/"/>
       <tstamps>ed655757-d53c-42df-8d7d-dc47826ef5f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="X701">
       <value>MB1</value>
@@ -2008,6 +2817,26 @@ Changed
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/"/>
       <tstamps>f772da12-d542-4c93-885f-da3a304459a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
     <comp ref="X702">
       <value>MB2</value>
@@ -2034,6 +2863,26 @@ Changed
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/Project Architecture/Extension/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/"/>
       <tstamps>a7343d5c-6397-48e7-a9c7-400591f27660</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
   </components>
   <libparts>
@@ -2087,7 +2936,6 @@ Changed
     </libpart>
     <libpart lib="Connector" part="TestPoint">
       <description>test point</description>
-      <docs>~</docs>
       <footprints>
         <fp>Pin*</fp>
         <fp>Test*</fp>
@@ -2096,7 +2944,7 @@ Changed
         <field name="Reference">TP</field>
         <field name="Value">TestPoint</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <pins>
@@ -2105,7 +2953,6 @@ Changed
     </libpart>
     <libpart lib="Connector" part="TestPoint_2Pole">
       <description>2-polar test point</description>
-      <docs>~</docs>
       <footprints>
         <fp>Pin*</fp>
         <fp>Test*</fp>
@@ -2114,7 +2961,7 @@ Changed
         <field name="Reference">TP</field>
         <field name="Value">TestPoint_2Pole</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">2-polar test point</field>
       </fields>
       <pins>
@@ -2165,7 +3012,6 @@ Changed
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x02">
       <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
@@ -2173,7 +3019,7 @@ Changed
         <field name="Reference">J</field>
         <field name="Value">Conn_01x02</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
@@ -2183,7 +3029,6 @@ Changed
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x07_Top_Bottom">
       <description>Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
       <footprints>
         <fp>Connector*:*_2x??_*</fp>
       </footprints>
@@ -2191,7 +3036,7 @@ Changed
         <field name="Reference">J</field>
         <field name="Value">Conn_02x07_Top_Bottom</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
@@ -2213,7 +3058,6 @@ Changed
     </libpart>
     <libpart lib="Device" part="C_Small">
       <description>Unpolarized capacitor, small symbol</description>
-      <docs>~</docs>
       <footprints>
         <fp>C_*</fp>
       </footprints>
@@ -2221,7 +3065,7 @@ Changed
         <field name="Reference">C</field>
         <field name="Value">C_Small</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <pins>
@@ -2231,7 +3075,6 @@ Changed
     </libpart>
     <libpart lib="Device" part="L">
       <description>Inductor</description>
-      <docs>~</docs>
       <footprints>
         <fp>Choke_*</fp>
         <fp>*Coil*</fp>
@@ -2242,7 +3085,7 @@ Changed
         <field name="Reference">L</field>
         <field name="Value">L</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">Inductor</field>
       </fields>
       <pins>
@@ -2252,7 +3095,6 @@ Changed
     </libpart>
     <libpart lib="Device" part="R_Small">
       <description>Resistor, small symbol</description>
-      <docs>~</docs>
       <footprints>
         <fp>R_*</fp>
       </footprints>
@@ -2260,7 +3102,7 @@ Changed
         <field name="Reference">R</field>
         <field name="Value">R_Small</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <pins>
@@ -2270,12 +3112,11 @@ Changed
     </libpart>
     <libpart lib="Device" part="Speaker">
       <description>Speaker</description>
-      <docs>~</docs>
       <fields>
         <field name="Reference">LS</field>
         <field name="Value">Speaker</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">Speaker</field>
       </fields>
       <pins>
@@ -2389,7 +3230,6 @@ Changed
     </libpart>
     <libpart lib="Motor" part="Motor_DC">
       <description>DC Motor</description>
-      <docs>~</docs>
       <footprints>
         <fp>PinHeader*P2.54mm*</fp>
         <fp>TerminalBlock*</fp>
@@ -2398,7 +3238,7 @@ Changed
         <field name="Reference">M</field>
         <field name="Value">Motor_DC</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">DC Motor</field>
       </fields>
       <pins>
@@ -2583,12 +3423,11 @@ Changed
     </libpart>
     <libpart lib="Switch" part="SW_Push">
       <description>Push button switch, generic, two pins</description>
-      <docs>~</docs>
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">SW_Push</field>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">Push button switch, generic, two pins</field>
       </fields>
       <pins>
@@ -2736,65 +3575,65 @@ Changed
   </libparts>
   <libraries>
     <library logical="Bosch_Kampi">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Bosch.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/Bosch.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
     </library>
     <library logical="Display">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Display.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/Display.kicad_sym</uri>
     </library>
     <library logical="Infineon">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Infineon.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/Infineon.kicad_sym</uri>
     </library>
     <library logical="Knowles">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Knowles.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/Knowles.kicad_sym</uri>
     </library>
     <library logical="Micro Crystal">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Micro Crystal.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/Micro Crystal.kicad_sym</uri>
     </library>
     <library logical="Motor">
-      <uri>/usr/share/kicad/symbols//Motor.kicad_sym</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Motor.kicad_sym</uri>
     </library>
     <library logical="NXP">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/NXP.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/NXP.kicad_sym</uri>
     </library>
     <library logical="Nordic">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Nordic.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/Nordic.kicad_sym</uri>
     </library>
     <library logical="ON Semiconductor">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/ON Semiconductor.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/ON Semiconductor.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
-      <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Power_Protection.kicad_sym</uri>
     </library>
     <library logical="ST">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/ST.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/ST.kicad_sym</uri>
     </library>
     <library logical="Sensor_Optical">
-      <uri>/usr/share/kicad/symbols//Sensor_Optical.kicad_sym</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Sensor_Optical.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
     </library>
     <library logical="Texas Instruments">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/Texas Instruments.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/Texas Instruments.kicad_sym</uri>
     </library>
     <library logical="molex_pico">
-      <uri>/__w/Watch-HW/Watch-HW/watch/library/Symbols/molex_pico.kicad_sym</uri>
+      <uri>${KIPRJMOD}/library/Symbols/molex_pico.kicad_sym</uri>
     </library>
     <library logical="uBlox">
-      <uri>/__w/Watch-HW/Watch-HW/watch/../kicad-library/Symbols/uBlox.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../kicad-library/Symbols/uBlox.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+1V8" class="Default">
+    <net code="5" name="+1V8" class="Default">
       <node ref="C402" pin="1" pintype="passive"/>
       <node ref="C408" pin="1" pintype="passive"/>
       <node ref="C501" pin="1" pintype="passive"/>
@@ -2806,241 +3645,241 @@ Changed
       <node ref="C509" pin="1" pintype="passive"/>
       <node ref="C602" pin="2" pintype="passive"/>
       <node ref="C603" pin="1" pintype="passive"/>
-      <node ref="IC401" pin="1" pinfunction="VOUT1" pintype="power_out"/>
-      <node ref="IC401" pin="12" pinfunction="V_{IO}" pintype="power_in"/>
-      <node ref="IC501" pin="3" pinfunction="VDD" pintype="power_in"/>
-      <node ref="IC502" pin="12" pinfunction="CSB" pintype="passive"/>
-      <node ref="IC502" pin="5" pinfunction="VDDIO" pintype="power_in"/>
-      <node ref="IC502" pin="8" pinfunction="VDD" pintype="power_in"/>
-      <node ref="IC503" pin="10" pinfunction="VDDIO" pintype="power_in"/>
-      <node ref="IC503" pin="3" pinfunction="CS" pintype="passive"/>
-      <node ref="IC503" pin="9" pinfunction="VDD" pintype="power_in"/>
-      <node ref="IC504" pin="1" pinfunction="VDDIO" pintype="passive"/>
-      <node ref="IC504" pin="10" pinfunction="VDD" pintype="passive"/>
-      <node ref="IC504" pin="5" pinfunction="SDO" pintype="bidirectional"/>
-      <node ref="IC504" pin="6" pinfunction="CSB" pintype="passive"/>
-      <node ref="IC506" pin="2" pinfunction="VCC_{1}" pintype="power_in"/>
-      <node ref="IC603" pin="8" pinfunction="VCC" pintype="power_in"/>
-      <node ref="IC604" pin="1" pinfunction="VCCA" pintype="power_in"/>
-      <node ref="L402" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="M601" pin="A7" pinfunction="VDD" pintype="power_in"/>
-      <node ref="M601" pin="A8" pinfunction="VDDH" pintype="power_in"/>
-      <node ref="M601" pin="B7" pinfunction="VDD" pintype="power_in"/>
+      <node ref="IC401" pin="1" pinfunction="VOUT1_1" pintype="power_out"/>
+      <node ref="IC401" pin="12" pinfunction="V_{IO}_12" pintype="power_in"/>
+      <node ref="IC501" pin="3" pinfunction="VDD_3" pintype="power_in"/>
+      <node ref="IC502" pin="12" pinfunction="CSB_12" pintype="passive"/>
+      <node ref="IC502" pin="5" pinfunction="VDDIO_5" pintype="power_in"/>
+      <node ref="IC502" pin="8" pinfunction="VDD_8" pintype="power_in"/>
+      <node ref="IC503" pin="10" pinfunction="VDDIO_10" pintype="power_in"/>
+      <node ref="IC503" pin="3" pinfunction="CS_3" pintype="passive"/>
+      <node ref="IC503" pin="9" pinfunction="VDD_9" pintype="power_in"/>
+      <node ref="IC504" pin="1" pinfunction="VDDIO_1" pintype="passive"/>
+      <node ref="IC504" pin="10" pinfunction="VDD_10" pintype="passive"/>
+      <node ref="IC504" pin="5" pinfunction="SDO_5" pintype="bidirectional"/>
+      <node ref="IC504" pin="6" pinfunction="CSB_6" pintype="passive"/>
+      <node ref="IC506" pin="2" pinfunction="VCC_{1}_2" pintype="power_in"/>
+      <node ref="IC603" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+      <node ref="IC604" pin="1" pinfunction="VCCA_1" pintype="power_in"/>
+      <node ref="L402" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="M601" pin="A7" pinfunction="VDD_A7" pintype="power_in"/>
+      <node ref="M601" pin="A8" pinfunction="VDDH_A8" pintype="power_in"/>
+      <node ref="M601" pin="B7" pinfunction="VDD_B7" pintype="power_in"/>
       <node ref="R501" pin="2" pintype="passive"/>
       <node ref="R502" pin="2" pintype="passive"/>
       <node ref="R612" pin="1" pintype="passive"/>
       <node ref="R613" pin="2" pintype="passive"/>
-      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X608" pin="11" pinfunction="VDDIO" pintype="input"/>
-      <node ref="X608" pin="12" pinfunction="VDDIO" pintype="input"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X608" pin="11" pinfunction="VDDIO_11" pintype="input"/>
+      <node ref="X608" pin="12" pinfunction="VDDIO_12" pintype="input"/>
     </net>
-    <net code="2" name="+3V0" class="Default">
+    <net code="6" name="+3V0" class="Default">
       <node ref="C406" pin="1" pintype="passive"/>
       <node ref="C601" pin="2" pintype="passive"/>
       <node ref="C604" pin="1" pintype="passive"/>
-      <node ref="IC401" pin="32" pinfunction="VOUT2" pintype="power_out"/>
-      <node ref="IC601" pin="3" pinfunction="VIN" pintype="power_in"/>
-      <node ref="IC604" pin="11" pinfunction="VCCB" pintype="power_in"/>
-      <node ref="L401" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X608" pin="13" pinfunction="VDD" pintype="input"/>
-      <node ref="X608" pin="14" pinfunction="VDD" pintype="input"/>
-      <node ref="X608" pin="17" pinfunction="CTP-VDD" pintype="input"/>
-      <node ref="X608" pin="23" pinfunction="LEDA2" pintype="input"/>
-      <node ref="X608" pin="24" pinfunction="LEDA1" pintype="input"/>
+      <node ref="IC401" pin="32" pinfunction="VOUT2_32" pintype="power_out"/>
+      <node ref="IC601" pin="3" pinfunction="VIN_3" pintype="power_in"/>
+      <node ref="IC604" pin="11" pinfunction="VCCB_11" pintype="power_in"/>
+      <node ref="L401" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X608" pin="13" pinfunction="VDD_13" pintype="input"/>
+      <node ref="X608" pin="14" pinfunction="VDD_14" pintype="input"/>
+      <node ref="X608" pin="17" pinfunction="CTP-VDD_17" pintype="input"/>
+      <node ref="X608" pin="23" pinfunction="LEDA2_23" pintype="input"/>
+      <node ref="X608" pin="24" pinfunction="LEDA1_24" pintype="input"/>
     </net>
-    <net code="3" name="/Project Architecture/Extension/PA-BCLK" class="Default">
-      <node ref="M601" pin="D8" pinfunction="P0.04/AIN0" pintype="bidirectional"/>
-      <node ref="X701" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    <net code="7" name="/Project Architecture/Extension/PA-BCLK" class="Default">
+      <node ref="M601" pin="D8" pinfunction="P0.04/AIN0_D8" pintype="bidirectional"/>
+      <node ref="X701" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
     </net>
-    <net code="4" name="/Project Architecture/Extension/PA-DIN" class="Default">
-      <node ref="M601" pin="C8" pinfunction="P0.22" pintype="bidirectional"/>
-      <node ref="X701" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    <net code="8" name="/Project Architecture/Extension/PA-DIN" class="Default">
+      <node ref="M601" pin="C8" pinfunction="P0.22_C8" pintype="bidirectional"/>
+      <node ref="X701" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
     </net>
-    <net code="5" name="/Project Architecture/Extension/PA-MCLK" class="Default">
-      <node ref="M601" pin="F8" pinfunction="P1.14" pintype="bidirectional"/>
-      <node ref="X701" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    <net code="9" name="/Project Architecture/Extension/PA-MCLK" class="Default">
+      <node ref="M601" pin="F8" pinfunction="P1.14_F8" pintype="bidirectional"/>
+      <node ref="X701" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
     </net>
-    <net code="6" name="/Project Architecture/Extension/PA-WCLK" class="Default">
-      <node ref="M601" pin="D7" pinfunction="P0.23" pintype="bidirectional"/>
-      <node ref="X701" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="10" name="/Project Architecture/Extension/PA-WCLK" class="Default">
+      <node ref="M601" pin="D7" pinfunction="P0.23_D7" pintype="bidirectional"/>
+      <node ref="X701" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
     </net>
-    <net code="7" name="/Project Architecture/Extension/SCL" class="Default">
-      <node ref="IC401" pin="14" pinfunction="SCL" pintype="input"/>
-      <node ref="IC501" pin="1" pinfunction="SCL" pintype="input"/>
-      <node ref="IC502" pin="13" pinfunction="SCK" pintype="passive"/>
-      <node ref="IC503" pin="1" pinfunction="SCL/SPC" pintype="passive"/>
-      <node ref="IC504" pin="2" pinfunction="SCK" pintype="input"/>
-      <node ref="IC506" pin="3" pinfunction="SCL_{1}" pintype="bidirectional"/>
-      <node ref="M601" pin="E9" pinfunction="P1.05" pintype="bidirectional"/>
+    <net code="11" name="/Project Architecture/Extension/SCL" class="I2C">
+      <node ref="IC401" pin="14" pinfunction="SCL_14" pintype="input"/>
+      <node ref="IC501" pin="1" pinfunction="SCL_1" pintype="input"/>
+      <node ref="IC502" pin="13" pinfunction="SCK_13" pintype="passive"/>
+      <node ref="IC503" pin="1" pinfunction="SCL/SPC_1" pintype="passive"/>
+      <node ref="IC504" pin="2" pinfunction="SCK_2" pintype="input"/>
+      <node ref="IC506" pin="3" pinfunction="SCL_{1}_3" pintype="bidirectional"/>
+      <node ref="M601" pin="E9" pinfunction="P1.05_E9" pintype="bidirectional"/>
       <node ref="R501" pin="1" pintype="passive"/>
-      <node ref="X702" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="X702" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
     </net>
-    <net code="8" name="/Project Architecture/Extension/SDA" class="Default">
-      <node ref="IC401" pin="13" pinfunction="SDA" pintype="bidirectional"/>
-      <node ref="IC501" pin="2" pinfunction="SDA" pintype="bidirectional"/>
-      <node ref="IC502" pin="14" pinfunction="SDI" pintype="bidirectional"/>
-      <node ref="IC503" pin="4" pinfunction="SDA/SDI/SDO" pintype="passive"/>
-      <node ref="IC504" pin="4" pinfunction="SDI" pintype="bidirectional"/>
-      <node ref="IC506" pin="4" pinfunction="SDA_{1}" pintype="bidirectional"/>
-      <node ref="M601" pin="E8" pinfunction="P0.05/AIN1" pintype="bidirectional"/>
+    <net code="12" name="/Project Architecture/Extension/SDA" class="I2C">
+      <node ref="IC401" pin="13" pinfunction="SDA_13" pintype="bidirectional"/>
+      <node ref="IC501" pin="2" pinfunction="SDA_2" pintype="bidirectional"/>
+      <node ref="IC502" pin="14" pinfunction="SDI_14" pintype="bidirectional"/>
+      <node ref="IC503" pin="4" pinfunction="SDA/SDI/SDO_4" pintype="passive"/>
+      <node ref="IC504" pin="4" pinfunction="SDI_4" pintype="bidirectional"/>
+      <node ref="IC506" pin="4" pinfunction="SDA_{1}_4" pintype="bidirectional"/>
+      <node ref="M601" pin="E8" pinfunction="P0.05/AIN1_E8" pintype="bidirectional"/>
       <node ref="R502" pin="1" pintype="passive"/>
-      <node ref="X702" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="X702" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
     </net>
-    <net code="9" name="/Project Architecture/Extension/Status" class="Default">
-      <node ref="M601" pin="E3" pinfunction="P0.21" pintype="bidirectional"/>
-      <node ref="X702" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    <net code="13" name="/Project Architecture/Extension/Status" class="Default">
+      <node ref="M601" pin="E3" pinfunction="P0.21_E3" pintype="bidirectional"/>
+      <node ref="X702" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
     </net>
-    <net code="10" name="/Project Architecture/Extension/VHR" class="Default">
+    <net code="14" name="/Project Architecture/Extension/VHR" class="Default">
       <node ref="C404" pin="1" pintype="passive"/>
       <node ref="C502" pin="1" pintype="passive"/>
-      <node ref="IC401" pin="29" pinfunction="LSOUT1/VOUTLDO1" pintype="bidirectional"/>
-      <node ref="MK501" pin="4" pinfunction="VDD" pintype="power_in"/>
-      <node ref="X702" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="IC401" pin="29" pinfunction="LSOUT1/VOUTLDO1_29" pintype="bidirectional"/>
+      <node ref="MK501" pin="4" pinfunction="VDD_4" pintype="power_in"/>
+      <node ref="X702" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
     </net>
-    <net code="11" name="/Project Architecture/Extension/VPA" class="Default">
+    <net code="15" name="/Project Architecture/Extension/VPA" class="Default">
       <node ref="C512" pin="1" pintype="passive"/>
-      <node ref="IC401" pin="31" pinfunction="LSOUT2/VOUTLDO2" pintype="bidirectional"/>
-      <node ref="X701" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="IC401" pin="31" pinfunction="LSOUT2/VOUTLDO2_31" pintype="bidirectional"/>
+      <node ref="X701" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
     </net>
-    <net code="12" name="/Project Architecture/Extension/~{RESET_{HR}}" class="Default">
-      <node ref="M601" pin="D3" pinfunction="P0.07/AIN3" pintype="bidirectional"/>
-      <node ref="X702" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    <net code="16" name="/Project Architecture/Extension/~{RESET_{HR}}" class="Default">
+      <node ref="M601" pin="D3" pinfunction="P0.07/AIN3_D3" pintype="bidirectional"/>
+      <node ref="X702" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
     </net>
-    <net code="13" name="/Project Architecture/MCU/BMI270-INT" class="Default">
-      <node ref="IC502" pin="9" pinfunction="INT2" pintype="output"/>
-      <node ref="M601" pin="E7" pinfunction="P0.06/AIN2" pintype="bidirectional"/>
+    <net code="17" name="/Project Architecture/MCU/BMI270-INT" class="Default">
+      <node ref="IC502" pin="9" pinfunction="INT2_9" pintype="output"/>
+      <node ref="M601" pin="E7" pinfunction="P0.06/AIN2_E7" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/Project Architecture/MCU/D+" class="Default">
-      <node ref="IC602" pin="1" pinfunction="I/O1" pintype="passive"/>
-      <node ref="X603" pin="A6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="X603" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+    <net code="18" name="/Project Architecture/MCU/D+" class="Default">
+      <node ref="IC602" pin="1" pinfunction="I/O1_1" pintype="passive"/>
+      <node ref="X603" pin="A6" pinfunction="D+_A6" pintype="bidirectional"/>
+      <node ref="X603" pin="B6" pinfunction="D+_B6" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/Project Architecture/MCU/D-" class="Default">
-      <node ref="IC602" pin="3" pinfunction="I/O2" pintype="passive"/>
-      <node ref="X603" pin="A7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="X603" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+    <net code="19" name="/Project Architecture/MCU/D-" class="Default">
+      <node ref="IC602" pin="3" pinfunction="I/O2_3" pintype="passive"/>
+      <node ref="X603" pin="A7" pinfunction="D-_A7" pintype="bidirectional"/>
+      <node ref="X603" pin="B7" pinfunction="D-_B7" pintype="bidirectional"/>
     </net>
-    <net code="16" name="/Project Architecture/MCU/LIS2MDL-INT" class="Default">
-      <node ref="IC503" pin="7" pinfunction="INT/DRDY" pintype="passive"/>
-      <node ref="M601" pin="F7" pinfunction="P1.07" pintype="bidirectional"/>
+    <net code="20" name="/Project Architecture/MCU/LIS2MDL-INT" class="Default">
+      <node ref="IC503" pin="7" pinfunction="INT/DRDY_7" pintype="passive"/>
+      <node ref="M601" pin="F7" pinfunction="P1.07_F7" pintype="bidirectional"/>
     </net>
-    <net code="17" name="/Project Architecture/MCU/MIC-CLK" class="Default">
-      <node ref="M601" pin="G3" pinfunction="P0.25/AIN4" pintype="bidirectional"/>
-      <node ref="MK501" pin="2" pinfunction="CLK" pintype="input"/>
+    <net code="21" name="/Project Architecture/MCU/MIC-CLK" class="Default">
+      <node ref="M601" pin="G3" pinfunction="P0.25/AIN4_G3" pintype="bidirectional"/>
+      <node ref="MK501" pin="2" pinfunction="CLK_2" pintype="input"/>
     </net>
-    <net code="18" name="/Project Architecture/MCU/MIC-DATA" class="Default">
-      <node ref="M601" pin="G2" pinfunction="P0.26/AIN5" pintype="bidirectional"/>
-      <node ref="MK501" pin="1" pinfunction="DATA" pintype="output"/>
+    <net code="22" name="/Project Architecture/MCU/MIC-DATA" class="Default">
+      <node ref="M601" pin="G2" pinfunction="P0.26/AIN5_G2" pintype="bidirectional"/>
+      <node ref="MK501" pin="1" pinfunction="DATA_1" pintype="output"/>
     </net>
-    <net code="19" name="/Project Architecture/MCU/PMIC-INT" class="Default">
-      <node ref="IC401" pin="11" pinfunction="GPIO4" pintype="bidirectional"/>
-      <node ref="M601" pin="J7" pinfunction="P1.10" pintype="bidirectional"/>
+    <net code="23" name="/Project Architecture/MCU/PMIC-INT" class="Default">
+      <node ref="IC401" pin="11" pinfunction="GPIO4_11" pintype="bidirectional"/>
+      <node ref="M601" pin="J7" pinfunction="P1.10_J7" pintype="bidirectional"/>
     </net>
-    <net code="20" name="/Project Architecture/MCU/SW1" class="Default">
-      <node ref="IC401" pin="15" pinfunction="SHPHLD" pintype="input"/>
-      <node ref="S501" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="24" name="/Project Architecture/MCU/SW1" class="Default">
+      <node ref="IC401" pin="15" pinfunction="SHPHLD_15" pintype="input"/>
+      <node ref="S501" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="21" name="/Project Architecture/MCU/SW2" class="Default">
-      <node ref="M601" pin="J9" pinfunction="P0.31" pintype="bidirectional"/>
-      <node ref="S502" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="25" name="/Project Architecture/MCU/SW2" class="Default">
+      <node ref="M601" pin="J9" pinfunction="P0.31_J9" pintype="bidirectional"/>
+      <node ref="S502" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="22" name="/Project Architecture/MCU/SW3" class="Default">
-      <node ref="M601" pin="B6" pinfunction="P0.01/XL2" pintype="bidirectional"/>
-      <node ref="S503" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="26" name="/Project Architecture/MCU/SW3" class="Default">
+      <node ref="M601" pin="B6" pinfunction="P0.01/XL2_B6" pintype="bidirectional"/>
+      <node ref="S503" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="23" name="/Project Architecture/MCU/SW4" class="Default">
-      <node ref="M601" pin="H1" pinfunction="P0.24" pintype="bidirectional"/>
-      <node ref="S504" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="27" name="/Project Architecture/MCU/SW4" class="Default">
+      <node ref="M601" pin="H1" pinfunction="P0.24_H1" pintype="bidirectional"/>
+      <node ref="S504" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="25" name="/Project Architecture/MCU/USB-CC1" class="Default">
-      <node ref="IC401" pin="23" pinfunction="CC1" pintype="input"/>
-      <node ref="X603" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+    <net code="29" name="/Project Architecture/MCU/USB-CC1" class="USB">
+      <node ref="IC401" pin="23" pinfunction="CC1_23" pintype="input"/>
+      <node ref="X603" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
     </net>
-    <net code="26" name="/Project Architecture/MCU/USB-CC2" class="Default">
-      <node ref="IC401" pin="24" pinfunction="CC2" pintype="input"/>
-      <node ref="X603" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    <net code="30" name="/Project Architecture/MCU/USB-CC2" class="USB">
+      <node ref="IC401" pin="24" pinfunction="CC2_24" pintype="input"/>
+      <node ref="X603" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/Project Architecture/MCU/USB-VBUS-In" class="Default">
+    <net code="32" name="/Project Architecture/MCU/USB-VBUS-In" class="USB">
       <node ref="C401" pin="1" pintype="passive"/>
-      <node ref="IC401" pin="21" pinfunction="V_{BUS}" pintype="power_out"/>
-      <node ref="IC602" pin="5" pinfunction="VBUS" pintype="passive"/>
-      <node ref="X603" pin="A4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="X603" pin="A9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="X603" pin="B4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="X603" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="IC401" pin="21" pinfunction="V_{BUS}_21" pintype="power_out"/>
+      <node ref="IC602" pin="5" pinfunction="VBUS_5" pintype="passive"/>
+      <node ref="X603" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="X603" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="X603" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="X603" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
     </net>
-    <net code="29" name="/Project Architecture/MCU/USB-VBUS-Out" class="Default">
+    <net code="33" name="/Project Architecture/MCU/USB-VBUS-Out" class="USB">
       <node ref="C405" pin="1" pintype="passive"/>
-      <node ref="IC401" pin="22" pinfunction="VBUS_{OUT}" pintype="power_out"/>
-      <node ref="M601" pin="B9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="IC401" pin="22" pinfunction="VBUS_{OUT}_22" pintype="power_out"/>
+      <node ref="M601" pin="B9" pinfunction="VBUS_B9" pintype="power_in"/>
     </net>
-    <net code="30" name="/Project Architecture/MCU/VIB-EN" class="Default">
-      <node ref="IC505" pin="1" pinfunction="EN" pintype="input"/>
-      <node ref="M601" pin="F3" pinfunction="P0.19" pintype="bidirectional"/>
+    <net code="34" name="/Project Architecture/MCU/VIB-EN" class="Vibration-Motor">
+      <node ref="IC505" pin="1" pinfunction="EN_1" pintype="input"/>
+      <node ref="M601" pin="F3" pinfunction="P0.19_F3" pintype="bidirectional"/>
     </net>
-    <net code="31" name="/Project Architecture/MCU/VIB-PWM" class="Default">
-      <node ref="IC505" pin="2" pinfunction="PWM" pintype="input"/>
-      <node ref="M601" pin="G1" pinfunction="P1.06" pintype="bidirectional"/>
+    <net code="35" name="/Project Architecture/MCU/VIB-PWM" class="Vibration-Motor">
+      <node ref="IC505" pin="2" pinfunction="PWM_2" pintype="input"/>
+      <node ref="M601" pin="G1" pinfunction="P1.06_G1" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/Project Architecture/MCU/~{RTC-INT}" class="Default">
-      <node ref="IC507" pin="3" pinfunction="~{INT}" pintype="output"/>
-      <node ref="M601" pin="F9" pinfunction="P1.15" pintype="bidirectional"/>
+    <net code="36" name="/Project Architecture/MCU/~{RTC-INT}" class="Default">
+      <node ref="IC507" pin="3" pinfunction="~{INT}_3" pintype="output"/>
+      <node ref="M601" pin="F9" pinfunction="P1.15_F9" pintype="bidirectional"/>
     </net>
-    <net code="33" name="/Project Architecture/Peripherals/VBAT" class="Default">
+    <net code="37" name="/Project Architecture/Peripherals/VBAT" class="Default">
       <node ref="C403" pin="1" pintype="passive"/>
       <node ref="C511" pin="1" pintype="passive"/>
-      <node ref="IC401" pin="19" pinfunction="V_{BAT}" pintype="power_out"/>
-      <node ref="IC507" pin="5" pinfunction="V_{DD}" pintype="power_in"/>
-      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC401" pin="19" pinfunction="V_{BAT}_19" pintype="power_out"/>
+      <node ref="IC507" pin="5" pinfunction="V_{DD}_5" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="R504" pin="2" pintype="passive"/>
       <node ref="R505" pin="2" pintype="passive"/>
       <node ref="R506" pin="2" pintype="passive"/>
-      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
-    <net code="34" name="/Project Architecture/Power Management/VSYS" class="Default">
+    <net code="38" name="/Project Architecture/Power Management/VSYS" class="Default">
       <node ref="C407" pin="1" pintype="passive"/>
       <node ref="C409" pin="1" pintype="passive"/>
       <node ref="C410" pin="1" pintype="passive"/>
       <node ref="C510" pin="1" pintype="passive"/>
-      <node ref="IC401" pin="20" pinfunction="V_{SYS}" pintype="power_out"/>
-      <node ref="IC401" pin="28" pinfunction="LSIN1/VINLDO1" pintype="input"/>
-      <node ref="IC401" pin="30" pinfunction="LSIN2/VINLDO2" pintype="input"/>
-      <node ref="IC401" pin="4" pinfunction="V_{DD}" pintype="power_in"/>
-      <node ref="IC505" pin="7" pinfunction="VDD" pintype="power_in"/>
-      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X702" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="IC401" pin="20" pinfunction="V_{SYS}_20" pintype="power_out"/>
+      <node ref="IC401" pin="28" pinfunction="LSIN1/VINLDO1_28" pintype="input"/>
+      <node ref="IC401" pin="30" pinfunction="LSIN2/VINLDO2_30" pintype="input"/>
+      <node ref="IC401" pin="4" pinfunction="V_{DD}_4" pintype="power_in"/>
+      <node ref="IC505" pin="7" pinfunction="VDD_7" pintype="power_in"/>
+      <node ref="TP6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X702" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
     </net>
-    <net code="35" name="DISPLAY-BLK" class="Default">
-      <node ref="IC601" pin="1" pinfunction="CTRL" pintype="passive"/>
-      <node ref="M601" pin="C4" pinfunction="P1.01" pintype="bidirectional"/>
+    <net code="39" name="DISPLAY-BLK" class="Display">
+      <node ref="IC601" pin="1" pinfunction="CTRL_1" pintype="passive"/>
+      <node ref="M601" pin="C4" pinfunction="P1.01_C4" pintype="bidirectional"/>
     </net>
-    <net code="36" name="DISPLAY-CLK" class="Default">
-      <node ref="M601" pin="B1" pinfunction="P0.08/TRACEDATA[3]" pintype="bidirectional"/>
-      <node ref="X608" pin="8" pinfunction="SCL" pintype="input"/>
+    <net code="40" name="DISPLAY-CLK" class="Display">
+      <node ref="M601" pin="B1" pinfunction="P0.08/TRACEDATA[3]_B1" pintype="bidirectional"/>
+      <node ref="X608" pin="8" pinfunction="SCL_8" pintype="input"/>
     </net>
-    <net code="37" name="DISPLAY-CS" class="Default">
-      <node ref="M601" pin="A3" pinfunction="P1.03/I2C" pintype="bidirectional"/>
-      <node ref="X608" pin="9" pinfunction="CS" pintype="input"/>
+    <net code="41" name="DISPLAY-CS" class="Display">
+      <node ref="M601" pin="A3" pinfunction="P1.03/I2C_A3" pintype="bidirectional"/>
+      <node ref="X608" pin="9" pinfunction="CS_9" pintype="input"/>
     </net>
-    <net code="38" name="DISPLAY-DATA" class="Default">
-      <node ref="M601" pin="C2" pinfunction="P0.09/TRACEDATA[2]" pintype="bidirectional"/>
-      <node ref="X608" pin="6" pinfunction="SDI/SDA" pintype="input"/>
+    <net code="42" name="DISPLAY-DATA" class="Display">
+      <node ref="M601" pin="C2" pinfunction="P0.09/TRACEDATA[2]_C2" pintype="bidirectional"/>
+      <node ref="X608" pin="6" pinfunction="SDI/SDA_6" pintype="input"/>
     </net>
-    <net code="39" name="DISPLAY-DC" class="Default">
-      <node ref="M601" pin="A2" pinfunction="P0.12/TRACECLK" pintype="bidirectional"/>
-      <node ref="X608" pin="5" pinfunction="RS/DC" pintype="input"/>
+    <net code="43" name="DISPLAY-DC" class="Display">
+      <node ref="M601" pin="A2" pinfunction="P0.12/TRACECLK_A2" pintype="bidirectional"/>
+      <node ref="X608" pin="5" pinfunction="RS/DC_5" pintype="input"/>
     </net>
-    <net code="40" name="DISPLAY-EN" class="Default">
-      <node ref="IC604" pin="12" pinfunction="OE" pintype="input"/>
-      <node ref="M601" pin="C1" pinfunction="P0.10/TRACEDATA[1]" pintype="bidirectional"/>
+    <net code="44" name="DISPLAY-EN" class="Display">
+      <node ref="IC604" pin="12" pinfunction="OE_12" pintype="input"/>
+      <node ref="M601" pin="C1" pinfunction="P0.10/TRACEDATA[1]_C1" pintype="bidirectional"/>
       <node ref="R613" pin="1" pintype="passive"/>
     </net>
-    <net code="41" name="DISPLAY-RST" class="Default">
-      <node ref="M601" pin="B3" pinfunction="P0.11/TRACEDATA[0]" pintype="bidirectional"/>
-      <node ref="X608" pin="10" pinfunction="RESET" pintype="input"/>
+    <net code="45" name="DISPLAY-RST" class="Display">
+      <node ref="M601" pin="B3" pinfunction="P0.11/TRACEDATA[0]_B3" pintype="bidirectional"/>
+      <node ref="X608" pin="10" pinfunction="RESET_10" pintype="input"/>
     </net>
-    <net code="42" name="GND" class="Default">
+    <net code="46" name="GND" class="Default">
       <node ref="C401" pin="2" pintype="passive"/>
       <node ref="C402" pin="2" pintype="passive"/>
       <node ref="C403" pin="2" pintype="passive"/>
@@ -3067,397 +3906,397 @@ Changed
       <node ref="C602" pin="1" pintype="passive"/>
       <node ref="C603" pin="2" pintype="passive"/>
       <node ref="C604" pin="2" pintype="passive"/>
-      <node ref="IC401" pin="18" pinfunction="NTC" pintype="input"/>
-      <node ref="IC401" pin="2" pinfunction="PVSS1" pintype="input"/>
-      <node ref="IC401" pin="33" pinfunction="GND" pintype="passive"/>
-      <node ref="IC401" pin="6" pinfunction="PVSS2" pintype="input"/>
-      <node ref="IC501" pin="6" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC502" pin="1" pinfunction="SDO" pintype="bidirectional"/>
-      <node ref="IC502" pin="6" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC502" pin="7" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC503" pin="6" pinfunction="GND" pintype="passive"/>
-      <node ref="IC503" pin="8" pinfunction="GND" pintype="passive"/>
-      <node ref="IC504" pin="3" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC504" pin="8" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC504" pin="9" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC505" pin="10" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC505" pin="3" pinfunction="LRA/~{ERM}" pintype="input"/>
-      <node ref="IC505" pin="5" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC505" pin="8" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC506" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC507" pin="2" pinfunction="CLKOE" pintype="input"/>
-      <node ref="IC507" pin="4" pinfunction="GND" pintype="passive"/>
-      <node ref="IC601" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC602" pin="2" pinfunction="GND" pintype="passive"/>
-      <node ref="IC603" pin="4" pinfunction="GND" pintype="passive"/>
-      <node ref="IC603" pin="9" pinfunction="EP" pintype="passive"/>
-      <node ref="IC604" pin="6" pinfunction="GND" pintype="power_in"/>
-      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="M601" pin="A1" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="A9" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="B2" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="B8" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="E4" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="E5" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="F4" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="F5" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="K2" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="K3" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="K5" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="K7" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="K8" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="L1" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="L9" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="M1" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="M2" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="M8" pinfunction="GND" pintype="power_in"/>
-      <node ref="M601" pin="M9" pinfunction="GND" pintype="power_in"/>
-      <node ref="MK501" pin="3" pinfunction="SEL" pintype="input"/>
-      <node ref="MK501" pin="5" pinfunction="GND" pintype="power_in"/>
-      <node ref="MK501" pin="6" pinfunction="GND" pintype="power_in"/>
-      <node ref="MK501" pin="7" pinfunction="GND" pintype="power_in"/>
-      <node ref="MK501" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC401" pin="18" pinfunction="NTC_18" pintype="input"/>
+      <node ref="IC401" pin="2" pinfunction="PVSS1_2" pintype="input"/>
+      <node ref="IC401" pin="33" pinfunction="GND_33" pintype="passive"/>
+      <node ref="IC401" pin="6" pinfunction="PVSS2_6" pintype="input"/>
+      <node ref="IC501" pin="6" pinfunction="GND_6" pintype="power_in"/>
+      <node ref="IC502" pin="1" pinfunction="SDO_1" pintype="bidirectional"/>
+      <node ref="IC502" pin="6" pinfunction="GND_6" pintype="power_in"/>
+      <node ref="IC502" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="IC503" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="IC503" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="IC504" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="IC504" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="IC504" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="IC505" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="IC505" pin="3" pinfunction="LRA/~{ERM}_3" pintype="input"/>
+      <node ref="IC505" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="IC505" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="IC506" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="IC507" pin="2" pinfunction="CLKOE_2" pintype="input"/>
+      <node ref="IC507" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="IC601" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="IC602" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC603" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="IC603" pin="9" pinfunction="EP_9" pintype="passive"/>
+      <node ref="IC604" pin="6" pinfunction="GND_6" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="M601" pin="A1" pinfunction="GND_A1" pintype="power_in"/>
+      <node ref="M601" pin="A9" pinfunction="GND_A9" pintype="power_in"/>
+      <node ref="M601" pin="B2" pinfunction="GND_B2" pintype="power_in"/>
+      <node ref="M601" pin="B8" pinfunction="GND_B8" pintype="power_in"/>
+      <node ref="M601" pin="E4" pinfunction="GND_E4" pintype="power_in"/>
+      <node ref="M601" pin="E5" pinfunction="GND_E5" pintype="power_in"/>
+      <node ref="M601" pin="F4" pinfunction="GND_F4" pintype="power_in"/>
+      <node ref="M601" pin="F5" pinfunction="GND_F5" pintype="power_in"/>
+      <node ref="M601" pin="K2" pinfunction="GND_K2" pintype="power_in"/>
+      <node ref="M601" pin="K3" pinfunction="GND_K3" pintype="power_in"/>
+      <node ref="M601" pin="K5" pinfunction="GND_K5" pintype="power_in"/>
+      <node ref="M601" pin="K7" pinfunction="GND_K7" pintype="power_in"/>
+      <node ref="M601" pin="K8" pinfunction="GND_K8" pintype="power_in"/>
+      <node ref="M601" pin="L1" pinfunction="GND_L1" pintype="power_in"/>
+      <node ref="M601" pin="L9" pinfunction="GND_L9" pintype="power_in"/>
+      <node ref="M601" pin="M1" pinfunction="GND_M1" pintype="power_in"/>
+      <node ref="M601" pin="M2" pinfunction="GND_M2" pintype="power_in"/>
+      <node ref="M601" pin="M8" pinfunction="GND_M8" pintype="power_in"/>
+      <node ref="M601" pin="M9" pinfunction="GND_M9" pintype="power_in"/>
+      <node ref="MK501" pin="3" pinfunction="SEL_3" pintype="input"/>
+      <node ref="MK501" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="MK501" pin="6" pinfunction="GND_6" pintype="power_in"/>
+      <node ref="MK501" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="MK501" pin="8" pinfunction="GND_8" pintype="power_in"/>
       <node ref="R407" pin="1" pintype="passive"/>
       <node ref="R408" pin="1" pintype="passive"/>
       <node ref="R601" pin="1" pintype="passive"/>
-      <node ref="S501" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="S502" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="S503" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="S504" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X603" pin="A1" pinfunction="GND" pintype="passive"/>
-      <node ref="X603" pin="A12" pinfunction="GND" pintype="passive"/>
-      <node ref="X603" pin="B1" pinfunction="GND" pintype="passive"/>
-      <node ref="X603" pin="B12" pinfunction="GND" pintype="passive"/>
-      <node ref="X603" pin="S1" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="X608" pin="15" pinfunction="GND" pintype="input"/>
-      <node ref="X608" pin="16" pinfunction="GND" pintype="input"/>
-      <node ref="X608" pin="3" pinfunction="GND" pintype="input"/>
-      <node ref="X608" pin="4" pinfunction="GND" pintype="input"/>
-      <node ref="X701" pin="12" pinfunction="Pin_12" pintype="passive"/>
-      <node ref="X702" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="S501" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="S502" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="S503" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="S504" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X603" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="X603" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="X603" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="X603" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="X603" pin="S1" pinfunction="SHIELD_S1" pintype="passive"/>
+      <node ref="X608" pin="15" pinfunction="GND_15" pintype="input"/>
+      <node ref="X608" pin="16" pinfunction="GND_16" pintype="input"/>
+      <node ref="X608" pin="3" pinfunction="GND_3" pintype="input"/>
+      <node ref="X608" pin="4" pinfunction="GND_4" pintype="input"/>
+      <node ref="X701" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="X702" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
     </net>
-    <net code="43" name="LEDK1" class="Default">
-      <node ref="IC601" pin="4" pinfunction="LED2" pintype="passive"/>
-      <node ref="X608" pin="1" pinfunction="LEDK-1" pintype="input"/>
+    <net code="47" name="LEDK1" class="Default">
+      <node ref="IC601" pin="4" pinfunction="LED2_4" pintype="passive"/>
+      <node ref="X608" pin="1" pinfunction="LEDK-1_1" pintype="input"/>
     </net>
-    <net code="44" name="LEDK2" class="Default">
-      <node ref="IC601" pin="6" pinfunction="LED1" pintype="passive"/>
-      <node ref="X608" pin="2" pinfunction="LEDK-2" pintype="input"/>
+    <net code="48" name="LEDK2" class="Default">
+      <node ref="IC601" pin="6" pinfunction="LED1_6" pintype="passive"/>
+      <node ref="X608" pin="2" pinfunction="LEDK-2_2" pintype="input"/>
     </net>
-    <net code="45" name="Net-(IC401-SW1)" class="Default">
-      <node ref="IC401" pin="3" pinfunction="SW1" pintype="input"/>
-      <node ref="L402" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="49" name="Net-(IC401-SW1)" class="Default">
+      <node ref="IC401" pin="3" pinfunction="SW1_3" pintype="input"/>
+      <node ref="L402" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(IC401-SW2)" class="Default">
-      <node ref="IC401" pin="5" pinfunction="SW2" pintype="input"/>
-      <node ref="L401" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="50" name="Net-(IC401-SW2)" class="Default">
+      <node ref="IC401" pin="5" pinfunction="SW2_5" pintype="input"/>
+      <node ref="L401" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(IC401-VSET1)" class="Default">
-      <node ref="IC401" pin="17" pinfunction="VSET1" pintype="input"/>
+    <net code="51" name="Net-(IC401-VSET1)" class="Default">
+      <node ref="IC401" pin="17" pinfunction="VSET1_17" pintype="input"/>
       <node ref="R407" pin="2" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(IC401-VSET2)" class="Default">
-      <node ref="IC401" pin="16" pinfunction="VSET2" pintype="input"/>
+    <net code="52" name="Net-(IC401-VSET2)" class="Default">
+      <node ref="IC401" pin="16" pinfunction="VSET2_16" pintype="input"/>
       <node ref="R408" pin="2" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(IC503-C1)" class="Default">
+    <net code="53" name="Net-(IC503-C1)" class="Default">
       <node ref="C505" pin="1" pintype="passive"/>
-      <node ref="IC503" pin="5" pinfunction="C1" pintype="passive"/>
+      <node ref="IC503" pin="5" pinfunction="C1_5" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(IC505-OUT+)" class="Default">
-      <node ref="IC505" pin="9" pinfunction="OUT+" pintype="output"/>
-      <node ref="X509" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="54" name="Net-(IC505-OUT+)" class="Default">
+      <node ref="IC505" pin="9" pinfunction="OUT+_9" pintype="output"/>
+      <node ref="X509" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(IC505-OUT-)" class="Default">
-      <node ref="IC505" pin="6" pinfunction="OUT-" pintype="output"/>
-      <node ref="X509" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="55" name="Net-(IC505-OUT-)" class="Default">
+      <node ref="IC505" pin="6" pinfunction="OUT-_6" pintype="output"/>
+      <node ref="X509" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(IC506-EN)" class="Default">
-      <node ref="IC506" pin="7" pinfunction="VCC_{2}" pintype="power_in"/>
-      <node ref="IC506" pin="8" pinfunction="EN" pintype="input"/>
+    <net code="56" name="Net-(IC506-EN)" class="Default">
+      <node ref="IC506" pin="7" pinfunction="VCC_{2}_7" pintype="power_in"/>
+      <node ref="IC506" pin="8" pinfunction="EN_8" pintype="input"/>
       <node ref="R506" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(IC506-SCL_{2})" class="Default">
-      <node ref="IC506" pin="6" pinfunction="SCL_{2}" pintype="bidirectional"/>
-      <node ref="IC507" pin="8" pinfunction="SCL" pintype="input"/>
+    <net code="57" name="Net-(IC506-SCL_{2})" class="Default">
+      <node ref="IC506" pin="6" pinfunction="SCL_{2}_6" pintype="bidirectional"/>
+      <node ref="IC507" pin="8" pinfunction="SCL_8" pintype="input"/>
       <node ref="R504" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(IC506-SDA_{2})" class="Default">
-      <node ref="IC506" pin="5" pinfunction="SDA_{2}" pintype="bidirectional"/>
-      <node ref="IC507" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    <net code="58" name="Net-(IC506-SDA_{2})" class="Default">
+      <node ref="IC506" pin="5" pinfunction="SDA_{2}_5" pintype="bidirectional"/>
+      <node ref="IC507" pin="1" pinfunction="SDA_1" pintype="bidirectional"/>
       <node ref="R505" pin="1" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(IC601-ISET)" class="Default">
-      <node ref="IC601" pin="5" pinfunction="ISET" pintype="passive"/>
+    <net code="59" name="Net-(IC601-ISET)" class="Default">
+      <node ref="IC601" pin="5" pinfunction="ISET_5" pintype="passive"/>
       <node ref="R601" pin="2" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(IC604-B1)" class="Default">
-      <node ref="IC604" pin="10" pinfunction="B1" pintype="bidirectional"/>
-      <node ref="X608" pin="18" pinfunction="CTP-RST" pintype="input"/>
+    <net code="60" name="Net-(IC604-B1)" class="Default">
+      <node ref="IC604" pin="10" pinfunction="B1_10" pintype="bidirectional"/>
+      <node ref="X608" pin="18" pinfunction="CTP-RST_18" pintype="input"/>
     </net>
-    <net code="57" name="Net-(IC604-B2)" class="Default">
-      <node ref="IC604" pin="9" pinfunction="B2" pintype="bidirectional"/>
-      <node ref="X608" pin="19" pinfunction="CTP-SDA" pintype="input"/>
+    <net code="61" name="Net-(IC604-B2)" class="Default">
+      <node ref="IC604" pin="9" pinfunction="B2_9" pintype="bidirectional"/>
+      <node ref="X608" pin="19" pinfunction="CTP-SDA_19" pintype="input"/>
     </net>
-    <net code="58" name="Net-(IC604-B3)" class="Default">
-      <node ref="IC604" pin="8" pinfunction="B3" pintype="bidirectional"/>
-      <node ref="X608" pin="20" pinfunction="CTP-SCL" pintype="input"/>
+    <net code="62" name="Net-(IC604-B3)" class="Default">
+      <node ref="IC604" pin="8" pinfunction="B3_8" pintype="bidirectional"/>
+      <node ref="X608" pin="20" pinfunction="CTP-SCL_20" pintype="input"/>
     </net>
-    <net code="59" name="Net-(IC604-B4)" class="Default">
-      <node ref="IC604" pin="7" pinfunction="B4" pintype="bidirectional"/>
-      <node ref="X608" pin="21" pinfunction="CTP-INT" pintype="input"/>
+    <net code="63" name="Net-(IC604-B4)" class="Default">
+      <node ref="IC604" pin="7" pinfunction="B4_7" pintype="bidirectional"/>
+      <node ref="X608" pin="21" pinfunction="CTP-INT_21" pintype="input"/>
     </net>
-    <net code="60" name="Net-(M601C-P1.08)" class="Default">
-      <node ref="M601" pin="G5" pinfunction="P1.08" pintype="bidirectional"/>
-      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="64" name="Net-(M601C-P1.08)" class="Default">
+      <node ref="M601" pin="G5" pinfunction="P1.08_G5" pintype="bidirectional"/>
+      <node ref="TP8" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(M601C-P1.09)" class="Default">
-      <node ref="M601" pin="G7" pinfunction="P1.09" pintype="bidirectional"/>
-      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="65" name="Net-(M601C-P1.09)" class="Default">
+      <node ref="M601" pin="G7" pinfunction="P1.09_G7" pintype="bidirectional"/>
+      <node ref="TP7" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(X702-Pin_1)" class="Default">
-      <node ref="LS801" pin="2" pinfunction="2" pintype="input"/>
-      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X702" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="66" name="Net-(X702-Pin_1)" class="Speaker,Default">
+      <node ref="LS801" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X702" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(X702-Pin_3)" class="Default">
-      <node ref="LS801" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="TP2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="X702" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="67" name="Net-(X702-Pin_3)" class="Speaker,Default">
+      <node ref="LS801" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="TP2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="X702" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
     </net>
-    <net code="64" name="QSPI-CLK" class="Default">
-      <node ref="IC603" pin="6" pinfunction="SCK" pintype="input"/>
-      <node ref="M601" pin="F1" pinfunction="P0.17/QSPI_CLK" pintype="bidirectional"/>
+    <net code="68" name="QSPI-CLK" class="QSPI">
+      <node ref="IC603" pin="6" pinfunction="SCK_6" pintype="input"/>
+      <node ref="M601" pin="F1" pinfunction="P0.17/QSPI_CLK_F1" pintype="bidirectional"/>
     </net>
-    <net code="65" name="QSPI-CS" class="Default">
-      <node ref="IC603" pin="1" pinfunction="~{CS}" pintype="passive"/>
-      <node ref="M601" pin="E1" pinfunction="P0.18/QSPI_CS" pintype="bidirectional"/>
+    <net code="69" name="QSPI-CS" class="QSPI">
+      <node ref="IC603" pin="1" pinfunction="~{CS}_1" pintype="passive"/>
+      <node ref="M601" pin="E1" pinfunction="P0.18/QSPI_CS_E1" pintype="bidirectional"/>
       <node ref="R612" pin="2" pintype="passive"/>
     </net>
-    <net code="66" name="QSPI-IO0" class="Default">
-      <node ref="IC603" pin="5" pinfunction="SI(I/O0)" pintype="passive"/>
-      <node ref="M601" pin="D2" pinfunction="P0.13/QSPI[0]" pintype="bidirectional"/>
+    <net code="70" name="QSPI-IO0" class="QSPI">
+      <node ref="IC603" pin="5" pinfunction="SI(I/O0)_5" pintype="passive"/>
+      <node ref="M601" pin="D2" pinfunction="P0.13/QSPI[0]_D2" pintype="bidirectional"/>
     </net>
-    <net code="67" name="QSPI-IO1" class="Default">
-      <node ref="IC603" pin="2" pinfunction="SO(I/O1)" pintype="passive"/>
-      <node ref="M601" pin="E2" pinfunction="P0.14/QSPI[1]" pintype="bidirectional"/>
+    <net code="71" name="QSPI-IO1" class="QSPI">
+      <node ref="IC603" pin="2" pinfunction="SO(I/O1)_2" pintype="passive"/>
+      <node ref="M601" pin="E2" pinfunction="P0.14/QSPI[1]_E2" pintype="bidirectional"/>
     </net>
-    <net code="68" name="QSPI-IO2" class="Default">
-      <node ref="IC603" pin="3" pinfunction="~{WP(I}/O2)" pintype="passive"/>
-      <node ref="M601" pin="D1" pinfunction="P0.15/QSPI[2]" pintype="bidirectional"/>
+    <net code="72" name="QSPI-IO2" class="QSPI">
+      <node ref="IC603" pin="3" pinfunction="~{WP(I}/O2)_3" pintype="passive"/>
+      <node ref="M601" pin="D1" pinfunction="P0.15/QSPI[2]_D1" pintype="bidirectional"/>
     </net>
-    <net code="69" name="QSPI-IO3" class="Default">
-      <node ref="IC603" pin="7" pinfunction="~{HOLD(I}/O3)" pintype="passive"/>
-      <node ref="M601" pin="F2" pinfunction="P0.16/QSPI[3]" pintype="bidirectional"/>
+    <net code="73" name="QSPI-IO3" class="QSPI">
+      <node ref="IC603" pin="7" pinfunction="~{HOLD(I}/O3)_7" pintype="passive"/>
+      <node ref="M601" pin="F2" pinfunction="P0.16/QSPI[3]_F2" pintype="bidirectional"/>
     </net>
-    <net code="70" name="RESETn" class="Default">
-      <node ref="M601" pin="J3" pinfunction="~{RESET}" pintype="input"/>
-      <node ref="X603" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
-      <node ref="X603" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    <net code="74" name="RESETn" class="Default">
+      <node ref="M601" pin="J3" pinfunction="~{RESET}_J3" pintype="input"/>
+      <node ref="X603" pin="A8" pinfunction="SBU1_A8" pintype="bidirectional"/>
+      <node ref="X603" pin="B8" pinfunction="SBU2_B8" pintype="bidirectional"/>
     </net>
-    <net code="71" name="RxD" class="Default">
-      <node ref="M601" pin="C6" pinfunction="P0.00/XL1" pintype="bidirectional"/>
-      <node ref="X603" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
-      <node ref="X603" pin="B2" pinfunction="TX2+" pintype="bidirectional"/>
+    <net code="75" name="RxD" class="UART">
+      <node ref="M601" pin="C6" pinfunction="P0.00/XL1_C6" pintype="bidirectional"/>
+      <node ref="X603" pin="A2" pinfunction="TX1+_A2" pintype="bidirectional"/>
+      <node ref="X603" pin="B2" pinfunction="TX2+_B2" pintype="bidirectional"/>
     </net>
-    <net code="72" name="SWDCLK" class="Default">
-      <node ref="M601" pin="J2" pinfunction="SWDCLK" pintype="input"/>
-      <node ref="X603" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
-      <node ref="X603" pin="B11" pinfunction="RX1+" pintype="bidirectional"/>
+    <net code="76" name="SWDCLK" class="SWD">
+      <node ref="M601" pin="J2" pinfunction="SWDCLK_J2" pintype="input"/>
+      <node ref="X603" pin="A11" pinfunction="RX2+_A11" pintype="bidirectional"/>
+      <node ref="X603" pin="B11" pinfunction="RX1+_B11" pintype="bidirectional"/>
     </net>
-    <net code="73" name="SWDIO" class="Default">
-      <node ref="M601" pin="H2" pinfunction="SWDIO" pintype="bidirectional"/>
-      <node ref="X603" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
-      <node ref="X603" pin="B10" pinfunction="RX1-" pintype="bidirectional"/>
+    <net code="77" name="SWDIO" class="SWD">
+      <node ref="M601" pin="H2" pinfunction="SWDIO_H2" pintype="bidirectional"/>
+      <node ref="X603" pin="A10" pinfunction="RX2-_A10" pintype="bidirectional"/>
+      <node ref="X603" pin="B10" pinfunction="RX1-_B10" pintype="bidirectional"/>
     </net>
-    <net code="74" name="TOUCH-INT" class="Default">
-      <node ref="IC604" pin="5" pinfunction="A4" pintype="bidirectional"/>
-      <node ref="M601" pin="B5" pinfunction="P0.03/NFC2" pintype="bidirectional"/>
+    <net code="78" name="TOUCH-INT" class="Display">
+      <node ref="IC604" pin="5" pinfunction="A4_5" pintype="bidirectional"/>
+      <node ref="M601" pin="B5" pinfunction="P0.03/NFC2_B5" pintype="bidirectional"/>
     </net>
-    <net code="75" name="TOUCH-RST" class="Default">
-      <node ref="IC604" pin="2" pinfunction="A1" pintype="bidirectional"/>
-      <node ref="M601" pin="A4" pinfunction="P1.00" pintype="bidirectional"/>
+    <net code="79" name="TOUCH-RST" class="Display">
+      <node ref="IC604" pin="2" pinfunction="A1_2" pintype="bidirectional"/>
+      <node ref="M601" pin="A4" pinfunction="P1.00_A4" pintype="bidirectional"/>
     </net>
-    <net code="76" name="TOUCH-SCL" class="Default">
-      <node ref="IC604" pin="4" pinfunction="A3" pintype="bidirectional"/>
-      <node ref="M601" pin="A5" pinfunction="P0.20" pintype="bidirectional"/>
+    <net code="80" name="TOUCH-SCL" class="Display,I2C">
+      <node ref="IC604" pin="4" pinfunction="A3_4" pintype="bidirectional"/>
+      <node ref="M601" pin="A5" pinfunction="P0.20_A5" pintype="bidirectional"/>
     </net>
-    <net code="77" name="TOUCH-SDA" class="Default">
-      <node ref="IC604" pin="3" pinfunction="A2" pintype="bidirectional"/>
-      <node ref="M601" pin="B4" pinfunction="P1.02/I2C" pintype="bidirectional"/>
+    <net code="81" name="TOUCH-SDA" class="Display,I2C">
+      <node ref="IC604" pin="3" pinfunction="A2_3" pintype="bidirectional"/>
+      <node ref="M601" pin="B4" pinfunction="P1.02/I2C_B4" pintype="bidirectional"/>
     </net>
-    <net code="78" name="TxD" class="Default">
-      <node ref="M601" pin="C5" pinfunction="P0.02/NFC1" pintype="bidirectional"/>
-      <node ref="X603" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
-      <node ref="X603" pin="B3" pinfunction="TX2-" pintype="bidirectional"/>
+    <net code="82" name="TxD" class="UART">
+      <node ref="M601" pin="C5" pinfunction="P0.02/NFC1_C5" pintype="bidirectional"/>
+      <node ref="X603" pin="A3" pinfunction="TX1-_A3" pintype="bidirectional"/>
+      <node ref="X603" pin="B3" pinfunction="TX2-_B3" pintype="bidirectional"/>
     </net>
-    <net code="79" name="USB-D+" class="Default">
-      <node ref="IC602" pin="6" pinfunction="I/O1" pintype="passive"/>
-      <node ref="M601" pin="C9" pinfunction="D+" pintype="bidirectional"/>
+    <net code="83" name="USB-D+" class="USB">
+      <node ref="IC602" pin="6" pinfunction="I/O1_6" pintype="passive"/>
+      <node ref="M601" pin="C9" pinfunction="D+_C9" pintype="bidirectional"/>
     </net>
-    <net code="80" name="USB-D-" class="Default">
-      <node ref="IC602" pin="4" pinfunction="I/O2" pintype="passive"/>
-      <node ref="M601" pin="D9" pinfunction="D-" pintype="bidirectional"/>
+    <net code="84" name="USB-D-" class="USB">
+      <node ref="IC602" pin="4" pinfunction="I/O2_4" pintype="passive"/>
+      <node ref="M601" pin="D9" pinfunction="D-_D9" pintype="bidirectional"/>
     </net>
-    <net code="81" name="unconnected-(IC401-GPIO0-Pad7)" class="Default">
-      <node ref="IC401" pin="7" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
+    <net code="85" name="unconnected-(IC401-GPIO0-Pad7)" class="Default">
+      <node ref="IC401" pin="7" pinfunction="GPIO0_7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(IC401-GPIO1-Pad8)" class="Default">
-      <node ref="IC401" pin="8" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
+    <net code="86" name="unconnected-(IC401-GPIO1-Pad8)" class="Default">
+      <node ref="IC401" pin="8" pinfunction="GPIO1_8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(IC401-GPIO2-Pad9)" class="Default">
-      <node ref="IC401" pin="9" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    <net code="87" name="unconnected-(IC401-GPIO2-Pad9)" class="Default">
+      <node ref="IC401" pin="9" pinfunction="GPIO2_9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(IC401-GPIO3-Pad10)" class="Default">
-      <node ref="IC401" pin="10" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
+    <net code="88" name="unconnected-(IC401-GPIO3-Pad10)" class="Default">
+      <node ref="IC401" pin="10" pinfunction="GPIO3_10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(IC401-LED0-Pad25)" class="Default">
-      <node ref="IC401" pin="25" pinfunction="LED0" pintype="output+no_connect"/>
+    <net code="89" name="unconnected-(IC401-LED0-Pad25)" class="Default">
+      <node ref="IC401" pin="25" pinfunction="LED0_25" pintype="output+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(IC401-LED1-Pad26)" class="Default">
-      <node ref="IC401" pin="26" pinfunction="LED1" pintype="output+no_connect"/>
+    <net code="90" name="unconnected-(IC401-LED1-Pad26)" class="Default">
+      <node ref="IC401" pin="26" pinfunction="LED1_26" pintype="output+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(IC401-LED2-Pad27)" class="Default">
-      <node ref="IC401" pin="27" pinfunction="LED2" pintype="output+no_connect"/>
+    <net code="91" name="unconnected-(IC401-LED2-Pad27)" class="Default">
+      <node ref="IC401" pin="27" pinfunction="LED2_27" pintype="output+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(IC501-INT-Pad4)" class="Default">
-      <node ref="IC501" pin="4" pinfunction="INT" pintype="open_collector+no_connect"/>
+    <net code="92" name="unconnected-(IC501-INT-Pad4)" class="Default">
+      <node ref="IC501" pin="4" pinfunction="INT_4" pintype="open_collector+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(IC501-NC-Pad5)" class="Default">
-      <node ref="IC501" pin="5" pinfunction="NC" pintype="no_connect"/>
+    <net code="93" name="unconnected-(IC501-NC-Pad5)" class="Default">
+      <node ref="IC501" pin="5" pinfunction="NC_5" pintype="no_connect"/>
     </net>
-    <net code="90" name="unconnected-(IC502-ASCX-Pad3)" class="Default">
-      <node ref="IC502" pin="3" pinfunction="ASCX" pintype="passive+no_connect"/>
+    <net code="94" name="unconnected-(IC502-ASCX-Pad3)" class="Default">
+      <node ref="IC502" pin="3" pinfunction="ASCX_3" pintype="passive+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(IC502-ASDX-Pad2)" class="Default">
-      <node ref="IC502" pin="2" pinfunction="ASDX" pintype="passive+no_connect"/>
+    <net code="95" name="unconnected-(IC502-ASDX-Pad2)" class="Default">
+      <node ref="IC502" pin="2" pinfunction="ASDX_2" pintype="passive+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(IC502-INT1-Pad4)" class="Default">
-      <node ref="IC502" pin="4" pinfunction="INT1" pintype="output+no_connect"/>
+    <net code="96" name="unconnected-(IC502-INT1-Pad4)" class="Default">
+      <node ref="IC502" pin="4" pinfunction="INT1_4" pintype="output+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(IC502-OCSB-Pad10)" class="Default">
-      <node ref="IC502" pin="10" pinfunction="OCSB" pintype="passive+no_connect"/>
+    <net code="97" name="unconnected-(IC502-OCSB-Pad10)" class="Default">
+      <node ref="IC502" pin="10" pinfunction="OCSB_10" pintype="passive+no_connect"/>
     </net>
-    <net code="94" name="unconnected-(IC502-OSDO-Pad11)" class="Default">
-      <node ref="IC502" pin="11" pinfunction="OSDO" pintype="passive+no_connect"/>
+    <net code="98" name="unconnected-(IC502-OSDO-Pad11)" class="Default">
+      <node ref="IC502" pin="11" pinfunction="OSDO_11" pintype="passive+no_connect"/>
     </net>
-    <net code="95" name="unconnected-(IC503-NC-Pad2)" class="Default">
-      <node ref="IC503" pin="2" pinfunction="NC" pintype="no_connect"/>
+    <net code="99" name="unconnected-(IC503-NC-Pad2)" class="Default">
+      <node ref="IC503" pin="2" pinfunction="NC_2" pintype="no_connect"/>
     </net>
-    <net code="96" name="unconnected-(IC503-NC-Pad11)" class="Default">
-      <node ref="IC503" pin="11" pinfunction="NC" pintype="no_connect"/>
+    <net code="100" name="unconnected-(IC503-NC-Pad11)" class="Default">
+      <node ref="IC503" pin="11" pinfunction="NC_11" pintype="no_connect"/>
     </net>
-    <net code="97" name="unconnected-(IC503-NC-Pad12)" class="Default">
-      <node ref="IC503" pin="12" pinfunction="NC" pintype="no_connect"/>
+    <net code="101" name="unconnected-(IC503-NC-Pad12)" class="Default">
+      <node ref="IC503" pin="12" pinfunction="NC_12" pintype="no_connect"/>
     </net>
-    <net code="98" name="unconnected-(IC504-INT-Pad7)" class="Default">
-      <node ref="IC504" pin="7" pinfunction="INT" pintype="passive+no_connect"/>
+    <net code="102" name="unconnected-(IC504-INT-Pad7)" class="Default">
+      <node ref="IC504" pin="7" pinfunction="INT_7" pintype="passive+no_connect"/>
     </net>
-    <net code="99" name="unconnected-(IC505-NC-Pad4)" class="Default">
-      <node ref="IC505" pin="4" pinfunction="NC" pintype="no_connect"/>
+    <net code="103" name="unconnected-(IC505-NC-Pad4)" class="Default">
+      <node ref="IC505" pin="4" pinfunction="NC_4" pintype="no_connect"/>
     </net>
-    <net code="100" name="unconnected-(IC507-CLKOUT-Pad7)" class="Default">
-      <node ref="IC507" pin="7" pinfunction="CLKOUT" pintype="output+no_connect"/>
+    <net code="104" name="unconnected-(IC507-CLKOUT-Pad7)" class="Default">
+      <node ref="IC507" pin="7" pinfunction="CLKOUT_7" pintype="output+no_connect"/>
     </net>
-    <net code="101" name="unconnected-(IC507-NC-Pad6)" class="Default">
-      <node ref="IC507" pin="6" pinfunction="NC" pintype="no_connect"/>
+    <net code="105" name="unconnected-(IC507-NC-Pad6)" class="Default">
+      <node ref="IC507" pin="6" pinfunction="NC_6" pintype="no_connect"/>
     </net>
-    <net code="102" name="unconnected-(J1-PadMP1)" class="Default">
-      <node ref="J1" pin="MP1" pinfunction="MP1" pintype="passive+no_connect"/>
+    <net code="106" name="unconnected-(J1-PadMP1)" class="Default">
+      <node ref="J1" pin="MP1" pinfunction="MP1_MP1" pintype="passive+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(J1-PadMP2)" class="Default">
-      <node ref="J1" pin="MP2" pinfunction="MP2" pintype="passive+no_connect"/>
+    <net code="107" name="unconnected-(J1-PadMP2)" class="Default">
+      <node ref="J1" pin="MP2" pinfunction="MP2_MP2" pintype="passive+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(M501-+-Pad1)" class="Default">
-      <node ref="M501" pin="1" pinfunction="+" pintype="passive+no_connect"/>
+    <net code="108" name="unconnected-(M501-+-Pad1)" class="Default">
+      <node ref="M501" pin="1" pinfunction="+_1" pintype="passive+no_connect"/>
     </net>
-    <net code="105" name="unconnected-(M501---Pad2)" class="Default">
-      <node ref="M501" pin="2" pinfunction="-" pintype="passive+no_connect"/>
+    <net code="109" name="unconnected-(M501---Pad2)" class="Default">
+      <node ref="M501" pin="2" pinfunction="-_2" pintype="passive+no_connect"/>
     </net>
-    <net code="106" name="unconnected-(M601A-NC-PadA6)" class="Default">
-      <node ref="M601" pin="A6" pinfunction="NC" pintype="no_connect"/>
+    <net code="110" name="unconnected-(M601A-NC-PadA6)" class="Default">
+      <node ref="M601" pin="A6" pinfunction="NC_A6" pintype="no_connect"/>
     </net>
-    <net code="107" name="unconnected-(M601A-NC-PadJ1)" class="Default">
-      <node ref="M601" pin="J1" pinfunction="NC" pintype="no_connect"/>
+    <net code="111" name="unconnected-(M601A-NC-PadJ1)" class="Default">
+      <node ref="M601" pin="J1" pinfunction="NC_J1" pintype="no_connect"/>
     </net>
-    <net code="108" name="unconnected-(M601A-NC-PadJ4)" class="Default">
-      <node ref="M601" pin="J4" pinfunction="NC" pintype="no_connect"/>
+    <net code="112" name="unconnected-(M601A-NC-PadJ4)" class="Default">
+      <node ref="M601" pin="J4" pinfunction="NC_J4" pintype="no_connect"/>
     </net>
-    <net code="109" name="unconnected-(M601A-NC-PadJ5)" class="Default">
-      <node ref="M601" pin="J5" pinfunction="NC" pintype="no_connect"/>
+    <net code="113" name="unconnected-(M601A-NC-PadJ5)" class="Default">
+      <node ref="M601" pin="J5" pinfunction="NC_J5" pintype="no_connect"/>
     </net>
-    <net code="110" name="unconnected-(M601A-NC-PadK1)" class="Default">
-      <node ref="M601" pin="K1" pinfunction="NC" pintype="no_connect"/>
+    <net code="114" name="unconnected-(M601A-NC-PadK1)" class="Default">
+      <node ref="M601" pin="K1" pinfunction="NC_K1" pintype="no_connect"/>
     </net>
-    <net code="111" name="unconnected-(M601A-NC-PadK9)" class="Default">
-      <node ref="M601" pin="K9" pinfunction="NC" pintype="no_connect"/>
+    <net code="115" name="unconnected-(M601A-NC-PadK9)" class="Default">
+      <node ref="M601" pin="K9" pinfunction="NC_K9" pintype="no_connect"/>
     </net>
-    <net code="112" name="unconnected-(M601B-P0.27/AIN6-PadH3)" class="Default">
-      <node ref="M601" pin="H3" pinfunction="P0.27/AIN6" pintype="bidirectional+no_connect"/>
+    <net code="116" name="unconnected-(M601B-P0.27/AIN6-PadH3)" class="Default">
+      <node ref="M601" pin="H3" pinfunction="P0.27/AIN6_H3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="113" name="unconnected-(M601B-P0.28/AIN7-PadJ8)" class="Default">
-      <node ref="M601" pin="J8" pinfunction="P0.28/AIN7" pintype="bidirectional+no_connect"/>
+    <net code="117" name="unconnected-(M601B-P0.28/AIN7-PadJ8)" class="Default">
+      <node ref="M601" pin="J8" pinfunction="P0.28/AIN7_J8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(M601B-P0.29-PadH7)" class="Default">
-      <node ref="M601" pin="H7" pinfunction="P0.29" pintype="bidirectional+no_connect"/>
+    <net code="118" name="unconnected-(M601B-P0.29-PadH7)" class="Default">
+      <node ref="M601" pin="H7" pinfunction="P0.29_H7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="115" name="unconnected-(M601B-P0.30-PadH8)" class="Default">
-      <node ref="M601" pin="H8" pinfunction="P0.30" pintype="bidirectional+no_connect"/>
+    <net code="119" name="unconnected-(M601B-P0.30-PadH8)" class="Default">
+      <node ref="M601" pin="H8" pinfunction="P0.30_H8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="116" name="unconnected-(M601C-P1.04-PadG4)" class="Default">
-      <node ref="M601" pin="G4" pinfunction="P1.04" pintype="bidirectional+no_connect"/>
+    <net code="120" name="unconnected-(M601C-P1.04-PadG4)" class="Default">
+      <node ref="M601" pin="G4" pinfunction="P1.04_G4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="117" name="unconnected-(M601C-P1.11-PadH9)" class="Default">
-      <node ref="M601" pin="H9" pinfunction="P1.11" pintype="bidirectional+no_connect"/>
+    <net code="121" name="unconnected-(M601C-P1.11-PadH9)" class="Default">
+      <node ref="M601" pin="H9" pinfunction="P1.11_H9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="118" name="unconnected-(M601C-P1.12-PadG8)" class="Default">
-      <node ref="M601" pin="G8" pinfunction="P1.12" pintype="bidirectional+no_connect"/>
+    <net code="122" name="unconnected-(M601C-P1.12-PadG8)" class="Default">
+      <node ref="M601" pin="G8" pinfunction="P1.12_G8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="119" name="unconnected-(M601C-P1.13-PadG9)" class="Default">
-      <node ref="M601" pin="G9" pinfunction="P1.13" pintype="bidirectional+no_connect"/>
+    <net code="123" name="unconnected-(M601C-P1.13-PadG9)" class="Default">
+      <node ref="M601" pin="G9" pinfunction="P1.13_G9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="120" name="unconnected-(X608-SDO-Pad7)" class="Default">
-      <node ref="X608" pin="7" pinfunction="SDO" pintype="input+no_connect"/>
+    <net code="124" name="unconnected-(X608-SDO-Pad7)" class="Default">
+      <node ref="X608" pin="7" pinfunction="SDO_7" pintype="input+no_connect"/>
     </net>
-    <net code="121" name="unconnected-(X701-Pin_1-Pad1)" class="Default">
-      <node ref="X701" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    <net code="125" name="unconnected-(X701-Pin_1-Pad1)" class="Default">
+      <node ref="X701" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
     </net>
-    <net code="122" name="unconnected-(X701-Pin_2-Pad2)" class="Default">
-      <node ref="X701" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    <net code="126" name="unconnected-(X701-Pin_2-Pad2)" class="Default">
+      <node ref="X701" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(X701-Pin_3-Pad3)" class="Default">
-      <node ref="X701" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    <net code="127" name="unconnected-(X701-Pin_3-Pad3)" class="Default">
+      <node ref="X701" pin="3" pinfunction="Pin_3_3" pintype="passive+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(X701-Pin_4-Pad4)" class="Default">
-      <node ref="X701" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    <net code="128" name="unconnected-(X701-Pin_4-Pad4)" class="Default">
+      <node ref="X701" pin="4" pinfunction="Pin_4_4" pintype="passive+no_connect"/>
     </net>
-    <net code="125" name="unconnected-(X701-Pin_6-Pad6)" class="Default">
-      <node ref="X701" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    <net code="129" name="unconnected-(X701-Pin_6-Pad6)" class="Default">
+      <node ref="X701" pin="6" pinfunction="Pin_6_6" pintype="passive+no_connect"/>
     </net>
-    <net code="126" name="unconnected-(X701-Pin_8-Pad8)" class="Default">
-      <node ref="X701" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    <net code="130" name="unconnected-(X701-Pin_8-Pad8)" class="Default">
+      <node ref="X701" pin="8" pinfunction="Pin_8_8" pintype="passive+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(X701-Pin_13-Pad13)" class="Default">
-      <node ref="X701" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    <net code="131" name="unconnected-(X701-Pin_13-Pad13)" class="Default">
+      <node ref="X701" pin="13" pinfunction="Pin_13_13" pintype="passive+no_connect"/>
     </net>
-    <net code="128" name="unconnected-(X701-Pin_14-Pad14)" class="Default">
-      <node ref="X701" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    <net code="132" name="unconnected-(X701-Pin_14-Pad14)" class="Default">
+      <node ref="X701" pin="14" pinfunction="Pin_14_14" pintype="passive+no_connect"/>
     </net>
-    <net code="129" name="unconnected-(X702-Pin_5-Pad5)" class="Default">
-      <node ref="X702" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    <net code="133" name="unconnected-(X702-Pin_5-Pad5)" class="Default">
+      <node ref="X702" pin="5" pinfunction="Pin_5_5" pintype="passive+no_connect"/>
     </net>
-    <net code="130" name="unconnected-(X702-Pin_6-Pad6)" class="Default">
-      <node ref="X702" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    <net code="134" name="unconnected-(X702-Pin_6-Pad6)" class="Default">
+      <node ref="X702" pin="6" pinfunction="Pin_6_6" pintype="passive+no_connect"/>
     </net>
-    <net code="131" name="unconnected-(X702-Pin_7-Pad7)" class="Default">
-      <node ref="X702" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    <net code="135" name="unconnected-(X702-Pin_7-Pad7)" class="Default">
+      <node ref="X702" pin="7" pinfunction="Pin_7_7" pintype="passive+no_connect"/>
     </net>
-    <net code="132" name="unconnected-(X702-Pin_9-Pad9)" class="Default">
-      <node ref="X702" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    <net code="136" name="unconnected-(X702-Pin_9-Pad9)" class="Default">
+      <node ref="X702" pin="9" pinfunction="Pin_9_9" pintype="passive+no_connect"/>
     </net>
-    <net code="133" name="unconnected-(X702-Pin_11-Pad11)" class="Default">
-      <node ref="X702" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    <net code="137" name="unconnected-(X702-Pin_11-Pad11)" class="Default">
+      <node ref="X702" pin="11" pinfunction="Pin_11_11" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>

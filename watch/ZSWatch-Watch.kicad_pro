@@ -1018,7 +1018,7 @@
     "RELEASE_TITLE_1.2.0": "Version 1.2.0 not found.",
     "RELEASE_TITLE_1.2.1": "Version 1.2.1 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "",
+    "REVISION": "x.y.z",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
