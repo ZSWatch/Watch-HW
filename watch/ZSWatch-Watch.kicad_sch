@@ -1784,55 +1784,6 @@
 		)
 	)
 	(sheet
-		(at 306.07 316.23)
-		(size 35.56 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "70f6edc8-bded-4e9c-939c-3c02d7485169")
-		(property "Sheetname" "Power - Topology"
-			(at 306.07 315.2009 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.905 1.905)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power - Topology.kicad_sch"
-			(at 307.34 317.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ZSWatch-Watch"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 306.07 303.53)
 		(size 35.56 5.08)
 		(exclude_from_sim no)

@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|191420000|148220000|2f6cb272-4f38-4e59-bf2c-62ae34c65f02|7a2b25bf-87cb-498e-ac29-de59d7d33e25",
+          "Speaker wird nicht bestückt"
+        ],
+        [
+          "courtyards_overlap|191755000|140505000|7a2b25bf-87cb-498e-ac29-de59d7d33e25|a19f30af-47da-4121-b66e-e532316fda8b",
+          "Speaker wird nicht bestückt"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -962,16 +971,12 @@
       "Block Diagram"
     ],
     [
-      "70f6edc8-bded-4e9c-939c-3c02d7485169",
-      "Power - Topology"
-    ],
-    [
       "c5103ceb-5325-4a84-a025-9638a412984e",
       "Project Architecture"
     ],
     [
-      "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
-      "Revision History"
+      "cee9a3a2-28cd-4e6c-b23d-337f115f39e8",
+      "Power Management"
     ],
     [
       "82af773f-8c39-43b9-baa2-3658da6c8bb2",
@@ -982,12 +987,12 @@
       "MCU"
     ],
     [
-      "cee9a3a2-28cd-4e6c-b23d-337f115f39e8",
-      "Power Management"
-    ],
-    [
       "ecef31af-e159-4d83-89cb-c5b343e56438",
       "Extension"
+    ],
+    [
+      "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
+      "Revision History"
     ]
   ],
   "text_variables": {
