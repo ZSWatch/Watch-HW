@@ -5697,7 +5697,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 121.92) (xy 257.81 121.92)
+			(xy 231.14 121.92) (xy 259.08 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5829,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 121.92) (xy 257.81 119.38)
+			(xy 259.08 121.92) (xy 259.08 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6220,16 +6220,6 @@
 			(color 194 194 194 1)
 		)
 		(uuid "43434709-6f70-4176-9c07-31df2c46e8ce")
-	)
-	(wire
-		(pts
-			(xy 231.14 119.38) (xy 247.65 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c21185-2417-4746-98dd-d5f790146f23")
 	)
 	(wire
 		(pts
@@ -6807,6 +6797,16 @@
 			(type default)
 		)
 		(uuid "70dd975d-82ff-433a-bcf2-3b58dc3a0cfe")
+	)
+	(wire
+		(pts
+			(xy 247.65 119.38) (xy 231.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728e86f3-a32b-4a2f-8618-abf79505b353")
 	)
 	(wire
 		(pts
@@ -8064,6 +8064,16 @@
 			(type default)
 		)
 		(uuid "f852afde-baa6-43a0-be81-1e93f7a17ee7")
+	)
+	(wire
+		(pts
+			(xy 247.65 118.11) (xy 247.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facdd271-b5bd-463c-a12e-d88451340f01")
 	)
 	(wire
 		(pts
@@ -10635,39 +10645,38 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 247.65 119.38 0)
+		(at 247.65 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3313e427-21e7-4dd6-b7b1-dbec81e6958b")
 		(property "Reference" "TP7"
-			(at 244.094 110.744 0)
+			(at 247.65 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 242.57 112.268 0)
+			(at 247.65 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 252.73 119.38 0)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_D1.0mm"
+			(at 252.73 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10678,7 +10687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 119.38 0)
+			(at 252.73 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10689,7 +10698,51 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 247.65 119.38 0)
+			(at 247.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" ""
+			(at 247.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
+			(at 247.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" ""
+			(at 247.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 247.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11275,17 +11328,18 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 257.81 119.38 0)
+		(at 259.08 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "606abb70-0c37-4475-ad2b-391c0c99719c")
 		(property "Reference" "TP8"
-			(at 254.254 110.744 0)
+			(at 261.62 113.5379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11296,7 +11350,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 252.73 112.268 0)
+			(at 261.62 116.0779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11306,8 +11360,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 262.89 119.38 0)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_D1.0mm"
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11318,7 +11372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 119.38 0)
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11329,7 +11383,51 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 257.81 119.38 0)
+			(at 259.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" ""
+			(at 259.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
+			(at 259.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" ""
+			(at 259.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 259.08 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
