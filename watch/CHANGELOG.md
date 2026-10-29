@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-29
+
 **Added:**
 
 - Test pads for FEM pins, so NORA-W126 (drop-in compatible, with FEM for higher output power) can be mounted instead of NORA-B106 (#21)
@@ -27,5 +29,9 @@
 
 - Initial release
 
-[Unreleased]: https://github.com/ZSWatch/Watch-HW/compare/1.0.0...HEAD
+[unreleased]: https://github.com/ZSWatch/Watch-HW/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/ZSWatch/Watch-HW/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/ZSWatch/Watch-HW/compare/95d0aab8f4096c096bc494c76be4f3cb53c9ec07...1.0.0
+
+**Full Changelog**:
+https://github.com/ZSWatch/Watch-HW/compare/1.0.0...1.1.0
